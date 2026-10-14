@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "scope": "Finite exact-arithmetic diagnostics for the v8 analytic proofs.\n\nThese checks do not prove the all-degree topological constructions or\nidentify any of the unresolved irreducible maxima. They independently\nenumerate factor-degree bounds and optimize the stated seed set.",
+  "split_conjugate_degree_inequalities": 2262070,
+  "symbolic_identities": 4,
+  "completion_envelopes_enumerated": 4266,
+  "individual_seed_transfers_enumerated": 1143801,
+  "subdiagonal_formulas": 2991,
+  "strict_radial_improvement_checks": 2970,
+  "factor_degree_partitions_optimized": 5049,
+  "examples": [
+    {
+      "m": 100,
+      "n": 398,
+      "radial": 89500,
+      "completion": 98410
+    },
+    {
+      "m": 100,
+      "n": 399,
+      "radial": 89799,
+      "completion": 99005
+    },
+    {
+      "m": 100,
+      "n": 400,
+      "radial": 90100,
+      "completion": 99006
+    }
+  ]
+}

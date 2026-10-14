@@ -1,0 +1,23 @@
+{
+  "arithmetic": "fractions.Fraction and finite fields; exact throughout",
+  "certificates": [
+    {
+      "polynomial": "fixed real twelve-term P40",
+      "all_checks_passed": true,
+      "real_axis_zeros": 8,
+      "exact_real_slice_zeros": 40,
+      "positive": 22,
+      "negative": 18,
+      "nonreal_complex_intersections": 0,
+      "bezout_exhaustion": 40,
+      "coprimality_modulo_101": true,
+      "printed_coefficients_match": true,
+      "strict_exact_bound": "q + beta/r < 10^-7 in every box",
+      "display_only_q_max": 4.324139750502743e-36,
+      "display_only_beta_over_r_max": 4.974477668186903e-41,
+      "certificate_sha256": "f4e5920765695e11ea1b3225228fed30149bf261748ef5177ec71ae9c7eecd2e",
+      "seconds": 0.136
+    }
+  ],
+  "verifier_sha256": "5d03958051987edbd9833100381b539a32b71ec1d10c93f4db0bb71525a3b92e"
+}

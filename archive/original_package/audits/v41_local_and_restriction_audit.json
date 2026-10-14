@@ -1,0 +1,148 @@
+{
+  "all_passed": true,
+  "nine_zero_model": "exact real/imaginary equations and all four Jacobian formulas",
+  "restriction_rank_examples": [
+    {
+      "d": 3,
+      "kind": "rectangle_even",
+      "rank": 13
+    },
+    {
+      "d": 3,
+      "kind": "rectangle_odd",
+      "rank": 14
+    },
+    {
+      "d": 3,
+      "kind": "pure_even",
+      "rank": 10
+    },
+    {
+      "d": 3,
+      "kind": "pure_odd",
+      "rank": 11
+    },
+    {
+      "d": 4,
+      "kind": "rectangle_even",
+      "rank": 17
+    },
+    {
+      "d": 4,
+      "kind": "rectangle_odd",
+      "rank": 18
+    },
+    {
+      "d": 4,
+      "kind": "pure_even",
+      "rank": 14
+    },
+    {
+      "d": 4,
+      "kind": "pure_odd",
+      "rank": 15
+    },
+    {
+      "d": 5,
+      "kind": "rectangle_even",
+      "rank": 21
+    },
+    {
+      "d": 5,
+      "kind": "rectangle_odd",
+      "rank": 22
+    },
+    {
+      "d": 5,
+      "kind": "pure_even",
+      "rank": 18
+    },
+    {
+      "d": 5,
+      "kind": "pure_odd",
+      "rank": 19
+    },
+    {
+      "d": 6,
+      "kind": "rectangle_even",
+      "rank": 25
+    },
+    {
+      "d": 6,
+      "kind": "rectangle_odd",
+      "rank": 26
+    },
+    {
+      "d": 6,
+      "kind": "pure_even",
+      "rank": 22
+    },
+    {
+      "d": 6,
+      "kind": "pure_odd",
+      "rank": 23
+    },
+    {
+      "d": 7,
+      "kind": "rectangle_even",
+      "rank": 29
+    },
+    {
+      "d": 7,
+      "kind": "rectangle_odd",
+      "rank": 30
+    },
+    {
+      "d": 7,
+      "kind": "pure_even",
+      "rank": 26
+    },
+    {
+      "d": 7,
+      "kind": "pure_odd",
+      "rank": 27
+    },
+    {
+      "d": 8,
+      "kind": "rectangle_even",
+      "rank": 33
+    },
+    {
+      "d": 8,
+      "kind": "rectangle_odd",
+      "rank": 34
+    },
+    {
+      "d": 8,
+      "kind": "pure_even",
+      "rank": 30
+    },
+    {
+      "d": 8,
+      "kind": "pure_odd",
+      "rank": 31
+    },
+    {
+      "d": 9,
+      "kind": "rectangle_even",
+      "rank": 37
+    },
+    {
+      "d": 9,
+      "kind": "rectangle_odd",
+      "rank": 38
+    },
+    {
+      "d": 9,
+      "kind": "pure_even",
+      "rank": 34
+    },
+    {
+      "d": 9,
+      "kind": "pure_odd",
+      "rank": 35
+    }
+  ],
+  "degree_and_count_checks": "d=4,...,1000",
+  "scope": "Finite exact diagnostics only; all-degree surjectivity, zero confinement, and global counts are proved analytically in the manuscript."
+}

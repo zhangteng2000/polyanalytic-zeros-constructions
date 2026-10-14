@@ -1,0 +1,262 @@
+{
+  "scope": "Exact identities and separately labelled numerical diagnostics for v9.\n\nThe universal zero counts follow from the analytic proof in the TeX source.\nNewton samples below are diagnostics, not certificates for all degrees.",
+  "symbolic_identities": 4,
+  "exact_argument_positivity_checks": 20300,
+  "exact_symmetry_orbit_checks": 161700,
+  "exact_cubic_elimination": {
+    "nonzero_y_roots": 6,
+    "real_axis_roots": 3,
+    "total": 9
+  },
+  "numerical_diagnostics_not_certificates": [
+    {
+      "degrees": [
+        3,
+        2,
+        1
+      ],
+      "epsilon": [
+        3,
+        0
+      ],
+      "predicted": 9,
+      "newton_count": 9
+    },
+    {
+      "degrees": [
+        4,
+        3,
+        2
+      ],
+      "epsilon": [
+        3,
+        0
+      ],
+      "predicted": 13,
+      "newton_count": 13
+    },
+    {
+      "degrees": [
+        5,
+        4,
+        3
+      ],
+      "epsilon": [
+        3,
+        0
+      ],
+      "predicted": 17,
+      "newton_count": 17
+    },
+    {
+      "degrees": [
+        7,
+        5,
+        3
+      ],
+      "epsilon": [
+        3,
+        0
+      ],
+      "predicted": 21,
+      "newton_count": 21
+    },
+    {
+      "degrees": [
+        9,
+        7,
+        5
+      ],
+      "epsilon": [
+        3,
+        0
+      ],
+      "predicted": 29,
+      "newton_count": 29
+    },
+    {
+      "degrees": [
+        12,
+        11,
+        10
+      ],
+      "epsilon": [
+        3,
+        0
+      ],
+      "predicted": 45,
+      "newton_count": 45
+    },
+    {
+      "degrees": [
+        5,
+        3,
+        1
+      ],
+      "epsilon": [
+        0.5145304464097513,
+        0.213125489156802
+      ],
+      "predicted": 5,
+      "newton_count": 5
+    },
+    {
+      "degrees": [
+        5,
+        3,
+        1
+      ],
+      "epsilon": [
+        1.9003497451766815,
+        0.7871506377044366
+      ],
+      "predicted": 13,
+      "newton_count": 13
+    },
+    {
+      "degrees": [
+        7,
+        5,
+        3
+      ],
+      "epsilon": [
+        0.30709306266314346,
+        0.12720211146576477
+      ],
+      "predicted": 5,
+      "newton_count": 5
+    },
+    {
+      "degrees": [
+        7,
+        5,
+        3
+      ],
+      "epsilon": [
+        1.228123880025865,
+        0.5087055673809812
+      ],
+      "predicted": 13,
+      "newton_count": 13
+    },
+    {
+      "degrees": [
+        7,
+        5,
+        3
+      ],
+      "epsilon": [
+        2.3068501161296515,
+        0.955528604462851
+      ],
+      "predicted": 21,
+      "newton_count": 21
+    },
+    {
+      "degrees": [
+        8,
+        5,
+        2
+      ],
+      "epsilon": [
+        0.4386707682018969,
+        0.11754147808283848
+      ],
+      "predicted": 7,
+      "newton_count": 7
+    },
+    {
+      "degrees": [
+        8,
+        5,
+        2
+      ],
+      "epsilon": [
+        1.0378833959098412,
+        0.2781000177717131
+      ],
+      "predicted": 9,
+      "newton_count": 9
+    },
+    {
+      "degrees": [
+        8,
+        5,
+        2
+      ],
+      "epsilon": [
+        1.3220015208331206,
+        0.35422923989995064
+      ],
+      "predicted": 11,
+      "newton_count": 11
+    },
+    {
+      "degrees": [
+        8,
+        5,
+        2
+      ],
+      "epsilon": [
+        1.5422488402022043,
+        0.4132443312600162
+      ],
+      "predicted": 13,
+      "newton_count": 13
+    },
+    {
+      "degrees": [
+        8,
+        5,
+        2
+      ],
+      "epsilon": [
+        1.7108069758703843,
+        0.4584093475900007
+      ],
+      "predicted": 15,
+      "newton_count": 15
+    },
+    {
+      "degrees": [
+        8,
+        5,
+        2
+      ],
+      "epsilon": [
+        1.8304494818666703,
+        0.4904674604521413
+      ],
+      "predicted": 17,
+      "newton_count": 17
+    },
+    {
+      "degrees": [
+        8,
+        5,
+        2
+      ],
+      "epsilon": [
+        1.9020489974178407,
+        0.5096524928225369
+      ],
+      "predicted": 19,
+      "newton_count": 19
+    },
+    {
+      "degrees": [
+        8,
+        5,
+        2
+      ],
+      "epsilon": [
+        2.411835283778129,
+        0.6462493165652373
+      ],
+      "predicted": 21,
+      "newton_count": 21
+    }
+  ],
+  "numerical_sample_count": 19,
+  "status": "passed"
+}

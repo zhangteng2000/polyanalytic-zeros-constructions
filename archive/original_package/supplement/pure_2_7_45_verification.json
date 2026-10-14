@@ -1,0 +1,21 @@
+{
+  "all_exact_checks_passed": true,
+  "radial_seed_counts": [
+    1,
+    2
+  ],
+  "seed_regular_zeros": 9,
+  "printed_H_and_K_verified": true,
+  "all_eight_ordinary_value_conditions_verified": true,
+  "simple_angular_circle_zeros": 12,
+  "shared_center_zeros": 1,
+  "other_quadratic_clusters": 8,
+  "total_regular_zeros": 45,
+  "positive_zeros": 26,
+  "negative_zeros": 19,
+  "real_axis_zeros": 7,
+  "global_bound": "45 <= E_2,7 <= 47",
+  "local_sharp_count": 45,
+  "scope": "Exact symbolic proof diagnostics; no fixed epsilon or numerical root count is asserted.",
+  "verifier_sha256": "e510fa51abce05ed5089b7743a9bc6416d53e7283367dba99b412d3e8688a293"
+}

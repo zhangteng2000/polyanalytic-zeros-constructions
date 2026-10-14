@@ -1,0 +1,17 @@
+{
+  "all_passed": true,
+  "source_sha256": "d8c138169bfaec6b954d066831513041c4e4682b024cc640622a0ce83103fc7d",
+  "source_lines": 14061,
+  "labels": 666,
+  "bibitems": 36,
+  "all_references_resolve": true,
+  "no_pdf_check": "199 pages; zero warnings, errors, or overflow",
+  "native_compiler": "Repeated returned helper_unknown_error: Windows sandbox setup refresh had errors. No native preview compile confirmed.",
+  "all_main_endpoints_sharp": false,
+  "global_E_2_7_alternatives": [
+    45,
+    47
+  ],
+  "new_global_sharp_family": "M_2,n=9n-10 for every even n>=10",
+  "verifier_45_sha256": "e510fa51abce05ed5089b7743a9bc6416d53e7283367dba99b412d3e8688a293"
+}

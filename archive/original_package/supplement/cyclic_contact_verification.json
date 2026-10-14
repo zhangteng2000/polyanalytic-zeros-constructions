@@ -1,0 +1,143 @@
+{
+  "all_passed": true,
+  "arithmetic": "exact SymPy rational polynomial arithmetic",
+  "covering_identity": true,
+  "full_cyclic_support": [
+    [
+      5,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "origin_jacobian": "-abs(c)^2 < 0",
+  "sturm_checks": [
+    {
+      "degree": 2,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 3
+    },
+    {
+      "degree": 3,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 6
+    },
+    {
+      "degree": 4,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 9
+    },
+    {
+      "degree": 5,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 12
+    },
+    {
+      "degree": 6,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 15
+    },
+    {
+      "degree": 7,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 18
+    },
+    {
+      "degree": 8,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 21
+    },
+    {
+      "degree": 9,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 24
+    },
+    {
+      "degree": 10,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 27
+    },
+    {
+      "degree": 11,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 30
+    },
+    {
+      "degree": 12,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 33
+    },
+    {
+      "degree": 13,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 36
+    },
+    {
+      "degree": 14,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 39
+    },
+    {
+      "degree": 15,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 42
+    },
+    {
+      "degree": 16,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 45
+    },
+    {
+      "degree": 17,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 48
+    },
+    {
+      "degree": 18,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 51
+    },
+    {
+      "degree": 19,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 54
+    },
+    {
+      "degree": 20,
+      "positive_branch_radii": 2,
+      "negative_branch_radii": 1,
+      "regular_zero_count": 57
+    }
+  ],
+  "cyclic_degree_five_count": 19,
+  "scope": "Algebraic audits only; general upper and singular proof in manuscript",
+  "verifier_sha256": "8e8438900a5ff4dcdcfb2cdda7d2e3a43ca7cddb62fe4aa03e3d2b4be8e66608"
+}

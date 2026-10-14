@@ -1,0 +1,24 @@
+[
+  {
+    "file": "polyanalytic_zeros.pdf",
+    "pages": 13,
+    "sha256": "6d607517f875a446455a15857496a253e02326d20a3fc243683d690e1eb729c4",
+    "latex_errors": 0,
+    "undefined_references": 0,
+    "overfull_boxes": 0,
+    "text_contains_unresolved_question_marks": false,
+    "figure": "Embedded vector TikZ; independently reproduced with Matplotlib.",
+    "visual_review": "All pages rendered; content and typography reviewed."
+  },
+  {
+    "file": "m1_chebyshev_details.pdf",
+    "pages": 2,
+    "sha256": "f9f9359952896dfeb80e4a241b82cf1dcd3e4a336fd3463faf926a1d477f0462",
+    "latex_errors": 0,
+    "undefined_references": 0,
+    "overfull_boxes": 0,
+    "text_contains_unresolved_question_marks": false,
+    "figure": "Embedded vector TikZ; independently reproduced with Matplotlib.",
+    "visual_review": "All pages rendered; content and typography reviewed."
+  }
+]

@@ -1,0 +1,268 @@
+{
+  "scope": "Exact symbolic/arithmetic checks for all three-term supports with q-degree two.\n\nCaustic winding and Newton samples are explicitly diagnostic, not certificates.\nThe global bounds, singular-target argument, and infinite formulas are proved\nin the TeX source.",
+  "exact_symbolic_identities": 3,
+  "exact_support_optimization_candidates": 1994997,
+  "even_degree_formula_checks": 997,
+  "opposite_target_model_orders": 99,
+  "exact_displayed_rational_examples": [
+    {
+      "n": 6,
+      "k": 4,
+      "epsilon": "7/32",
+      "count": 13
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "epsilon": "5/16",
+      "count": 16
+    },
+    {
+      "n": 8,
+      "k": 3,
+      "epsilon": "4/7",
+      "count": 21
+    }
+  ],
+  "newton_diagnostics_not_certificates": [
+    {
+      "n": 3,
+      "support": "z^n-z+3*barz^2",
+      "count": 9,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 4,
+      "support": "z^n-z+3*barz^2",
+      "count": 10,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 5,
+      "support": "z^n-z+3*barz^2",
+      "count": 11,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 6,
+      "support": "z^n-z+3*barz^2",
+      "count": 12,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 7,
+      "support": "z^n-z+3*barz^2",
+      "count": 13,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 8,
+      "support": "z^n-z+3*barz^2",
+      "count": 14,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 9,
+      "support": "z^n-z+3*barz^2",
+      "count": 15,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 10,
+      "support": "z^n-z+3*barz^2",
+      "count": 16,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 11,
+      "support": "z^n-z+3*barz^2",
+      "count": 17,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 12,
+      "support": "z^n-z+3*barz^2",
+      "count": 18,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 13,
+      "support": "z^n-z+3*barz^2",
+      "count": 19,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 14,
+      "support": "z^n-z+3*barz^2",
+      "count": 20,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 15,
+      "support": "z^n-z+3*barz^2",
+      "count": 21,
+      "role": "numerical diagnostic only"
+    }
+  ],
+  "caustic_winding_diagnostics_not_certificates": [
+    {
+      "n": 3,
+      "grid_targets": 2640,
+      "largest_negative_winding": 2,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 4,
+      "grid_targets": 2640,
+      "largest_negative_winding": 2,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 5,
+      "grid_targets": 2640,
+      "largest_negative_winding": 1,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 6,
+      "grid_targets": 2640,
+      "largest_negative_winding": 1,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 7,
+      "grid_targets": 2640,
+      "largest_negative_winding": 1,
+      "role": "numerical diagnostic only"
+    },
+    {
+      "n": 8,
+      "grid_targets": 2640,
+      "largest_negative_winding": 1,
+      "role": "numerical diagnostic only"
+    }
+  ],
+  "maximum_table": [
+    {
+      "n": 7,
+      "distinct_maximum": 16,
+      "regular_maximum": 13
+    },
+    {
+      "n": 8,
+      "distinct_maximum": 21,
+      "regular_maximum": 14
+    },
+    {
+      "n": 9,
+      "distinct_maximum": 15,
+      "regular_maximum": 15
+    },
+    {
+      "n": 10,
+      "distinct_maximum": 25,
+      "regular_maximum": 16
+    },
+    {
+      "n": 11,
+      "distinct_maximum": 17,
+      "regular_maximum": 17
+    },
+    {
+      "n": 12,
+      "distinct_maximum": 29,
+      "regular_maximum": 18
+    },
+    {
+      "n": 13,
+      "distinct_maximum": 26,
+      "regular_maximum": 19
+    },
+    {
+      "n": 14,
+      "distinct_maximum": 33,
+      "regular_maximum": 20
+    },
+    {
+      "n": 15,
+      "distinct_maximum": 21,
+      "regular_maximum": 21
+    },
+    {
+      "n": 16,
+      "distinct_maximum": 37,
+      "regular_maximum": 22
+    },
+    {
+      "n": 17,
+      "distinct_maximum": 23,
+      "regular_maximum": 23
+    },
+    {
+      "n": 18,
+      "distinct_maximum": 41,
+      "regular_maximum": 24
+    },
+    {
+      "n": 19,
+      "distinct_maximum": 36,
+      "regular_maximum": 25
+    },
+    {
+      "n": 20,
+      "distinct_maximum": 45,
+      "regular_maximum": 26
+    },
+    {
+      "n": 21,
+      "distinct_maximum": 27,
+      "regular_maximum": 27
+    },
+    {
+      "n": 22,
+      "distinct_maximum": 49,
+      "regular_maximum": 28
+    },
+    {
+      "n": 23,
+      "distinct_maximum": 36,
+      "regular_maximum": 29
+    },
+    {
+      "n": 24,
+      "distinct_maximum": 53,
+      "regular_maximum": 30
+    },
+    {
+      "n": 25,
+      "distinct_maximum": 46,
+      "regular_maximum": 31
+    },
+    {
+      "n": 26,
+      "distinct_maximum": 57,
+      "regular_maximum": 32
+    },
+    {
+      "n": 27,
+      "distinct_maximum": 33,
+      "regular_maximum": 33
+    },
+    {
+      "n": 28,
+      "distinct_maximum": 61,
+      "regular_maximum": 34
+    },
+    {
+      "n": 29,
+      "distinct_maximum": 35,
+      "regular_maximum": 35
+    },
+    {
+      "n": 30,
+      "distinct_maximum": 65,
+      "regular_maximum": 36
+    }
+  ],
+  "status": "passed"
+}

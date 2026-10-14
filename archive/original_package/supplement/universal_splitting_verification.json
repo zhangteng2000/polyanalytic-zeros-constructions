@@ -1,0 +1,448 @@
+{
+  "status": "passed",
+  "arithmetic": "exact integers, rationals, and Gaussian rationals; no floating-point root count",
+  "cyclotomic_model_orders": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "intermediate_coefficient_identities": 780,
+  "weighted_error_coefficient_checks": 56,
+  "degree_cases": 12,
+  "degree_specialization": "epsilon=1, solely for polynomial degree identities",
+  "integer_construction_range": [
+    1,
+    250000
+  ],
+  "fourth_power_band_pairs": 17920,
+  "m10000_band_checked": [
+    1,
+    46
+  ],
+  "phase_ratio_trace": "-6/5, not a rational algebraic integer",
+  "scope": "Finite diagnostics supplement the analytic infinite-family and band proofs. No fixed numerical small parameters are certified. The sufficient band boundary is not claimed optimal.",
+  "cases": [
+    {
+      "k": 2,
+      "r": 1,
+      "degrees": [
+        [
+          1,
+          2,
+          2,
+          5
+        ],
+        [
+          2,
+          4,
+          2,
+          3
+        ]
+      ],
+      "seconds": 0.018
+    },
+    {
+      "k": 3,
+      "r": 2,
+      "degrees": [
+        [
+          1,
+          6,
+          6,
+          13
+        ],
+        [
+          2,
+          7,
+          6,
+          11
+        ],
+        [
+          3,
+          9,
+          4,
+          8
+        ]
+      ],
+      "seconds": 0.039
+    },
+    {
+      "k": 4,
+      "r": 3,
+      "degrees": [
+        [
+          1,
+          12,
+          12,
+          25
+        ],
+        [
+          2,
+          13,
+          12,
+          22
+        ],
+        [
+          3,
+          14,
+          12,
+          19
+        ],
+        [
+          4,
+          16,
+          6,
+          14
+        ]
+      ],
+      "seconds": 0.167
+    },
+    {
+      "k": 5,
+      "r": 4,
+      "degrees": [
+        [
+          1,
+          20,
+          20,
+          41
+        ],
+        [
+          2,
+          21,
+          20,
+          37
+        ],
+        [
+          3,
+          22,
+          20,
+          33
+        ],
+        [
+          4,
+          23,
+          20,
+          29
+        ],
+        [
+          5,
+          25,
+          8,
+          23
+        ]
+      ],
+      "seconds": 0.869
+    },
+    {
+      "k": 6,
+      "r": 5,
+      "degrees": [
+        [
+          1,
+          30,
+          30,
+          61
+        ],
+        [
+          2,
+          31,
+          30,
+          56
+        ],
+        [
+          3,
+          32,
+          30,
+          51
+        ],
+        [
+          4,
+          33,
+          30,
+          46
+        ],
+        [
+          5,
+          34,
+          30,
+          41
+        ],
+        [
+          6,
+          36,
+          10,
+          33
+        ]
+      ],
+      "seconds": 3.419
+    },
+    {
+      "k": 7,
+      "r": 6,
+      "degrees": [
+        [
+          1,
+          42,
+          42,
+          85
+        ],
+        [
+          2,
+          43,
+          42,
+          79
+        ],
+        [
+          3,
+          44,
+          42,
+          73
+        ],
+        [
+          4,
+          45,
+          42,
+          67
+        ],
+        [
+          5,
+          46,
+          42,
+          61
+        ],
+        [
+          6,
+          47,
+          42,
+          55
+        ],
+        [
+          7,
+          49,
+          12,
+          46
+        ]
+      ],
+      "seconds": 11.672
+    },
+    {
+      "k": 8,
+      "r": 7,
+      "degrees": [
+        [
+          1,
+          56,
+          56,
+          113
+        ],
+        [
+          2,
+          57,
+          56,
+          106
+        ],
+        [
+          3,
+          58,
+          56,
+          99
+        ],
+        [
+          4,
+          59,
+          56,
+          92
+        ],
+        [
+          5,
+          60,
+          56,
+          85
+        ],
+        [
+          6,
+          61,
+          56,
+          78
+        ],
+        [
+          7,
+          62,
+          56,
+          71
+        ],
+        [
+          8,
+          64,
+          14,
+          60
+        ]
+      ],
+      "seconds": 29.219
+    },
+    {
+      "k": 2,
+      "r": 2,
+      "degrees": [
+        [
+          1,
+          4,
+          4,
+          8
+        ],
+        [
+          2,
+          6,
+          4,
+          5
+        ]
+      ],
+      "seconds": 0.011
+    },
+    {
+      "k": 3,
+      "r": 3,
+      "degrees": [
+        [
+          1,
+          9,
+          9,
+          18
+        ],
+        [
+          2,
+          10,
+          9,
+          15
+        ],
+        [
+          3,
+          12,
+          6,
+          11
+        ]
+      ],
+      "seconds": 0.048
+    },
+    {
+      "k": 4,
+      "r": 4,
+      "degrees": [
+        [
+          1,
+          16,
+          16,
+          32
+        ],
+        [
+          2,
+          17,
+          16,
+          28
+        ],
+        [
+          3,
+          18,
+          16,
+          24
+        ],
+        [
+          4,
+          20,
+          8,
+          18
+        ]
+      ],
+      "seconds": 0.241
+    },
+    {
+      "k": 5,
+      "r": 5,
+      "degrees": [
+        [
+          1,
+          25,
+          25,
+          50
+        ],
+        [
+          2,
+          26,
+          25,
+          45
+        ],
+        [
+          3,
+          27,
+          25,
+          40
+        ],
+        [
+          4,
+          28,
+          25,
+          35
+        ],
+        [
+          5,
+          30,
+          10,
+          28
+        ]
+      ],
+      "seconds": 1.161
+    },
+    {
+      "k": 6,
+      "r": 6,
+      "degrees": [
+        [
+          1,
+          36,
+          36,
+          72
+        ],
+        [
+          2,
+          37,
+          36,
+          66
+        ],
+        [
+          3,
+          38,
+          36,
+          60
+        ],
+        [
+          4,
+          39,
+          36,
+          54
+        ],
+        [
+          5,
+          40,
+          36,
+          48
+        ],
+        [
+          6,
+          42,
+          12,
+          39
+        ]
+      ],
+      "seconds": 4.32
+    }
+  ]
+}

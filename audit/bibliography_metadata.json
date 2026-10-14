@@ -1,0 +1,875 @@
+{
+  "BHS95": {
+    "DOI": "10.1007/bf02787790",
+    "title": [
+      "The exact bound on the number of zeros of harmonic polynomials"
+    ],
+    "author": [
+      {
+        "given": "Daoud",
+        "family": "Bshouty",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Walter",
+        "family": "Hengartner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tiferet",
+        "family": "Suez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal d'Analyse Mathématique"
+    ],
+    "volume": "67",
+    "issue": "1",
+    "page": "207-218",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          1995,
+          12
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "URL": "https://doi.org/10.1007/bf02787790"
+  },
+  "FNS17": {
+    "DOI": "10.1093/imrn/rnw118",
+    "title": [
+      "A Tropical Analog of Descartes’ Rule of Signs"
+    ],
+    "author": [
+      {
+        "given": "Jens",
+        "family": "Forsgård",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Dmitry",
+        "family": "Novikov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Boris",
+        "family": "Shapiro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "International Mathematics Research Notices"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "rnw118",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          27
+        ]
+      ]
+    },
+    "published-print": null,
+    "publisher": "Oxford University Press (OUP)",
+    "URL": "https://doi.org/10.1093/imrn/rnw118"
+  },
+  "Gey08": {
+    "DOI": "10.1090/s0002-9939-07-08946-0",
+    "title": [
+      "Sharp bounds for the valence of certain harmonic polynomials"
+    ],
+    "author": [
+      {
+        "given": "Lukas",
+        "family": "Geyer",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Proceedings of the American Mathematical Society"
+    ],
+    "volume": "136",
+    "issue": "2",
+    "page": "549-555",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2007,
+          11,
+          2
+        ]
+      ]
+    },
+    "publisher": "American Mathematical Society (AMS)",
+    "URL": "https://doi.org/10.1090/s0002-9939-07-08946-0"
+  },
+  "Har77": {
+    "DOI": "10.1007/978-1-4757-3849-0",
+    "title": [
+      "Algebraic Geometry"
+    ],
+    "author": [
+      {
+        "given": "Robin",
+        "family": "Hartshorne",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Graduate Texts in Mathematics"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          1977
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          1977
+        ]
+      ]
+    },
+    "publisher": "Springer New York",
+    "URL": "https://doi.org/10.1007/978-1-4757-3849-0"
+  },
+  "HLLM15": {
+    "DOI": "10.1080/10586458.2014.966180",
+    "title": [
+      "Experiments on the Zeros of Harmonic Polynomials Using Certified Counting"
+    ],
+    "author": [
+      {
+        "given": "J. D.",
+        "family": "Hauenstein",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Lerario",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "E.",
+        "family": "Lundberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Mehta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Experimental Mathematics"
+    ],
+    "volume": "24",
+    "issue": "2",
+    "page": "133-141",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          24
+        ]
+      ]
+    },
+    "publisher": "Informa UK Limited",
+    "URL": "https://doi.org/10.1080/10586458.2014.966180"
+  },
+  "Hir76": {
+    "DOI": "10.1007/978-1-4684-9449-5",
+    "title": [
+      "Differential Topology"
+    ],
+    "author": [
+      {
+        "given": "Morris W.",
+        "family": "Hirsch",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Graduate Texts in Mathematics"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          1976
+        ]
+      ]
+    },
+    "publisher": "Springer New York",
+    "URL": "https://doi.org/10.1007/978-1-4684-9449-5"
+  },
+  "KLS18": {
+    "DOI": "10.1186/s40627-018-0012-2",
+    "title": [
+      "Zeros of harmonic polynomials, critical lemniscates, and caustics"
+    ],
+    "author": [
+      {
+        "given": "Dmitry",
+        "family": "Khavinson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8213-4875",
+        "authenticated-orcid": false,
+        "given": "Seung-Yeop",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andres",
+        "family": "Saez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Complex Analysis and its Synergies"
+    ],
+    "volume": "4",
+    "issue": "1",
+    "page": null,
+    "article-number": "2",
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          7
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          12
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "URL": "https://doi.org/10.1186/s40627-018-0012-2"
+  },
+  "KLP24": {
+    "DOI": "10.1090/conm/799/16018",
+    "title": [
+      "On the valence of logharmonic polynomials"
+    ],
+    "author": [
+      {
+        "given": "Dmitry",
+        "family": "Khavinson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Erik",
+        "family": "Lundberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sean",
+        "family": "Perry",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Contemporary Mathematics",
+      "Recent Progress in Function Theory and Operator Theory"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "23-40",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "publisher": "American Mathematical Society",
+    "URL": "https://doi.org/10.1090/conm/799/16018"
+  },
+  "KN06": {
+    "DOI": "10.1090/s0002-9939-05-08058-5",
+    "title": [
+      "On the number of zeros of certain rational harmonic functions"
+    ],
+    "author": [
+      {
+        "given": "Dmitry",
+        "family": "Khavinson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Genevra",
+        "family": "Neumann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Proceedings of the American Mathematical Society"
+    ],
+    "volume": "134",
+    "issue": "4",
+    "page": "1077-1085",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          7,
+          25
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2005,
+          7,
+          25
+        ]
+      ]
+    },
+    "publisher": "American Mathematical Society (AMS)",
+    "URL": "https://doi.org/10.1090/s0002-9939-05-08058-5"
+  },
+  "KS03": {
+    "DOI": "10.1090/s0002-9939-02-06476-6",
+    "title": [
+      "On the number of zeros of certain harmonic polynomials"
+    ],
+    "author": [
+      {
+        "given": "Dmitry",
+        "family": "Khavinson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Grzegorz",
+        "family": "Światek",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Proceedings of the American Mathematical Society"
+    ],
+    "volume": "131",
+    "issue": "2",
+    "page": "409-414",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2002,
+          9,
+          17
+        ]
+      ]
+    },
+    "publisher": "American Mathematical Society (AMS)",
+    "URL": "https://doi.org/10.1090/s0002-9939-02-06476-6"
+  },
+  "KM94": {
+    "DOI": "10.4310/mrl.1994.v1.n6.a14",
+    "title": [
+      "The Genus of Embedded Surfaces in the Projective Plane"
+    ],
+    "author": [
+      {
+        "given": "P. B.",
+        "family": "Kronheimer",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Oxford"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T. S.",
+        "family": "Mrowka",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Mathematical Research Letters"
+    ],
+    "volume": "1",
+    "issue": "6",
+    "page": "797-808",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "publisher": "International Press of Boston",
+    "URL": "https://doi.org/10.4310/mrl.1994.v1.n6.a14"
+  },
+  "LLL15": {
+    "DOI": "10.1512/iumj.2015.64.5526",
+    "title": [
+      "Remarks on Wilmshurst's theorem"
+    ],
+    "author": [
+      {
+        "given": "Seung-Yeop",
+        "family": "Lee",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Antonio",
+        "family": "Lerario",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Erik",
+        "family": "Lundberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Indiana University Mathematics Journal"
+    ],
+    "volume": "64",
+    "issue": "4",
+    "page": "1153-1167",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "publisher": "Indiana University Mathematics Journal",
+    "URL": "https://doi.org/10.1512/iumj.2015.64.5526"
+  },
+  "LS17": {
+    "DOI": "10.1007/s40315-016-0175-x",
+    "title": [
+      "A New Lower Bound for the Maximal Valence of Harmonic Polynomials"
+    ],
+    "author": [
+      {
+        "given": "Seung-Yeop",
+        "family": "Lee",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andres",
+        "family": "Saez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Computational Methods and Function Theory"
+    ],
+    "volume": "17",
+    "issue": "1",
+    "page": "139-149",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          2
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          3
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "URL": "https://doi.org/10.1007/s40315-016-0175-x"
+  },
+  "Lun23": {
+    "DOI": "10.1090/proc/16152",
+    "title": [
+      "The valence of harmonic polynomials viewed through the probabilistic lens"
+    ],
+    "author": [
+      {
+        "given": "Erik",
+        "family": "Lundberg",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Proceedings of the American Mathematical Society"
+    ],
+    "volume": "151",
+    "issue": "7",
+    "page": "2963-2973",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          13
+        ]
+      ]
+    },
+    "published-print": null,
+    "publisher": "American Mathematical Society (AMS)",
+    "URL": "https://doi.org/10.1090/proc/16152"
+  },
+  "SZ24": {
+    "DOI": "10.1016/j.jmaa.2024.128595",
+    "title": [
+      "On the zeros of polyanalytic polynomials"
+    ],
+    "author": [
+      {
+        "given": "Olivier",
+        "family": "Sète",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5611-8900",
+        "authenticated-orcid": false,
+        "given": "Jan",
+        "family": "Zur",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Mathematical Analysis and Applications"
+    ],
+    "volume": "540",
+    "issue": "1",
+    "page": "128595",
+    "article-number": "128595",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "publisher": "Elsevier BV",
+    "URL": "https://doi.org/10.1016/j.jmaa.2024.128595"
+  },
+  "Wil98": {
+    "DOI": "10.1090/s0002-9939-98-04315-9",
+    "title": [
+      "The valence of harmonic polynomials"
+    ],
+    "author": [
+      {
+        "given": "A.",
+        "family": "Wilmshurst",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Proceedings of the American Mathematical Society"
+    ],
+    "volume": "126",
+    "issue": "7",
+    "page": "2077-2081",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          1998,
+          7
+        ]
+      ]
+    },
+    "publisher": "American Mathematical Society (AMS)",
+    "URL": "https://doi.org/10.1090/s0002-9939-98-04315-9"
+  }
+}

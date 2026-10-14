@@ -1,0 +1,144 @@
+{
+  "scope": "Exact finite checks for the k=m endpoint, with labelled Newton diagnostics.\n\nUniversal assertions are proved in polyanalytic_sharp_v3.tex, not inferred\nfrom this finite enumeration or the numerical samples.",
+  "symbolic_identities": 3,
+  "exact_unit_circle_counts": 22200,
+  "exact_orbit_and_parity_checks": 2775,
+  "exact_arc_coverage_checks": 13875,
+  "exact_real_parameter_maximum_checks": 921,
+  "numerical_unit_root_substitutions": 612,
+  "newton_diagnostics_not_certificates": [
+    {
+      "n": 2,
+      "m": 1,
+      "epsilon": [
+        0.6,
+        0.0
+      ],
+      "predicted_distinct": 4,
+      "newton_distinct": 4,
+      "positive_nonzero": 2,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 3,
+      "m": 1,
+      "epsilon": [
+        0.75,
+        0.0
+      ],
+      "predicted_distinct": 7,
+      "newton_distinct": 7,
+      "positive_nonzero": 4,
+      "negative_nonzero": 2
+    },
+    {
+      "n": 4,
+      "m": 1,
+      "epsilon": [
+        0.8,
+        0.0
+      ],
+      "predicted_distinct": 6,
+      "newton_distinct": 6,
+      "positive_nonzero": 4,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 5,
+      "m": 3,
+      "epsilon": [
+        -0.99,
+        0.0
+      ],
+      "predicted_distinct": 11,
+      "newton_distinct": 11,
+      "positive_nonzero": 6,
+      "negative_nonzero": 4
+    },
+    {
+      "n": 7,
+      "m": 3,
+      "epsilon": [
+        0.0,
+        0.99
+      ],
+      "predicted_distinct": 13,
+      "newton_distinct": 13,
+      "positive_nonzero": 8,
+      "negative_nonzero": 4
+    },
+    {
+      "n": 7,
+      "m": 3,
+      "epsilon": [
+        0.99,
+        0.0
+      ],
+      "predicted_distinct": 9,
+      "newton_distinct": 9,
+      "positive_nonzero": 6,
+      "negative_nonzero": 2
+    },
+    {
+      "n": 7,
+      "m": 3,
+      "epsilon": [
+        -0.99,
+        0.0
+      ],
+      "predicted_distinct": 9,
+      "newton_distinct": 9,
+      "positive_nonzero": 6,
+      "negative_nonzero": 2
+    },
+    {
+      "n": 7,
+      "m": 3,
+      "epsilon": [
+        2.0,
+        0.0
+      ],
+      "predicted_distinct": 11,
+      "newton_distinct": 11,
+      "positive_nonzero": 10,
+      "negative_nonzero": 0
+    },
+    {
+      "n": 7,
+      "m": 5,
+      "epsilon": [
+        0.99,
+        0.0
+      ],
+      "predicted_distinct": 15,
+      "newton_distinct": 15,
+      "positive_nonzero": 8,
+      "negative_nonzero": 6
+    },
+    {
+      "n": 7,
+      "m": 5,
+      "epsilon": [
+        -0.99,
+        0.0
+      ],
+      "predicted_distinct": 11,
+      "newton_distinct": 11,
+      "positive_nonzero": 6,
+      "negative_nonzero": 4
+    },
+    {
+      "n": 9,
+      "m": 5,
+      "epsilon": [
+        0.0,
+        0.99
+      ],
+      "predicted_distinct": 13,
+      "newton_distinct": 13,
+      "positive_nonzero": 8,
+      "negative_nonzero": 4
+    }
+  ],
+  "status": "passed"
+}

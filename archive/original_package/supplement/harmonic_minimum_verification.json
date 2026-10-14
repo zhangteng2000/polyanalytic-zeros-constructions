@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "scope": "Exact finite algebraic diagnostics, not substitutes for the analytic proofs.",
+  "symbolic_identities": 9,
+  "rational_radius_cases": 20825,
+  "derivative_gcd_cases": 680,
+  "boundary_orbit_cases": 4495,
+  "two_zero_family_checks": 79,
+  "explicit_two_zero_elimination": "n=3, m=k=2; exact Sturm count passed",
+  "completion_degree_cases": 2400,
+  "pure_exact_degree_cases": 167480,
+  "radial_gain_cases": 299,
+  "examples": [
+    {
+      "m": 3,
+      "n": 13,
+      "radial": 93,
+      "completion": 97
+    },
+    {
+      "m": 10,
+      "n": 41,
+      "radial": 941,
+      "completion": 1021
+    },
+    {
+      "m": 100,
+      "n": 401,
+      "radial": 90401,
+      "completion": 100201
+    }
+  ],
+  "seconds": 3.465
+}

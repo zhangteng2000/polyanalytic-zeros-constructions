@@ -1,0 +1,92 @@
+﻿key,bibliography_entry_tex,verification_source,verification_note
+BHS95,"D.~Bshouty, W.~Hengartner, and T.~Suez,
+\emph{The exact bound on the number of zeros of harmonic polynomials},
+J. Anal. Math. \textbf{67} (1995), 207--218.
+\href{https://doi.org/10.1007/BF02787790}{doi:10.1007/BF02787790}.",https://doi.org/10.1007/bf02787790,"Authors, title, journal, volume, and pages/article number checked against publisher-supplied Crossref metadata."
+Ere26,"A.~Eremenko, \emph{The number of solutions of some non-holomorphic equations},
+unpublished note, September 7, 2026.
+\url{https://www.math.purdue.edu/~eremenko/dvi/estimate.pdf}.",https://www.math.purdue.edu/~eremenko/dvi/estimate.pdf,"Original three-page author note inspected; title and September 7, 2026 date verified. The finite-zero-set and bidegree conventions are made explicit in the submission."
+EreList,"A.~Eremenko, \emph{My favorite unsolved problems},
+entry on estimates for non-holomorphic equations,
+accessed October 14, 2026.
+\url{https://www.math.purdue.edu/~eremenko/uns1.html}.",https://www.math.purdue.edu/~eremenko/uns1.html,"Maintained author problem list inspected October 14, 2026; records a solution by reduction to the Thom theorem. Cited for status and provenance, not as a replacement for the proof."
+FNS17,"J.~Forsg{\aa}rd, D.~Novikov, and B.~Shapiro,
+\emph{A tropical analog of Descartes' rule of signs},
+Int. Math. Res. Not. IMRN \textbf{2017} (2017), no.~12, 3726--3750.
+\href{https://doi.org/10.1093/imrn/rnw118}{doi:10.1093/imrn/rnw118}.",https://doi.org/10.1093/imrn/rnw118,"Crossref retains online-first metadata (2016, rnw118); final issue and pages 2017(12), 3726-3750 were cross-checked with the publisher and authors' institutional bibliography."
+GL26,"L.~Gao and G.~Liu,
+\emph{On the number of zeros of harmonic polynomials arranged in alternating patterns},
+Anal. Math. Phys. \textbf{16} (2026), article~132.
+\href{https://doi.org/10.1007/s13324-026-01276-6}{doi:10.1007/s13324-026-01276-6}.",https://link.springer.com/article/10.1007/s13324-026-01276-6,"Publisher's original abstract, author list, title, volume 16, article 132, and publication date September 30, 2026 inspected. Cited only for the alternating-monomial constructions described in that abstract; no uninspected proof is used."
+Gey08,"L.~Geyer, \emph{Sharp bounds for the valence of certain harmonic polynomials},
+Proc. Amer. Math. Soc. \textbf{136} (2008), no.~2, 549--555.
+\href{https://doi.org/10.1090/S0002-9939-07-08946-0}{doi:10.1090/S0002-9939-07-08946-0}.",https://doi.org/10.1090/s0002-9939-07-08946-0,"Use the 2008 journal year, not the 2007 online publication date. Original author paper inspected."
+Har77,"R.~Hartshorne, \emph{Algebraic geometry},
+Graduate Texts in Mathematics, vol.~52, Springer-Verlag, New York, 1977.",https://doi.org/10.1007/978-1-4757-3849-0,"Springer book metadata verified, GTM 52. Adjunction is cited as Chapter V, Proposition 1.5."
+HLLM15,"J.~D.~Hauenstein, A.~Lerario, E.~Lundberg, and D.~Mehta,
+\emph{Experiments on the zeros of harmonic polynomials using certified counting},
+Exp. Math. \textbf{24} (2015), no.~2, 133--141.
+\href{https://doi.org/10.1080/10586458.2014.966180}{doi:10.1080/10586458.2014.966180}.",https://doi.org/10.1080/10586458.2014.966180,"Authors, title, journal, volume, and pages/article number checked against publisher-supplied Crossref metadata."
+Hir76,"M.~W.~Hirsch, \emph{Differential topology},
+Graduate Texts in Mathematics, vol.~33, Springer-Verlag, New York, 1976.",https://doi.org/10.1007/978-1-4684-9449-5,"Springer book metadata verified, GTM 33. Parametric transversality is cited by Chapter 3, Section 2."
+KLS18,"D.~Khavinson, S.-Y.~Lee, and A.~Saez,
+\emph{Zeros of harmonic polynomials, critical lemniscates, and caustics},
+Complex Anal. Synerg. \textbf{4} (2018), article~2.
+\href{https://doi.org/10.1186/s40627-018-0012-2}{doi:10.1186/s40627-018-0012-2}.",https://doi.org/10.1186/s40627-018-0012-2,"Authors, title, journal, volume, and pages/article number checked against publisher-supplied Crossref metadata."
+KLP24,"D.~Khavinson, E.~Lundberg, and S.~Perry,
+\emph{On the valence of logharmonic polynomials},
+Recent Progress in Function Theory and Operator Theory,
+Contemp. Math., vol.~799, Amer. Math. Soc., Providence, RI, 2024, pp.~23--40.
+\href{https://doi.org/10.1090/conm/799/16018}{doi:10.1090/conm/799/16018}.",https://doi.org/10.1090/conm/799/16018,"Published chapter metadata and Contemp. Math. volume 799 verified; author preprint arXiv:2302.04339 inspected, specifically Problem 1.9 and Proposition 1.10."
+KN06,"D.~Khavinson and G.~Neumann,
+\emph{On the number of zeros of certain rational harmonic functions},
+Proc. Amer. Math. Soc. \textbf{134} (2006), no.~4, 1077--1085.
+\href{https://doi.org/10.1090/S0002-9939-05-08058-5}{doi:10.1090/S0002-9939-05-08058-5}.",https://doi.org/10.1090/s0002-9939-05-08058-5,"Use the 2006 volume year, not the 2005 online publication date."
+KS03,"D.~Khavinson and G.~\'{S}wi\k{a}tek,
+\emph{On the number of zeros of certain harmonic polynomials},
+Proc. Amer. Math. Soc. \textbf{131} (2003), no.~2, 409--414.
+\href{https://doi.org/10.1090/S0002-9939-02-06476-6}{doi:10.1090/S0002-9939-02-06476-6}.",https://doi.org/10.1090/s0002-9939-02-06476-6,"Use the 2003 volume year, not the 2002 online publication date."
+KM94,"P.~B.~Kronheimer and T.~S.~Mrowka,
+\emph{The genus of embedded surfaces in the projective plane},
+Math. Res. Lett. \textbf{1} (1994), no.~6, 797--808.
+\href{https://doi.org/10.4310/MRL.1994.v1.n6.a14}{doi:10.4310/MRL.1994.v1.n6.a14}.",https://doi.org/10.4310/mrl.1994.v1.n6.a14,"Original author PDF inspected, including Theorem 1. Crossref verifies volume 1(6), 797-808 (1994)."
+LLL15,"S.-Y.~Lee, A.~Lerario, and E.~Lundberg,
+\emph{Remarks on Wilmshurst's theorem},
+Indiana Univ. Math. J. \textbf{64} (2015), no.~4, 1153--1167.
+\href{https://doi.org/10.1512/iumj.2015.64.5526}{doi:10.1512/iumj.2015.64.5526}.",https://doi.org/10.1512/iumj.2015.64.5526,Original author version inspected for the first disproof and the orientation-reversing-zero conjecture.
+LS17,"S.-Y.~Lee and A.~Saez,
+\emph{A new lower bound for the maximal valence of harmonic polynomials},
+Comput. Methods Funct. Theory \textbf{17} (2017), no.~1, 139--149.
+\href{https://doi.org/10.1007/s40315-016-0175-x}{doi:10.1007/s40315-016-0175-x}.",https://doi.org/10.1007/s40315-016-0175-x,"Use the 2017 volume year, not the 2016 online publication date."
+Supplement,"A.~Lerario, E.~Lundberg, and T.~Zhang,
+\emph{Supplementary materials for Zeros of polyanalytic polynomials:
+linear bounds and explicit constructions}, version 1.0, 2026.
+\href{https://github.com/zhangteng2000/polyanalytic-zeros-constructions/tree/v1.0}{GitHub repository (v1.0)}.",https://github.com/zhangteng2000/polyanalytic-zeros-constructions/tree/v1.0,Repository created for this work; version v1.0 identifies the release.
+Lun23,"E.~Lundberg, \emph{The valence of harmonic polynomials viewed through
+the probabilistic lens},
+Proc. Amer. Math. Soc. \textbf{151} (2023), no.~7, 2963--2973.
+\href{https://doi.org/10.1090/proc/16152}{doi:10.1090/proc/16152}.",https://doi.org/10.1090/proc/16152,"Original author version inspected, especially Sections 4.1 and 4.2."
+PRS11,"M.~Passare, J.~M.~Rojas, and B.~Shapiro,
+\emph{New multiplier sequences via discriminant amoebae},
+Mosc. Math. J. \textbf{11} (2011), no.~3, 547--560.
+\href{https://arxiv.org/abs/1001.4076}{arXiv:1001.4076}.",https://www.mathnet.ru/php/archive.phtml?jrnid=mmj&option_lang=eng&paperid=432&wshow=paper,"Journal record verifies Moscow Mathematical Journal 11(3), 547-560 (2011), authors and title. Author preprint arXiv:1001.4076 also verified. No unverified DOI is used."
+PS97,"R.~Peretz and J.~Schmid, \emph{On the zero sets of certain complex polynomials},
+Proceedings of the Ashkelon Workshop on Complex Function Theory (1996),
+Israel Math. Conf. Proc., vol.~11, Bar-Ilan University, Ramat Gan, 1997,
+pp.~203--208.",https://arxiv.org/pdf/2403.04591v2,"Bibliographic metadata cross-checked in the references of Sete-Zur and other peer-reviewed papers: Israel Math. Conf. Proc. 11 (1997), 203-208. An original full-text copy was not obtained; no page-specific result from this article is invoked in a proof."
+Rhi03,"S.~H.~Rhie, \emph{\(n\)-point gravitational lenses with \(5(n-1)\) images},
+preprint, 2003.
+\href{https://arxiv.org/abs/astro-ph/0305166}{arXiv:astro-ph/0305166}.",https://arxiv.org/abs/astro-ph/0305166,"Original author preprint metadata verified. Correctly cited as a preprint, with no invented journal publication."
+SZ24,"O.~S\`ete and J.~Zur, \emph{On the zeros of polyanalytic polynomials},
+J. Math. Anal. Appl. \textbf{540} (2024), no.~1, article~128595.
+\href{https://doi.org/10.1016/j.jmaa.2024.128595}{doi:10.1016/j.jmaa.2024.128595}.",https://doi.org/10.1016/j.jmaa.2024.128595,"Original author version inspected, especially Remark 4.4 and Section 5. Final publication is JMAA 540(1), article 128595 (2024)."
+SS92,"T.~Sheil-Small, \emph{3 unsolved problems on polynomials},
+Funktionentheorie (Oberwolfach, February 16--22, 1992),
+Tagungsbericht 7/1992, Mathematisches Forschungsinstitut Oberwolfach,
+1992, pp.~18--19.
+\href{https://doi.org/10.14760/TB-1992-7}{doi:10.14760/TB-1992-7}.",https://oda.mfo.de/handle/mfo/561,"Original 26-page Oberwolfach report downloaded and inspected. Sheil-Small's contribution is '3 unsolved problems on polynomials', pp. 18-19. Problem 2 on p. 19 asks the harmonic quadratic-bound question. Report 7/1992, workshop 9208; DOI 10.14760/TB-1992-7."
+WilThesis,"A.~S.~Wilmshurst, \emph{Complex harmonic mappings and the valence
+of harmonic polynomials}, D.Phil. thesis, University of York, 1994.",https://search.worldcat.org/search?q=Complex+harmonic+mappings+and+the+valence+of+harmonic+polynomials,University of York D.Phil. thesis (1994): title and institution cross-checked against catalogue records and subsequent primary-paper bibliographies. No unpublished thesis-only assertion is used.
+Wil98,"A.~S.~Wilmshurst, \emph{The valence of harmonic polynomials},
+Proc. Amer. Math. Soc. \textbf{126} (1998), no.~7, 2077--2081.
+\href{https://doi.org/10.1090/S0002-9939-98-04315-9}{doi:10.1090/S0002-9939-98-04315-9}.",https://doi.org/10.1090/s0002-9939-98-04315-9,"Authors, title, journal, volume, and pages/article number checked against publisher-supplied Crossref metadata."

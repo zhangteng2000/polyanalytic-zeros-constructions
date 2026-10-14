@@ -1,0 +1,54 @@
+\begin{figure}[tb]
+\centering
+\begin{tikzpicture}[font=\small]
+\definecolor{curveblue}{RGB}{40,90,132}
+\definecolor{rootred}{RGB}{174,69,46}
+\begin{scope}[x=1.8cm,y=1.8cm]
+\clip (-1.52,-1.48) rectangle (1.64,1.55);
+\draw[gray!65,->] (-1.43,0)--(1.43,0) node[below] {\(\Rea z\)};
+\draw[gray!65,->] (0,-1.25)--(0,1.28) node[right] {\(\Ima z\)};
+\node at (0,1.47) {\(n=5,\ \eps=1/25\): thirteen zeros};
+\draw[curveblue,thin,domain=0:1.18,samples=90,variable=\t] plot ({cos(36.0)*(exp(\t)+exp(-\t))/2},{-1*sin(36.0)*(exp(\t)-exp(-\t))/2});
+\draw[gray!45,densely dashed,thin,domain=0:1.18,samples=90,variable=\t] plot ({cos(36.0)*(exp(\t)+exp(-\t))/2},{1*sin(36.0)*(exp(\t)-exp(-\t))/2});
+\draw[curveblue,thin,domain=0:1.18,samples=90,variable=\t] plot ({cos(72.0)*(exp(\t)+exp(-\t))/2},{1*sin(72.0)*(exp(\t)-exp(-\t))/2});
+\draw[gray!45,densely dashed,thin,domain=0:1.18,samples=90,variable=\t] plot ({cos(72.0)*(exp(\t)+exp(-\t))/2},{-1*sin(72.0)*(exp(\t)-exp(-\t))/2});
+\draw[curveblue,thin,domain=0:1.18,samples=90,variable=\t] plot ({cos(108.0)*(exp(\t)+exp(-\t))/2},{-1*sin(108.0)*(exp(\t)-exp(-\t))/2});
+\draw[gray!45,densely dashed,thin,domain=0:1.18,samples=90,variable=\t] plot ({cos(108.0)*(exp(\t)+exp(-\t))/2},{1*sin(108.0)*(exp(\t)-exp(-\t))/2});
+\draw[curveblue,thin,domain=0:1.18,samples=90,variable=\t] plot ({cos(144.0)*(exp(\t)+exp(-\t))/2},{1*sin(144.0)*(exp(\t)-exp(-\t))/2});
+\draw[gray!45,densely dashed,thin,domain=0:1.18,samples=90,variable=\t] plot ({cos(144.0)*(exp(\t)+exp(-\t))/2},{-1*sin(144.0)*(exp(\t)-exp(-\t))/2});
+\fill[black] (0.951056516,0.000000000) circle (1.65pt);
+\fill[black] (0.587785252,0.000000000) circle (1.65pt);
+\fill[black] (0.000000000,0.000000000) circle (1.65pt);
+\fill[black] (-0.587785252,0.000000000) circle (1.65pt);
+\fill[black] (-0.951056516,0.000000000) circle (1.65pt);
+\fill[draw=rootred,fill=white,line width=.7pt] (0.809499276,-0.020298778) circle (1.65pt);
+\fill[draw=rootred,fill=white,line width=.7pt] (1.072767415,-0.511849819) circle (1.65pt);
+\fill[draw=rootred,fill=white,line width=.7pt] (0.309086081,0.020111885) circle (1.65pt);
+\fill[draw=rootred,fill=white,line width=.7pt] (0.450074280,1.007091018) circle (1.65pt);
+\fill[draw=rootred,fill=white,line width=.7pt] (-0.309086081,-0.020111885) circle (1.65pt);
+\fill[draw=rootred,fill=white,line width=.7pt] (-0.450074280,-1.007091018) circle (1.65pt);
+\fill[draw=rootred,fill=white,line width=.7pt] (-0.809499276,0.020298778) circle (1.65pt);
+\fill[draw=rootred,fill=white,line width=.7pt] (-1.072767415,0.511849819) circle (1.65pt);
+\node[below] at (-1,-.025) {\(-1\)};
+\node[below] at (1,-.025) {\(1\)};
+\end{scope}
+\begin{scope}[shift={(4.4cm,-2.02cm)},x=4.4cm,y=22cm]
+\draw[gray!65,->] (0,0)--(1.21,0) node[below] {\(t\)};
+\draw[gray!65,->] (0,0)--(0,.177);
+\node[anchor=south west] at (0,.18) {\(2\sin(\pi/5)\,\phi_5(t)\)};
+\draw[curveblue,domain=0:1.15,samples=140,variable=\t] plot (\t,{2*sin(36)*(exp(\t)-exp(-\t))/(exp(5*\t)+exp(-5*\t))});
+\draw[rootred,dashed] (0,.04)--(1.15,.04);
+\node[rootred,above] at (.92,.04) {\(\eps=1/25\)};
+\fill[draw=rootred,fill=white,line width=.7pt] (0.034527483,.04) circle (1.65pt);
+\fill[draw=rootred,fill=white,line width=.7pt] (0.787012851,.04) circle (1.65pt);
+\node[below] at (0,0) {\(0\)};
+\node[below] at (1,0) {\(1\)};
+\end{scope}
+\end{tikzpicture}
+\caption{The degree-five example. Filled dots are the five real zeros;
+open circles are the eight nonreal zeros. Solid curves are the selected
+branches of \(\Ima T_5=0\); their conjugates are dashed.
+The right panel shows the two intersections that occur on each
+selected branch, here for \(j=1\) and \(j=4\).}
+\label{fig:chebyshev}
+\end{figure}

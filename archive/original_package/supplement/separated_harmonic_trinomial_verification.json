@@ -1,0 +1,457 @@
+{
+  "scope": "Exact checks for the angular-separation theorem; Newton checks are diagnostic.\n\nThe proof of the infinite theorem and of the transcendental sector estimate\nis in the accompanying TeX source, not inferred from these finite samples.",
+  "exact_symbolic_identities": 10,
+  "exact_interval_and_orbit_checks": 9696,
+  "conjugate_degree_two_checks": 1653,
+  "higher_conjugate_degree_checks": 6332,
+  "degree_eight_exact_parameter": {
+    "epsilon": "4/7",
+    "count": 21,
+    "regular_nonzero_zeros": 20,
+    "origin_index": -2
+  },
+  "rational_witnesses": [
+    {
+      "n": 4,
+      "m": 2,
+      "k": 3,
+      "epsilon": "3/16",
+      "maximum": 9
+    },
+    {
+      "n": 5,
+      "m": 2,
+      "k": 3,
+      "epsilon": "1/4",
+      "maximum": 10
+    },
+    {
+      "n": 5,
+      "m": 2,
+      "k": 4,
+      "epsilon": "1/8",
+      "maximum": 10
+    },
+    {
+      "n": 6,
+      "m": 2,
+      "k": 3,
+      "epsilon": "3/8",
+      "maximum": 11
+    },
+    {
+      "n": 6,
+      "m": 2,
+      "k": 4,
+      "epsilon": "7/32",
+      "maximum": 13
+    },
+    {
+      "n": 6,
+      "m": 2,
+      "k": 5,
+      "epsilon": "3/32",
+      "maximum": 11
+    },
+    {
+      "n": 7,
+      "m": 2,
+      "k": 3,
+      "epsilon": "1/2",
+      "maximum": 12
+    },
+    {
+      "n": 7,
+      "m": 2,
+      "k": 4,
+      "epsilon": "5/16",
+      "maximum": 16
+    },
+    {
+      "n": 7,
+      "m": 2,
+      "k": 5,
+      "epsilon": "5/32",
+      "maximum": 12
+    },
+    {
+      "n": 7,
+      "m": 2,
+      "k": 6,
+      "epsilon": "5/64",
+      "maximum": 12
+    },
+    {
+      "n": 8,
+      "m": 2,
+      "k": 3,
+      "epsilon": "1/2",
+      "maximum": 21
+    },
+    {
+      "n": 8,
+      "m": 2,
+      "k": 4,
+      "epsilon": "3/8",
+      "maximum": 15
+    },
+    {
+      "n": 8,
+      "m": 2,
+      "k": 5,
+      "epsilon": "7/32",
+      "maximum": 13
+    },
+    {
+      "n": 8,
+      "m": 2,
+      "k": 6,
+      "epsilon": "9/64",
+      "maximum": 15
+    },
+    {
+      "n": 8,
+      "m": 2,
+      "k": 7,
+      "epsilon": "1/16",
+      "maximum": 13
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "k": 3,
+      "epsilon": "1/2",
+      "maximum": 14
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "k": 4,
+      "epsilon": "3/8",
+      "maximum": 14
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "k": 5,
+      "epsilon": "9/32",
+      "maximum": 14
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "k": 6,
+      "epsilon": "3/16",
+      "maximum": 14
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "k": 7,
+      "epsilon": "15/128",
+      "maximum": 14
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "k": 8,
+      "epsilon": "7/128",
+      "maximum": 14
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "k": 3,
+      "epsilon": "5/8",
+      "maximum": 15
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "k": 4,
+      "epsilon": "7/16",
+      "maximum": 25
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "k": 5,
+      "epsilon": "5/16",
+      "maximum": 15
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "k": 6,
+      "epsilon": "15/64",
+      "maximum": 21
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "k": 7,
+      "epsilon": "5/32",
+      "maximum": 19
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "k": 8,
+      "epsilon": "13/128",
+      "maximum": 17
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "k": 9,
+      "epsilon": "3/64",
+      "maximum": 15
+    }
+  ],
+  "newton_diagnostics_not_certificates": [
+    {
+      "n": 4,
+      "m": 2,
+      "k": 3,
+      "epsilon": "3/16",
+      "count": 9,
+      "positive_nonzero": 7,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 5,
+      "m": 2,
+      "k": 3,
+      "epsilon": "1/4",
+      "count": 10,
+      "positive_nonzero": 8,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 5,
+      "m": 2,
+      "k": 4,
+      "epsilon": "1/8",
+      "count": 10,
+      "positive_nonzero": 8,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 6,
+      "m": 2,
+      "k": 3,
+      "epsilon": "3/8",
+      "count": 11,
+      "positive_nonzero": 9,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 6,
+      "m": 2,
+      "k": 4,
+      "epsilon": "7/32",
+      "count": 13,
+      "positive_nonzero": 10,
+      "negative_nonzero": 2
+    },
+    {
+      "n": 6,
+      "m": 2,
+      "k": 5,
+      "epsilon": "3/32",
+      "count": 11,
+      "positive_nonzero": 9,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 7,
+      "m": 2,
+      "k": 3,
+      "epsilon": "1/2",
+      "count": 12,
+      "positive_nonzero": 10,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 7,
+      "m": 2,
+      "k": 4,
+      "epsilon": "5/16",
+      "count": 16,
+      "positive_nonzero": 12,
+      "negative_nonzero": 3
+    },
+    {
+      "n": 7,
+      "m": 2,
+      "k": 5,
+      "epsilon": "5/32",
+      "count": 12,
+      "positive_nonzero": 10,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 7,
+      "m": 2,
+      "k": 6,
+      "epsilon": "5/64",
+      "count": 12,
+      "positive_nonzero": 10,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 8,
+      "m": 2,
+      "k": 3,
+      "epsilon": "1/2",
+      "count": 21,
+      "positive_nonzero": 15,
+      "negative_nonzero": 5
+    },
+    {
+      "n": 8,
+      "m": 2,
+      "k": 4,
+      "epsilon": "3/8",
+      "count": 15,
+      "positive_nonzero": 12,
+      "negative_nonzero": 2
+    },
+    {
+      "n": 8,
+      "m": 2,
+      "k": 5,
+      "epsilon": "7/32",
+      "count": 13,
+      "positive_nonzero": 11,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 8,
+      "m": 2,
+      "k": 6,
+      "epsilon": "9/64",
+      "count": 15,
+      "positive_nonzero": 12,
+      "negative_nonzero": 2
+    },
+    {
+      "n": 8,
+      "m": 2,
+      "k": 7,
+      "epsilon": "1/16",
+      "count": 13,
+      "positive_nonzero": 11,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "k": 3,
+      "epsilon": "1/2",
+      "count": 14,
+      "positive_nonzero": 12,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "k": 4,
+      "epsilon": "3/8",
+      "count": 14,
+      "positive_nonzero": 12,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "k": 5,
+      "epsilon": "9/32",
+      "count": 14,
+      "positive_nonzero": 12,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "k": 6,
+      "epsilon": "3/16",
+      "count": 14,
+      "positive_nonzero": 12,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "k": 7,
+      "epsilon": "15/128",
+      "count": 14,
+      "positive_nonzero": 12,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "k": 8,
+      "epsilon": "7/128",
+      "count": 14,
+      "positive_nonzero": 12,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 9,
+      "m": 3,
+      "k": 8,
+      "epsilon": "1/16",
+      "count": 15,
+      "positive_nonzero": 13,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 10,
+      "m": 3,
+      "k": 8,
+      "epsilon": "7/64",
+      "count": 16,
+      "positive_nonzero": 14,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 12,
+      "m": 3,
+      "k": 8,
+      "epsilon": "3/16",
+      "count": 18,
+      "positive_nonzero": 16,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 14,
+      "m": 3,
+      "k": 8,
+      "epsilon": "1/4",
+      "count": 20,
+      "positive_nonzero": 18,
+      "negative_nonzero": 1
+    },
+    {
+      "n": 16,
+      "m": 4,
+      "k": 6,
+      "epsilon": "1/2",
+      "count": 41,
+      "positive_nonzero": 30,
+      "negative_nonzero": 10
+    },
+    {
+      "n": 17,
+      "m": 5,
+      "k": 6,
+      "epsilon": "1/2",
+      "count": 45,
+      "positive_nonzero": 33,
+      "negative_nonzero": 11
+    }
+  ],
+  "status": "passed"
+}

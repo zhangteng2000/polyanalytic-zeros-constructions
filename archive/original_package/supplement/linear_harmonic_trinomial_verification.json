@@ -1,0 +1,490 @@
+{
+  "scope": "Exact finite arithmetic checks and separate numerical diagnostics for v11.\n\nThe universal result follows from the logarithmic-convexity proof in the\nTeX source. Newton searches below are diagnostics, not general certificates.",
+  "symbolic_identities": 4,
+  "exact_rational_maximizer_checks": 2701,
+  "exact_gcd_optimization_candidates": 1997000,
+  "equality_degrees_from_4_to_2000": [
+    5
+  ],
+  "exact_quintic_radial_certificate": {
+    "epsilon": "5/12",
+    "positive_radial_roots": 2,
+    "ray_zeros": 6,
+    "off_ray_zeros": 6,
+    "origin": 1,
+    "total": 13
+  },
+  "rational_maximizer_examples": [
+    {
+      "n": 3,
+      "k": 2,
+      "epsilon": "7/32",
+      "maximum": 7
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "epsilon": "3/8",
+      "maximum": 8
+    },
+    {
+      "n": 4,
+      "k": 3,
+      "epsilon": "9/64",
+      "maximum": 8
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "epsilon": "7/16",
+      "maximum": 13
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "epsilon": "15/64",
+      "maximum": 11
+    },
+    {
+      "n": 5,
+      "k": 4,
+      "epsilon": "13/128",
+      "maximum": 9
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "epsilon": "1/2",
+      "maximum": 10
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "epsilon": "5/16",
+      "maximum": 10
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "epsilon": "23/128",
+      "maximum": 10
+    },
+    {
+      "n": 6,
+      "k": 5,
+      "epsilon": "5/64",
+      "maximum": 10
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "epsilon": "9/16",
+      "maximum": 11
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "epsilon": "3/8",
+      "maximum": 17
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "epsilon": "31/128",
+      "maximum": 11
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "epsilon": "37/256",
+      "maximum": 13
+    },
+    {
+      "n": 7,
+      "k": 6,
+      "epsilon": "17/256",
+      "maximum": 11
+    },
+    {
+      "n": 8,
+      "k": 2,
+      "epsilon": "9/16",
+      "maximum": 16
+    },
+    {
+      "n": 8,
+      "k": 3,
+      "epsilon": "13/32",
+      "maximum": 12
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "epsilon": "19/64",
+      "maximum": 12
+    },
+    {
+      "n": 8,
+      "k": 5,
+      "epsilon": "13/64",
+      "maximum": 16
+    },
+    {
+      "n": 8,
+      "k": 6,
+      "epsilon": "31/256",
+      "maximum": 12
+    },
+    {
+      "n": 8,
+      "k": 7,
+      "epsilon": "29/512",
+      "maximum": 12
+    },
+    {
+      "n": 9,
+      "k": 2,
+      "epsilon": "5/8",
+      "maximum": 13
+    },
+    {
+      "n": 9,
+      "k": 3,
+      "epsilon": "15/32",
+      "maximum": 15
+    },
+    {
+      "n": 9,
+      "k": 4,
+      "epsilon": "11/32",
+      "maximum": 21
+    },
+    {
+      "n": 9,
+      "k": 5,
+      "epsilon": "31/128",
+      "maximum": 15
+    },
+    {
+      "n": 9,
+      "k": 6,
+      "epsilon": "43/256",
+      "maximum": 13
+    },
+    {
+      "n": 9,
+      "k": 7,
+      "epsilon": "53/512",
+      "maximum": 15
+    },
+    {
+      "n": 9,
+      "k": 8,
+      "epsilon": "25/512",
+      "maximum": 13
+    },
+    {
+      "n": 10,
+      "k": 2,
+      "epsilon": "5/8",
+      "maximum": 14
+    },
+    {
+      "n": 10,
+      "k": 3,
+      "epsilon": "1/2",
+      "maximum": 14
+    },
+    {
+      "n": 10,
+      "k": 4,
+      "epsilon": "3/8",
+      "maximum": 14
+    },
+    {
+      "n": 10,
+      "k": 5,
+      "epsilon": "9/32",
+      "maximum": 14
+    },
+    {
+      "n": 10,
+      "k": 6,
+      "epsilon": "27/128",
+      "maximum": 14
+    },
+    {
+      "n": 10,
+      "k": 7,
+      "epsilon": "37/256",
+      "maximum": 14
+    },
+    {
+      "n": 10,
+      "k": 8,
+      "epsilon": "47/512",
+      "maximum": 14
+    },
+    {
+      "n": 10,
+      "k": 9,
+      "epsilon": "11/256",
+      "maximum": 14
+    }
+  ],
+  "newton_diagnostics_not_certificates": [
+    {
+      "n": 3,
+      "k": 2,
+      "epsilon": "7/32",
+      "predicted": 7,
+      "newton_count": 7
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "epsilon": "3/8",
+      "predicted": 8,
+      "newton_count": 8
+    },
+    {
+      "n": 4,
+      "k": 3,
+      "epsilon": "9/64",
+      "predicted": 8,
+      "newton_count": 8
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "epsilon": "7/16",
+      "predicted": 13,
+      "newton_count": 13
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "epsilon": "15/64",
+      "predicted": 11,
+      "newton_count": 11
+    },
+    {
+      "n": 5,
+      "k": 4,
+      "epsilon": "13/128",
+      "predicted": 9,
+      "newton_count": 9
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "epsilon": "1/2",
+      "predicted": 10,
+      "newton_count": 10
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "epsilon": "5/16",
+      "predicted": 10,
+      "newton_count": 10
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "epsilon": "23/128",
+      "predicted": 10,
+      "newton_count": 10
+    },
+    {
+      "n": 6,
+      "k": 5,
+      "epsilon": "5/64",
+      "predicted": 10,
+      "newton_count": 10
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "epsilon": "9/16",
+      "predicted": 11,
+      "newton_count": 11
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "epsilon": "3/8",
+      "predicted": 17,
+      "newton_count": 17
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "epsilon": "31/128",
+      "predicted": 11,
+      "newton_count": 11
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "epsilon": "37/256",
+      "predicted": 13,
+      "newton_count": 13
+    },
+    {
+      "n": 7,
+      "k": 6,
+      "epsilon": "17/256",
+      "predicted": 11,
+      "newton_count": 11
+    },
+    {
+      "n": 8,
+      "k": 2,
+      "epsilon": "9/16",
+      "predicted": 16,
+      "newton_count": 16
+    },
+    {
+      "n": 8,
+      "k": 3,
+      "epsilon": "13/32",
+      "predicted": 12,
+      "newton_count": 12
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "epsilon": "19/64",
+      "predicted": 12,
+      "newton_count": 12
+    },
+    {
+      "n": 8,
+      "k": 5,
+      "epsilon": "13/64",
+      "predicted": 16,
+      "newton_count": 16
+    },
+    {
+      "n": 8,
+      "k": 6,
+      "epsilon": "31/256",
+      "predicted": 12,
+      "newton_count": 12
+    },
+    {
+      "n": 8,
+      "k": 7,
+      "epsilon": "29/512",
+      "predicted": 12,
+      "newton_count": 12
+    },
+    {
+      "n": 9,
+      "k": 2,
+      "epsilon": "5/8",
+      "predicted": 13,
+      "newton_count": 13
+    },
+    {
+      "n": 9,
+      "k": 3,
+      "epsilon": "15/32",
+      "predicted": 15,
+      "newton_count": 15
+    },
+    {
+      "n": 9,
+      "k": 4,
+      "epsilon": "11/32",
+      "predicted": 21,
+      "newton_count": 21
+    },
+    {
+      "n": 9,
+      "k": 5,
+      "epsilon": "31/128",
+      "predicted": 15,
+      "newton_count": 15
+    },
+    {
+      "n": 9,
+      "k": 6,
+      "epsilon": "43/256",
+      "predicted": 13,
+      "newton_count": 13
+    },
+    {
+      "n": 9,
+      "k": 7,
+      "epsilon": "53/512",
+      "predicted": 15,
+      "newton_count": 15
+    },
+    {
+      "n": 9,
+      "k": 8,
+      "epsilon": "25/512",
+      "predicted": 13,
+      "newton_count": 13
+    },
+    {
+      "n": 10,
+      "k": 2,
+      "epsilon": "5/8",
+      "predicted": 14,
+      "newton_count": 14
+    },
+    {
+      "n": 10,
+      "k": 3,
+      "epsilon": "1/2",
+      "predicted": 14,
+      "newton_count": 14
+    },
+    {
+      "n": 10,
+      "k": 4,
+      "epsilon": "3/8",
+      "predicted": 14,
+      "newton_count": 14
+    },
+    {
+      "n": 10,
+      "k": 5,
+      "epsilon": "9/32",
+      "predicted": 14,
+      "newton_count": 14
+    },
+    {
+      "n": 10,
+      "k": 6,
+      "epsilon": "27/128",
+      "predicted": 14,
+      "newton_count": 14
+    },
+    {
+      "n": 10,
+      "k": 7,
+      "epsilon": "37/256",
+      "predicted": 14,
+      "newton_count": 14
+    },
+    {
+      "n": 10,
+      "k": 8,
+      "epsilon": "47/512",
+      "predicted": 14,
+      "newton_count": 14
+    },
+    {
+      "n": 10,
+      "k": 9,
+      "epsilon": "11/256",
+      "predicted": 14,
+      "newton_count": 14
+    }
+  ],
+  "status": "passed"
+}

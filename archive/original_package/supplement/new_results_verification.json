@@ -1,0 +1,1166 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational and integer arithmetic",
+  "radial_cases": 124,
+  "dominance_comparisons": 1200,
+  "coprimality_certificates": 124,
+  "sturm_cases": [
+    {
+      "a": 1,
+      "b": 2,
+      "k": 7,
+      "positive_factor_roots": [
+        4,
+        3
+      ]
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 3,
+      "positive_factor_roots": [
+        5,
+        2
+      ]
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 2,
+      "positive_factor_roots": [
+        3,
+        2
+      ]
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "k": 5,
+      "positive_factor_roots": [
+        3,
+        2
+      ]
+    }
+  ],
+  "integer_degree_pairs": 46450,
+  "integer_range": "1 <= m <= 100; m < n <= 10m+10",
+  "cases": [
+    {
+      "a": 0,
+      "b": 0,
+      "k": 1,
+      "positive_radii": 1,
+      "planar_zeros": 1,
+      "dominance_comparisons": 4,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 0,
+      "k": 2,
+      "positive_radii": 1,
+      "planar_zeros": 2,
+      "dominance_comparisons": 4,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 0,
+      "k": 3,
+      "positive_radii": 1,
+      "planar_zeros": 3,
+      "dominance_comparisons": 4,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 0,
+      "k": 4,
+      "positive_radii": 1,
+      "planar_zeros": 4,
+      "dominance_comparisons": 4,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 0,
+      "k": 5,
+      "positive_radii": 1,
+      "planar_zeros": 5,
+      "dominance_comparisons": 4,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 0,
+      "k": 6,
+      "positive_radii": 1,
+      "planar_zeros": 6,
+      "dominance_comparisons": 4,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 0,
+      "k": 7,
+      "positive_radii": 1,
+      "planar_zeros": 7,
+      "dominance_comparisons": 4,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 0,
+      "k": 8,
+      "positive_radii": 1,
+      "planar_zeros": 8,
+      "dominance_comparisons": 4,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 0,
+      "k": 9,
+      "positive_radii": 1,
+      "planar_zeros": 9,
+      "dominance_comparisons": 4,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "k": 3,
+      "positive_radii": 3,
+      "planar_zeros": 9,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "k": 4,
+      "positive_radii": 3,
+      "planar_zeros": 12,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "k": 5,
+      "positive_radii": 3,
+      "planar_zeros": 15,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "k": 6,
+      "positive_radii": 3,
+      "planar_zeros": 18,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "k": 7,
+      "positive_radii": 3,
+      "planar_zeros": 21,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "k": 8,
+      "positive_radii": 3,
+      "planar_zeros": 24,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "k": 9,
+      "positive_radii": 3,
+      "planar_zeros": 27,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "k": 5,
+      "positive_radii": 5,
+      "planar_zeros": 25,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "k": 6,
+      "positive_radii": 5,
+      "planar_zeros": 30,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "k": 7,
+      "positive_radii": 5,
+      "planar_zeros": 35,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "k": 8,
+      "positive_radii": 5,
+      "planar_zeros": 40,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "k": 9,
+      "positive_radii": 5,
+      "planar_zeros": 45,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 3,
+      "k": 7,
+      "positive_radii": 7,
+      "planar_zeros": 49,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 3,
+      "k": 8,
+      "positive_radii": 7,
+      "planar_zeros": 56,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 0,
+      "b": 3,
+      "k": 9,
+      "positive_radii": 7,
+      "planar_zeros": 63,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "k": 1,
+      "positive_radii": 3,
+      "planar_zeros": 3,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "k": 2,
+      "positive_radii": 3,
+      "planar_zeros": 6,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "k": 3,
+      "positive_radii": 3,
+      "planar_zeros": 9,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "k": 4,
+      "positive_radii": 3,
+      "planar_zeros": 12,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "k": 5,
+      "positive_radii": 3,
+      "planar_zeros": 15,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "k": 6,
+      "positive_radii": 3,
+      "planar_zeros": 18,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "k": 7,
+      "positive_radii": 3,
+      "planar_zeros": 21,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "k": 8,
+      "positive_radii": 3,
+      "planar_zeros": 24,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "k": 9,
+      "positive_radii": 3,
+      "planar_zeros": 27,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "k": 1,
+      "positive_radii": 3,
+      "planar_zeros": 3,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "k": 2,
+      "positive_radii": 3,
+      "planar_zeros": 6,
+      "dominance_comparisons": 6,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "k": 3,
+      "positive_radii": 5,
+      "planar_zeros": 15,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "k": 4,
+      "positive_radii": 5,
+      "planar_zeros": 20,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "k": 5,
+      "positive_radii": 5,
+      "planar_zeros": 25,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "k": 6,
+      "positive_radii": 5,
+      "planar_zeros": 30,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "k": 7,
+      "positive_radii": 5,
+      "planar_zeros": 35,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "k": 8,
+      "positive_radii": 5,
+      "planar_zeros": 40,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "k": 9,
+      "positive_radii": 5,
+      "planar_zeros": 45,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "k": 3,
+      "positive_radii": 5,
+      "planar_zeros": 15,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "k": 4,
+      "positive_radii": 5,
+      "planar_zeros": 20,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "k": 5,
+      "positive_radii": 7,
+      "planar_zeros": 35,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "k": 6,
+      "positive_radii": 7,
+      "planar_zeros": 42,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "k": 7,
+      "positive_radii": 7,
+      "planar_zeros": 49,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "k": 8,
+      "positive_radii": 7,
+      "planar_zeros": 56,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "k": 9,
+      "positive_radii": 7,
+      "planar_zeros": 63,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "k": 5,
+      "positive_radii": 7,
+      "planar_zeros": 35,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "k": 6,
+      "positive_radii": 7,
+      "planar_zeros": 42,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "k": 7,
+      "positive_radii": 9,
+      "planar_zeros": 63,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "k": 8,
+      "positive_radii": 9,
+      "planar_zeros": 72,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "k": 9,
+      "positive_radii": 9,
+      "planar_zeros": 81,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "k": 1,
+      "positive_radii": 5,
+      "planar_zeros": 5,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "k": 2,
+      "positive_radii": 5,
+      "planar_zeros": 10,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "k": 3,
+      "positive_radii": 5,
+      "planar_zeros": 15,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "k": 4,
+      "positive_radii": 5,
+      "planar_zeros": 20,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "k": 5,
+      "positive_radii": 5,
+      "planar_zeros": 25,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "k": 6,
+      "positive_radii": 5,
+      "planar_zeros": 30,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "k": 7,
+      "positive_radii": 5,
+      "planar_zeros": 35,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "k": 8,
+      "positive_radii": 5,
+      "planar_zeros": 40,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "k": 9,
+      "positive_radii": 5,
+      "planar_zeros": 45,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "k": 1,
+      "positive_radii": 5,
+      "planar_zeros": 5,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "k": 2,
+      "positive_radii": 5,
+      "planar_zeros": 10,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "k": 3,
+      "positive_radii": 7,
+      "planar_zeros": 21,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "k": 4,
+      "positive_radii": 7,
+      "planar_zeros": 28,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "k": 5,
+      "positive_radii": 7,
+      "planar_zeros": 35,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "k": 6,
+      "positive_radii": 7,
+      "planar_zeros": 42,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "k": 7,
+      "positive_radii": 7,
+      "planar_zeros": 49,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "k": 8,
+      "positive_radii": 7,
+      "planar_zeros": 56,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "k": 9,
+      "positive_radii": 7,
+      "planar_zeros": 63,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 1,
+      "positive_radii": 5,
+      "planar_zeros": 5,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 2,
+      "positive_radii": 5,
+      "planar_zeros": 10,
+      "dominance_comparisons": 8,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 3,
+      "positive_radii": 7,
+      "planar_zeros": 21,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 4,
+      "positive_radii": 7,
+      "planar_zeros": 28,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 5,
+      "positive_radii": 9,
+      "planar_zeros": 45,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 6,
+      "positive_radii": 9,
+      "planar_zeros": 54,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 7,
+      "positive_radii": 9,
+      "planar_zeros": 63,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 8,
+      "positive_radii": 9,
+      "planar_zeros": 72,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 9,
+      "positive_radii": 9,
+      "planar_zeros": 81,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "k": 3,
+      "positive_radii": 7,
+      "planar_zeros": 21,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "k": 4,
+      "positive_radii": 7,
+      "planar_zeros": 28,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "k": 5,
+      "positive_radii": 9,
+      "planar_zeros": 45,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "k": 6,
+      "positive_radii": 9,
+      "planar_zeros": 54,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "k": 7,
+      "positive_radii": 11,
+      "planar_zeros": 77,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "k": 8,
+      "positive_radii": 11,
+      "planar_zeros": 88,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "k": 9,
+      "positive_radii": 11,
+      "planar_zeros": 99,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "k": 1,
+      "positive_radii": 7,
+      "planar_zeros": 7,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "k": 2,
+      "positive_radii": 7,
+      "planar_zeros": 14,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "k": 3,
+      "positive_radii": 7,
+      "planar_zeros": 21,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "k": 4,
+      "positive_radii": 7,
+      "planar_zeros": 28,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "k": 5,
+      "positive_radii": 7,
+      "planar_zeros": 35,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "k": 6,
+      "positive_radii": 7,
+      "planar_zeros": 42,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "k": 7,
+      "positive_radii": 7,
+      "planar_zeros": 49,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "k": 8,
+      "positive_radii": 7,
+      "planar_zeros": 56,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "k": 9,
+      "positive_radii": 7,
+      "planar_zeros": 63,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "k": 1,
+      "positive_radii": 7,
+      "planar_zeros": 7,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "k": 2,
+      "positive_radii": 7,
+      "planar_zeros": 14,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "k": 3,
+      "positive_radii": 9,
+      "planar_zeros": 27,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "k": 4,
+      "positive_radii": 9,
+      "planar_zeros": 36,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "k": 5,
+      "positive_radii": 9,
+      "planar_zeros": 45,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "k": 6,
+      "positive_radii": 9,
+      "planar_zeros": 54,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "k": 7,
+      "positive_radii": 9,
+      "planar_zeros": 63,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "k": 8,
+      "positive_radii": 9,
+      "planar_zeros": 72,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "k": 9,
+      "positive_radii": 9,
+      "planar_zeros": 81,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "k": 1,
+      "positive_radii": 7,
+      "planar_zeros": 7,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "k": 2,
+      "positive_radii": 7,
+      "planar_zeros": 14,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "k": 3,
+      "positive_radii": 9,
+      "planar_zeros": 27,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "k": 4,
+      "positive_radii": 9,
+      "planar_zeros": 36,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "k": 5,
+      "positive_radii": 11,
+      "planar_zeros": 55,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "k": 6,
+      "positive_radii": 11,
+      "planar_zeros": 66,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "k": 7,
+      "positive_radii": 11,
+      "planar_zeros": 77,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "k": 8,
+      "positive_radii": 11,
+      "planar_zeros": 88,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "k": 9,
+      "positive_radii": 11,
+      "planar_zeros": 99,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "k": 1,
+      "positive_radii": 7,
+      "planar_zeros": 7,
+      "dominance_comparisons": 16,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "k": 2,
+      "positive_radii": 7,
+      "planar_zeros": 14,
+      "dominance_comparisons": 10,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "k": 3,
+      "positive_radii": 9,
+      "planar_zeros": 27,
+      "dominance_comparisons": 16,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "k": 4,
+      "positive_radii": 9,
+      "planar_zeros": 36,
+      "dominance_comparisons": 12,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "k": 5,
+      "positive_radii": 11,
+      "planar_zeros": 55,
+      "dominance_comparisons": 16,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "k": 6,
+      "positive_radii": 11,
+      "planar_zeros": 66,
+      "dominance_comparisons": 14,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "k": 7,
+      "positive_radii": 13,
+      "planar_zeros": 91,
+      "dominance_comparisons": 16,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "k": 8,
+      "positive_radii": 13,
+      "planar_zeros": 104,
+      "dominance_comparisons": 16,
+      "coprimality_prime": 1000003
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "k": 9,
+      "positive_radii": 13,
+      "planar_zeros": 117,
+      "dominance_comparisons": 16,
+      "coprimality_prime": 1000003
+    }
+  ],
+  "scope": "Checks new formulas only. Infinite-degree conclusions use the accompanying proofs. Original certificate files were not supplied or rerun."
+}

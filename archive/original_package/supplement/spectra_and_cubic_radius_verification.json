@@ -1,0 +1,58 @@
+{
+  "scope": "Exact finite diagnostics; analytic proofs remain in the TeX.",
+  "cubic_radius": {
+    "rational_radius_inequalities": 14399,
+    "optimal_kappa": "-11/2 + 5*sqrt(5)/2",
+    "identities": "passed"
+  },
+  "spectra": {
+    "hermite_determinant": "(a-b)^4",
+    "low_degree_fold_examples": [
+      {
+        "count": 2,
+        "roots": [
+          [
+            2,
+            0
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "fold": [
+          -1,
+          0
+        ]
+      },
+      {
+        "count": 4,
+        "roots": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            -2,
+            1
+          ]
+        ],
+        "fold": [
+          0,
+          -1
+        ]
+      }
+    ],
+    "rational_zero_and_jacobian_checks": 30
+  },
+  "status": "passed",
+  "seconds": 1.443
+}

@@ -1,0 +1,38 @@
+{
+  "arithmetic": "fractions.Fraction and finite fields; exact throughout",
+  "certificates": [
+    {
+      "polynomial": "P40",
+      "all_checks_passed": true,
+      "exact_real_slice_zeros": 40,
+      "positive": 22,
+      "negative": 18,
+      "nonreal_complex_intersections": 0,
+      "bezout_exhaustion": 40,
+      "coprimality_modulo_101": true,
+      "printed_coefficients_match": true,
+      "strict_exact_bound": "q + beta/r < 10^-7 in every box",
+      "display_only_q_max": 1.296466424238948e-12,
+      "display_only_beta_over_r_max": 4.92884218842903e-21,
+      "certificate_sha256": "dd2e7779ea7057bbacea1bc369bf6a75da69461fd97787f679aedbf1943b671b",
+      "seconds": 0.324
+    },
+    {
+      "polynomial": "P49",
+      "all_checks_passed": true,
+      "exact_real_slice_zeros": 49,
+      "positive": 27,
+      "negative": 22,
+      "nonreal_complex_intersections": 4,
+      "bezout_exhaustion": 53,
+      "coprimality_modulo_101": true,
+      "printed_coefficients_match": true,
+      "strict_exact_bound": "q + beta/r < 10^-7 in every box",
+      "display_only_q_max": 1.1818797380872928e-15,
+      "display_only_beta_over_r_max": 4.994748733225754e-21,
+      "certificate_sha256": "14a53f42f298289e1ed05f62504b9273dff8c9ea2314db67b1357263626bae83",
+      "seconds": 0.562
+    }
+  ],
+  "verifier_sha256": "23588a534552fa33a473d2fb7593d528bc6725e8dc2910afbf28f70e41cf0a66"
+}

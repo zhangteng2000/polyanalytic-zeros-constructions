@@ -1,0 +1,15 @@
+{
+  "scope": "Exact algebraic checks for pure-head contact splitting.\n\nThe arbitrary-degree sharp endpoint additionally uses Geyer's critically\nfixed construction, as cited and proved by inversion in the TeX source.",
+  "exact_bound_comparisons": 22350,
+  "exact_inversion_identities": 23,
+  "sixth_order_pure_contact_bound_at_2_6": 34,
+  "tenth_order_pure_contact_bound_at_3_10": 92,
+  "exact_cubic_example": {
+    "polynomial": "z*barz-1/10-z^3",
+    "positive_phase_radial_roots": 2,
+    "negative_phase_radial_roots": 1,
+    "roots_per_radius": 3,
+    "total_regular_zeros": 9
+  },
+  "status": "passed"
+}

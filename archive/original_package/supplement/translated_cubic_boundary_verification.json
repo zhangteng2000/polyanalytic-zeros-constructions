@@ -1,0 +1,107 @@
+{
+  "description": "Exact symbolic checks; no numerical zero-count search.",
+  "orders": [
+    {
+      "order": 2,
+      "local_terms": 3,
+      "global_terms": 12,
+      "total_degree": 6,
+      "conjugate_degree": 2,
+      "highest_part": "z**6",
+      "all_checks_passed": true
+    },
+    {
+      "order": 3,
+      "local_terms": 5,
+      "global_terms": 23,
+      "total_degree": 9,
+      "conjugate_degree": 3,
+      "highest_part": "z**9",
+      "all_checks_passed": true
+    },
+    {
+      "order": 4,
+      "local_terms": 8,
+      "global_terms": 43,
+      "total_degree": 12,
+      "conjugate_degree": 4,
+      "highest_part": "z**12",
+      "all_checks_passed": true
+    },
+    {
+      "order": 5,
+      "local_terms": 11,
+      "global_terms": 66,
+      "total_degree": 15,
+      "conjugate_degree": 5,
+      "highest_part": "z**15",
+      "all_checks_passed": true
+    },
+    {
+      "order": 6,
+      "local_terms": 15,
+      "global_terms": 97,
+      "total_degree": 18,
+      "conjugate_degree": 6,
+      "highest_part": "z**18",
+      "all_checks_passed": true
+    },
+    {
+      "order": 7,
+      "local_terms": 19,
+      "global_terms": 130,
+      "total_degree": 21,
+      "conjugate_degree": 7,
+      "highest_part": "z**21",
+      "all_checks_passed": true
+    },
+    {
+      "order": 8,
+      "local_terms": 24,
+      "global_terms": 171,
+      "total_degree": 24,
+      "conjugate_degree": 8,
+      "highest_part": "z**24",
+      "all_checks_passed": true
+    },
+    {
+      "order": 9,
+      "local_terms": 29,
+      "global_terms": 215,
+      "total_degree": 27,
+      "conjugate_degree": 9,
+      "highest_part": "z**27",
+      "all_checks_passed": true
+    },
+    {
+      "order": 10,
+      "local_terms": 35,
+      "global_terms": 263,
+      "total_degree": 30,
+      "conjugate_degree": 10,
+      "highest_part": "z**30",
+      "all_checks_passed": true
+    },
+    {
+      "order": 11,
+      "local_terms": 41,
+      "global_terms": 319,
+      "total_degree": 33,
+      "conjugate_degree": 11,
+      "highest_part": "z**33",
+      "all_checks_passed": true
+    },
+    {
+      "order": 12,
+      "local_terms": 48,
+      "global_terms": 379,
+      "total_degree": 36,
+      "conjugate_degree": 12,
+      "highest_part": "z**36",
+      "all_checks_passed": true
+    }
+  ],
+  "coefficient_weight_identity": "a+2*b+3*q=k-i-2*j",
+  "normalized_parameter_defect": "abs((w^2+z^2*w)/z)",
+  "all_passed": true
+}

@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-10-08T18:20:39.008600+00:00",
+  "manuscript": "polyanalytic_sharp_v3.tex",
+  "source_sha256": "b815978ba761e3511cd0e6e88bea502ed54cecca48cd500c23004c728065c5c7",
+  "pdf_sha256": "8df9e9e846a14a56791d13faf2e9767095cef5d53a4e9e3d8a643c962a90d394",
+  "pdf_pages_including_cover": 198,
+  "numbered_pages": 197,
+  "source_labels": 666,
+  "bibliography_items": 36,
+  "references_resolved": true,
+  "compiler": "XeLaTeX / TeX Live 2024; two clean final passes",
+  "compilation_warnings_errors_overflows": [],
+  "native_preview_compile": "Infrastructure failure: Windows sandbox setup refresh; exported PDF successfully compiled with the local XeLaTeX installation.",
+  "delivery_source_change": "Cover spacing and abstract font size only; post-titlepage source and all 197 rendered body-page texts unchanged.",
+  "prior_research_source_sha256": "d8c138169bfaec6b954d066831513041c4e4682b024cc640622a0ce83103fc7d",
+  "visual_review": "All pages reviewed in contact sheets; final cover, newest three proof pages, and two conclusion pages reviewed at reading resolution.",
+  "supplement_counts": {
+    "verifiers": 39,
+    "reports": 39,
+    "certificates": 7
+  },
+  "recorded_file_hashes_matched": 27,
+  "fresh_delivery_verifier_runs": [
+    {
+      "script": "verify_pure_2_7_45.py",
+      "exit_code": 0,
+      "seconds": 1.151
+    },
+    {
+      "script": "verify_pure_2_7_41_fixed.py",
+      "exit_code": 0,
+      "seconds": 0.233
+    },
+    {
+      "script": "verify_pure_3_10_88.py",
+      "exit_code": 0,
+      "seconds": 1.882
+    }
+  ],
+  "historical_verifiers_not_all_rerun_for_this_delivery": true,
+  "historical_missing_attachments": [
+    "E3_8_64_certificate.json",
+    "M3_8_73_certificate.json",
+    "bidegree_3_9_certificate.json",
+    "check_harmonic_signs.py",
+    "sharp_even_diagonal_36_certificate.json",
+    "verify_all.py",
+    "verify_auxiliary.py",
+    "verify_bidegree_3_9.py",
+    "verify_extremal_3_8.py",
+    "verify_harmonic_20.py",
+    "verify_seed.py",
+    "verify_sharp_even_diagonal_36.py"
+  ],
+  "all_global_endpoints_sharp": false
+}

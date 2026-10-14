@@ -1,0 +1,408 @@
+{
+  "status": "passed",
+  "scope": "Finite exact diagnostics; all-degree fiber and existence theorems are proved in the TeX.",
+  "discriminant_jacobian_identities": [
+    {
+      "k": 2,
+      "terms": 2,
+      "jacobian_identity": true
+    },
+    {
+      "k": 3,
+      "terms": 3,
+      "jacobian_identity": true
+    },
+    {
+      "k": 4,
+      "terms": 4,
+      "jacobian_identity": true
+    },
+    {
+      "k": 5,
+      "terms": 5,
+      "jacobian_identity": true
+    },
+    {
+      "k": 6,
+      "terms": 7,
+      "jacobian_identity": true
+    },
+    {
+      "k": 7,
+      "terms": 8,
+      "jacobian_identity": true
+    },
+    {
+      "k": 8,
+      "terms": 10,
+      "jacobian_identity": true
+    },
+    {
+      "k": 9,
+      "terms": 12,
+      "jacobian_identity": true
+    },
+    {
+      "k": 10,
+      "terms": 14,
+      "jacobian_identity": true
+    },
+    {
+      "k": 11,
+      "terms": 16,
+      "jacobian_identity": true
+    },
+    {
+      "k": 12,
+      "terms": 19,
+      "jacobian_identity": true
+    },
+    {
+      "k": 13,
+      "terms": 21,
+      "jacobian_identity": true
+    },
+    {
+      "k": 14,
+      "terms": 24,
+      "jacobian_identity": true
+    },
+    {
+      "k": 15,
+      "terms": 27,
+      "jacobian_identity": true
+    }
+  ],
+  "smooth_boundary_orders": 80,
+  "cusp_cases": 240,
+  "real_model_orders": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "real_global_degree_cases": [
+    {
+      "k": 2,
+      "r": 1,
+      "degree_z": 6,
+      "degree_w": 2,
+      "coefficient_field": "Q",
+      "pure_head": false
+    },
+    {
+      "k": 3,
+      "r": 1,
+      "degree_z": 9,
+      "degree_w": 3,
+      "coefficient_field": "Q",
+      "pure_head": false
+    },
+    {
+      "k": 4,
+      "r": 1,
+      "degree_z": 12,
+      "degree_w": 4,
+      "coefficient_field": "Q",
+      "pure_head": false
+    },
+    {
+      "k": 5,
+      "r": 1,
+      "degree_z": 15,
+      "degree_w": 5,
+      "coefficient_field": "Q",
+      "pure_head": false
+    },
+    {
+      "k": 6,
+      "r": 1,
+      "degree_z": 18,
+      "degree_w": 6,
+      "coefficient_field": "Q",
+      "pure_head": false
+    },
+    {
+      "k": 7,
+      "r": 1,
+      "degree_z": 21,
+      "degree_w": 7,
+      "coefficient_field": "Q",
+      "pure_head": false
+    },
+    {
+      "k": 8,
+      "r": 1,
+      "degree_z": 24,
+      "degree_w": 8,
+      "coefficient_field": "Q",
+      "pure_head": false
+    },
+    {
+      "k": 2,
+      "r": 2,
+      "degree_z": 10,
+      "degree_w": 4,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 3,
+      "r": 2,
+      "degree_z": 15,
+      "degree_w": 6,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 4,
+      "r": 2,
+      "degree_z": 20,
+      "degree_w": 8,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 5,
+      "r": 2,
+      "degree_z": 25,
+      "degree_w": 10,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 6,
+      "r": 2,
+      "degree_z": 30,
+      "degree_w": 12,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 7,
+      "r": 2,
+      "degree_z": 35,
+      "degree_w": 14,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 8,
+      "r": 2,
+      "degree_z": 40,
+      "degree_w": 16,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 2,
+      "r": 3,
+      "degree_z": 14,
+      "degree_w": 6,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 3,
+      "r": 3,
+      "degree_z": 21,
+      "degree_w": 9,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 4,
+      "r": 3,
+      "degree_z": 28,
+      "degree_w": 12,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 5,
+      "r": 3,
+      "degree_z": 35,
+      "degree_w": 15,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 6,
+      "r": 3,
+      "degree_z": 42,
+      "degree_w": 18,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 7,
+      "r": 3,
+      "degree_z": 49,
+      "degree_w": 21,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 8,
+      "r": 3,
+      "degree_z": 56,
+      "degree_w": 24,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 2,
+      "r": 4,
+      "degree_z": 18,
+      "degree_w": 8,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 3,
+      "r": 4,
+      "degree_z": 27,
+      "degree_w": 12,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 4,
+      "r": 4,
+      "degree_z": 36,
+      "degree_w": 16,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 5,
+      "r": 4,
+      "degree_z": 45,
+      "degree_w": 20,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 6,
+      "r": 4,
+      "degree_z": 54,
+      "degree_w": 24,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 7,
+      "r": 4,
+      "degree_z": 63,
+      "degree_w": 28,
+      "coefficient_field": "Q",
+      "pure_head": true
+    },
+    {
+      "k": 8,
+      "r": 4,
+      "degree_z": 72,
+      "degree_w": 32,
+      "coefficient_field": "Q",
+      "pure_head": true
+    }
+  ],
+  "real_circle_ranks": [
+    [
+      1,
+      2,
+      4
+    ],
+    [
+      1,
+      3,
+      5
+    ],
+    [
+      1,
+      4,
+      6
+    ],
+    [
+      1,
+      5,
+      7
+    ],
+    [
+      2,
+      3,
+      6
+    ],
+    [
+      2,
+      4,
+      7
+    ],
+    [
+      2,
+      5,
+      8
+    ],
+    [
+      2,
+      6,
+      9
+    ],
+    [
+      3,
+      4,
+      8
+    ],
+    [
+      3,
+      5,
+      9
+    ],
+    [
+      3,
+      6,
+      10
+    ],
+    [
+      3,
+      7,
+      11
+    ],
+    [
+      4,
+      5,
+      10
+    ],
+    [
+      4,
+      6,
+      11
+    ],
+    [
+      4,
+      7,
+      12
+    ],
+    [
+      4,
+      8,
+      13
+    ]
+  ],
+  "seconds": 11.651
+}

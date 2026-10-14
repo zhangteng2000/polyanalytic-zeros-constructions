@@ -1,0 +1,1886 @@
+[
+  {
+    "source_line": 129,
+    "type": "prob",
+    "labels": [
+      "core:problem"
+    ],
+    "statement": "\\label{core:problem}\nFix $m\\ge1$. For polynomials of bidegree $(m,n)$, $n>m$, with $N(f)<\\infty$, does there exist a bound $N(f)\\le C_1(m)n+C_2(m)$ independent of the coefficients and of $n$?\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "prob:linear"
+    ]
+  },
+  {
+    "source_line": 196,
+    "type": "thm",
+    "labels": [
+      "b:thm:main",
+      "b:eq:mainbound"
+    ],
+    "statement": "\\label{b:thm:main}\nFor $n>m\\ge1$ and every polynomial of bidegree $(m,n)$ with finite zero set,\n\\begin{equation}\\label{b:eq:mainbound}\n N(f)\\le\\min\\{m^2+n^2,(4m+1)n-5m\\}.\n\\end{equation}\nFor every fixed $m\\ge1$, $\\lim_{n\\to\\infty}M_{m,n}/n=4m+1$.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "thm:linear"
+    ]
+  },
+  {
+    "source_line": 224,
+    "type": "thm",
+    "labels": [
+      "d:thm:main",
+      "d:eq:main",
+      "v3:eq:introband"
+    ],
+    "statement": "\\label{d:thm:main}\nFor $m\\ge2$ and $m<n\\le2m+2$,\n\\begin{equation}\\label{d:eq:main}\n E_{m,n}=n^2,\\qquad M_{m,n}=m^2+n^2.\n\\end{equation}\nThe same equalities hold when $n=2m+3$ and $3\\mid m$.\nMore generally, the pure-head equality holds at\n\\[\n (m,n)=(kr,k(2r+1)),\\qquad r\\ge1,\\quad k\\ge1,\n\\]\nand remains valid after increasing $m$ while keeping $m<n$.\nFor the rectangular class,\n\\begin{equation}\\label{v3:eq:introband}\n M_{m,n}=m^2+n^2\\quad\n (1\\le m<n\\le3m,\\ n\\ne3m-1).\n\\end{equation}\nThe cases $(1,2),(2,5),(3,8)$ also satisfy the rectangular equality.\nAll these extrema admit Gaussian rational coefficients, exact conjugate\ndegree $m$, and nondegenerate zeros.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "thm:rectlower"
+    ]
+  },
+  {
+    "source_line": 436,
+    "type": "thm",
+    "labels": [
+      "core:harmonicbounds",
+      "core:harmonicbounds:eq"
+    ],
+    "statement": "\\label{core:harmonicbounds}\nFor $1\\le m<n$, put $g=\\gcd(m,n)$. Then\n\\begin{equation}\\label{core:harmonicbounds:eq}\n (m+2)n-m-g\\le M^{\\mathrm{harm}}_{m,n}\n \\le\\min\\left\\{n^2-2\\left\\lfloor\\frac{(n-m)^2}{4}\\right\\rfloor,\n (3m+2)n-m^2-4m-g\\right\\}.\n\\end{equation}\nMoreover, $M^{\\mathrm{harm}}_{1,n}=3n-2$ and $M^{\\mathrm{harm}}_{n-1,n}=n^2$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 465,
+    "type": "lem",
+    "labels": [
+      "d:lem:pure"
+    ],
+    "statement": "\\label{d:lem:pure}\nIf $f=z^N+q(z,w)$ with $\\deg_{\\rm tot}q<N$, then $(f,f^*)$ is a zero-dimensional complete intersection of length $N^2$. In particular, $N(f)\\le N^2$. If $N^2$ distinct real-slice zeros occur, every one is nondegenerate.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "lem:pure"
+    ]
+  },
+  {
+    "source_line": 473,
+    "type": "prop",
+    "labels": [
+      "b:prop:bezout",
+      "d:lem:rectangle"
+    ],
+    "statement": "\\label{b:prop:bezout}\\label{d:lem:rectangle}\nIf $f$ has bidegree $(m,n)$ and finite real-slice zero set, then $N(f)\\le m^2+n^2$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 491,
+    "type": "prop",
+    "labels": [
+      "core:gcd",
+      "core:gcd:eq"
+    ],
+    "statement": "\\label{core:gcd}\nLet $f\\in\\C[z,w]$ have bidegree $(m,n)$, where $n\\ge m\\ge1$, and set $D=\\gcd(f,f^*)$. There is an integer $0\\le\\delta\\le m$ such that $\\deg_zD=\\deg_wD=\\delta$, and\n\\begin{equation}\\label{core:gcd:eq}\n N_{\\rm nd}(f)\\le(n-\\delta)^2+(m-\\delta)^2.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 504,
+    "type": "cor",
+    "labels": [
+      "b:cor:irreducible"
+    ],
+    "statement": "\\label{b:cor:irreducible}\nIf $n>m\\ge1$ and $N(f)=m^2+n^2<\\infty$, then $f$ is irreducible over $\\C$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 529,
+    "type": "lem",
+    "labels": [
+      "b:lem:rankone"
+    ],
+    "statement": "\\label{b:lem:rankone}\nLet $F:(\\R^2,0)\\to(\\R^2,0)$ be real analytic, with an isolated zero\nat $0$ and $\\rank DF(0)=1$. Let $G$ be real analytic near $0$, and\nsuppose that $G(0)\\notin\\operatorname{im}DF(0)$.\nFor every sufficiently small $t>0$, the total number of nondegenerate\nzeros of $F+tG$ and $F-tG$ in a fixed neighborhood of $0$ is at least\ntwo. This assertion remains valid when $G$ varies in a sufficiently\nsmall finite-dimensional neighborhood.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "lem:rankone"
+    ]
+  },
+  {
+    "source_line": 566,
+    "type": "lem",
+    "labels": [
+      "b:lem:regularization"
+    ],
+    "statement": "\\label{b:lem:regularization}\nLet $Q\\in\\C[z,w]$ have finitely many zeros on $w=\\bar z$.\nEvery coefficient neighborhood of $Q$ contains a polynomial $R$ with\n\\[\n \\deg_wR\\le\\deg_wQ,\\qquad \\deg_zR\\le\\deg_zQ,\n \\qquad N(R)\\ge N(Q),\n\\]\nsuch that every zero of $F_R$ is nondegenerate.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "lem:regularization"
+    ]
+  },
+  {
+    "source_line": 649,
+    "type": "lem",
+    "labels": [
+      "b:lem:generic"
+    ],
+    "statement": "\\label{b:lem:generic}\nSuppose $a,b\\ge1$. An arbitrarily small perturbation within the\nspace of sections of $\\mathcal O_X(b,a)$ can be chosen so that its\nzero curve $C$ is smooth and connected, avoids $(\\infty,\\infty)$,\nand is transverse both to $L$ and to $\\tau C$.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "lem:generic"
+    ]
+  },
+  {
+    "source_line": 686,
+    "type": "cor",
+    "labels": [
+      "core:regularizationspace"
+    ],
+    "statement": "\\label{core:regularizationspace}\nLet $V\\subset\\C[z,w]$ be a finite-dimensional complex linear space stable\nunder $\\partial_z$ and $\\partial_w$. If $f\\in V$ has finitely many zeros,\nthen every neighborhood of $f$ in $V$ contains $\\widetilde f$ with\n$N(\\widetilde f)\\ge N(f)$ and all zeros nondegenerate.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "lem:regularization"
+    ]
+  },
+  {
+    "source_line": 726,
+    "type": "lem",
+    "labels": [
+      "b:lem:immersion",
+      "b:eq:doublepoints"
+    ],
+    "statement": "\\label{b:lem:immersion}\nThe map $\\Phi|_C$ is an immersion. Its only multiple points are\ntransverse positive double points, and their number is\n\\begin{equation}\\label{b:eq:doublepoints}\n D=\\frac{m^2+n^2-N}{2}.\n\\end{equation}\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "lem:immersion"
+    ]
+  },
+  {
+    "source_line": 811,
+    "type": "cor",
+    "labels": [
+      "b:cor:parity"
+    ],
+    "statement": "\\label{b:cor:parity}\nThe maximum $M_{m,n}$ is attained by a polynomial with nonzero\n$w^mz^n$ coefficient and only nondegenerate zeros. Moreover,\n\\[\n M_{m,n}\\equiv n-m\\pmod2.\n\\]\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 850,
+    "type": "lem",
+    "labels": [
+      "b:lem:dominance"
+    ],
+    "statement": "\\label{b:lem:dominance}\nLet $0\\le e_0<\\cdots<e_s$ be integers and let\n$f(r)=\\sum_{i=0}^s a_ir^{e_i}$ with $a_i\\in\\R\\setminus\\{0\\}$.\nSuppose there exist $0<\\rho_0<\\cdots<\\rho_s$ such that\n\\[\n |a_i|\\rho_i^{e_i}>\n \\sum_{j\\ne i}|a_j|\\rho_i^{e_j}\\qquad(0\\le i\\le s).\n\\]\nThe numbers of positive and negative roots of $f$ are, respectively,\n\\[\n V(a_0,\\ldots,a_s),\\qquad\n V((-1)^{e_0}a_0,\\ldots,(-1)^{e_s}a_s).\n\\]\nEvery nonzero real root of $f$ is simple.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "lem:dominance"
+    ]
+  },
+  {
+    "source_line": 893,
+    "type": "prop",
+    "labels": [
+      "b:prop:radial"
+    ],
+    "statement": "\\label{b:prop:radial}\nLet $k>2m\\ge2$. Among the polynomials\n\\[\n P(z,w)=B(wz)+z^kA(wz),\\qquad\n \\deg A=m,\\quad\\deg B\\le m,\\quad B(0)\\ne0,\n\\]\nwith finitely many zeros on $w=\\bar z$, the largest zero count is\n$(4m+1)k$. It is attained by an irreducible polynomial with only\nnondegenerate zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 984,
+    "type": "thm",
+    "labels": [
+      "new:thm:radial",
+      "new:eq:balanced"
+    ],
+    "statement": "\\label{new:thm:radial}\nAmong all polynomials\n\\[\n F(z)=B(|z|^2)+z^k A(|z|^2),\\qquad\n \\deg A=a,\\quad \\deg B=b,\\quad B(0)\\ne0,\n\\]\nwith finite zero set, the exact maximum is $kR(a,b;k)$.\nThe coefficients of $A,B$ may be chosen real and rational, with every\nzero nondegenerate. In particular, when $a=b=m$, the exact answer for\nevery $k\\ge1$ is\n\\begin{equation}\\label{new:eq:balanced}\n k\\min\\{4m+1,\\ k+2m-\\mathbf1_{2\\mid k}\\}.\n\\end{equation}\nSharpness in this theorem refers to the displayed two-frequency space.\nIt is not a formula for the full rectangular maximum.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "lem:radial"
+    ]
+  },
+  {
+    "source_line": 1109,
+    "type": "lem",
+    "labels": [
+      "new:lem:center"
+    ],
+    "statement": "\\label{new:lem:center}\nSuppose a polynomial map $P(z,\\bar z)$ has a finite zero set, has a unique\nhighest-total-degree monomial, and all its nonzero zeros are nondegenerate.\nAt the origin suppose\n\\[\n P(z,\\bar z)=c\\bar z^s+O(|z|^{s+1}),\\qquad c\\ne0,\\quad s\\ge1.\n\\]\nA perturbation using only monomials of total degree less than $s$ replaces\nthe origin by exactly $s^2$ nondegenerate zeros and preserves exactly one\nzero near each nonzero old zero. Rational coefficients can be retained.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "lem:split"
+    ]
+  },
+  {
+    "source_line": 1152,
+    "type": "thm",
+    "labels": [
+      "new:thm:rectangle",
+      "new:eq:rectanglelower",
+      "new:eq:uniformrectangle"
+    ],
+    "statement": "\\label{new:thm:rectangle}\nFor $n\\ge2m+1$, $m\\ge1$, there is a polynomial of exact bidegree $(m,n)$\nwith rational complex coefficients and exactly\n\\begin{equation}\\label{new:eq:rectanglelower}\n L_{m,n}=(4m+1)(n-m)\n       +(3m-n)_+(3m+1-n)_+\n\\end{equation}\nnondegenerate zeros. Here $x_+=\\max\\{x,0\\}$. Equivalently, in the range\n$2m+1\\le n\\le3m+1$ this count is\n\\[\n L_{m,n}=m^2+n^2-2m(n-2m-1).\n\\]\nConsequently, for every $n>m\\ge1$, with\n$U_{m,n}=\\min\\{m^2+n^2,(4m+1)n-5m\\}$,\n\\begin{equation}\\label{new:eq:uniformrectangle}\n U_{m,n}-4m(m-1)\\le M_{m,n}\\le U_{m,n}.\n\\end{equation}\nThe explicit lower bound \\eqref{new:eq:rectanglelower} is to be combined\nwith the stronger exact ranges in Theorem~\\ref{d:thm:main} and the other\ncertified examples. It does not determine $M_{2,7}$.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "thm:rectlower"
+    ]
+  },
+  {
+    "source_line": 1216,
+    "type": "lem",
+    "labels": [
+      "new:lem:completion"
+    ],
+    "statement": "\\label{new:lem:completion}\nLet $P(z,\\bar z)=cz^u\\bar z^v+$ lower-total-degree terms, where $c\\ne0$\nand $d=u+v\\ge1$. Suppose all zeros of $P$ are nondegenerate.\nFor an integer $N>d$ and sufficiently small positive $\\varepsilon$,\n$P(z,\\bar z)+\\varepsilon z^N$ has exactly\n\\[\n N(P)+N-u+v\n\\]\nzeros, all nondegenerate. The $N-u+v$ new zeros approach infinity and\nhave positive Jacobian. No bound on the conjugate degree of the\nlower-total-degree terms is required.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1252,
+    "type": "thm",
+    "labels": [
+      "new:thm:pure",
+      "new:eq:optimizer",
+      "new:eq:purelower",
+      "new:eq:purespecial",
+      "new:eq:uniformpure"
+    ],
+    "statement": "\\label{new:thm:pure}\nFor $n\\ge2m+1$, the count $(2m+1)n$ is attained in $\\Ecal_{m,n}$ by\na polynomial of exact conjugate degree $m$, with rational coefficients\nand only nondegenerate zeros. For $n\\ge2m+2$, put\n\\begin{equation}\\label{new:eq:optimizer}\n a_{m,n}=\\min\\left\\{m,\\left\\lfloor\\frac{n-2m}{4}\\right\\rfloor\\right\\}.\n\\end{equation}\nThen\n\\begin{equation}\\label{new:eq:purelower}\n E_{m,n}\\ge\\max\\left\\{(2m+1)n,\\\n n+2(m+a_{m,n})(n-2a_{m,n}-1)\\right\\}.\n\\end{equation}\nEach of the two counts in the maximum is realized exactly by such a\npolynomial. In particular,\n\\begin{equation}\\label{new:eq:purespecial}\n E_{m,4m+2}\\ge9m^2+7m+2.\n\\end{equation}\nCompared with the lower bound \\eqref{n:eq:Elower} at the same degree,\n\\eqref{new:eq:purespecial} gains $m(m-1)$ zeros.\nFor every $n>m\\ge1$, writing\n$V_{m,n}=\\min\\{n^2,(4m+1)n-2m(m+2)\\}$, one also has\n\\begin{equation}\\label{new:eq:uniformpure}\n V_{m,n}-6m^2\\le E_{m,n}\\le V_{m,n}.\n\\end{equation}\nThese are improved lower bounds and uniform error estimates for the\nfull space; neither \\eqref{new:eq:purelower} nor\n\\eqref{new:eq:purespecial} is asserted to be its exact maximum.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1381,
+    "type": "thm",
+    "labels": [
+      "n:thm:polygon",
+      "n:eq:upper"
+    ],
+    "statement": "\\label{n:thm:polygon}\nFor $f\\in\\Tcal_{m,n,r}$ the zero set of $F$ is finite and\n\\begin{equation}\\label{n:eq:upper}\n N(F)\\le\\min\\{n^2,\\ (4m+1)n-m^2-4m-(m-1)r-g\\}.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1401,
+    "type": "thm",
+    "labels": [
+      "n:thm:E",
+      "n:eq:Eupper",
+      "n:eq:Elower",
+      "n:eq:limit"
+    ],
+    "statement": "\\label{n:thm:E}\nFor $n>m\\ge1$,\n\\begin{equation}\\label{n:eq:Eupper}\n E_{m,n}\\le\\min\\{n^2,\\ (4m+1)n-2m(m+2)\\}.\n\\end{equation}\nFor $n>4m+1$,\n\\begin{equation}\\label{n:eq:Elower}\n E_{m,n}\\ge(4m+1)n-4m(2m+1).\n\\end{equation}\nThe lower bound is attained by a polynomial all of whose zeros are\nnondegenerate. For every fixed $m$,\n\\begin{equation}\\label{n:eq:limit}\n \\lim_{n\\to\\infty}\\frac{E_{m,n}}n=4m+1.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1427,
+    "type": "cor",
+    "labels": [
+      "n:cor:total",
+      "n:eq:total"
+    ],
+    "statement": "\\label{n:cor:total}\nIf $\\deg p=n>m\\ge1$ and $\\deg_{\\rm tot}Q\\le m$, then\n\\begin{equation}\\label{n:eq:total}\n \\#\\{z:p(z)+Q(z,\\bar z)=0\\}\n \\le\\min\\{n^2,\\ (3m+2)n-m^2-4m-\\gcd(m,n)\\}.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1492,
+    "type": "lem",
+    "labels": [
+      "n:lem:genus",
+      "n:eq:genus",
+      "n:eq:branches"
+    ],
+    "statement": "\\label{n:lem:genus}\nFor the generic curve just described,\n\\begin{equation}\\label{n:eq:genus}\n 2\\gamma\\le(2m-2)n-(m-1)r-m-g+2.\n\\end{equation}\nAbove $(\\infty,\\infty)$ there are exactly $g$ points of the normalization,\nwith local parametrizations\n\\begin{equation}\\label{n:eq:branches}\n u=t^{m/g},\\qquad v=c_\\ell t^{r/g}(1+O(t)),\\qquad c_\\ell\\ne0,\n \\quad u=1/z,\\ v=1/w.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1585,
+    "type": "lem",
+    "labels": [
+      "n:lem:cap"
+    ],
+    "statement": "\\label{n:lem:cap}\nThe mirror torus link $T(a,-b)$, with $a,b>0$, bounds\n$\\gcd(a,b)$ immersed oriented disks in a four-ball, with only negative\nordinary double points.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1674,
+    "type": "lem",
+    "labels": [
+      "n:lem:infinity"
+    ],
+    "statement": "\\label{n:lem:infinity}\nLet $k>m\\ge1$, $r>m$, and let $P\\in\\C[z,w]$ have degrees at most $k,m$\nin $z,w$, respectively, with $[z^kw^m]P=c\\ne0$. Suppose all zeros of\n$P(z,\\bar z)$ are nondegenerate. For all sufficiently small real\n$\\varepsilon>0$, the polynomial\n\\[\n F_\\varepsilon(z)=P(z,\\bar z)+\\varepsilon z^{k+r}\n\\]\nhas exactly $N(P(z,\\bar z))+r+m$ zeros, all nondegenerate. The $r+m$ new\nzeros approach infinity and have positive Jacobian.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1737,
+    "type": "prop",
+    "labels": [
+      "n:prop:lower",
+      "n:eq:Klower"
+    ],
+    "statement": "\\label{n:prop:lower}\nIf $n>r+3m$ and $r>m$, then\n\\begin{equation}\\label{n:eq:Klower}\n K_{m,n,r}\\ge(4m+1)n-4m(r+m).\n\\end{equation}\nFor fixed $m,r$ with $r>m$, $\\lim_{n\\to\\infty}K_{m,n,r}/n=4m+1$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1771,
+    "type": "prop",
+    "labels": [
+      "n:prop:known",
+      "n:eq:known"
+    ],
+    "statement": "\\label{n:prop:known}\nFor $2\\le r\\le n$,\n\\begin{equation}\\label{n:eq:known}\n K_{1,n,r}=5n-2r-2.\n\\end{equation}\nIn particular, $E_{1,n}=5n-6$ for every $n\\ge2$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1836,
+    "type": "thm",
+    "labels": [
+      "g:thm:main",
+      "g:eq:bound"
+    ],
+    "statement": "\\label{g:thm:main}\nUnder the assumptions in \\eqref{g:eq:F}, the zero set of $F$ is finite and\n\\begin{equation}\\label{g:eq:bound}\n N(F)\\le n^2-2\\left\\lfloor\\frac{(n-m)^2}{4}\\right\\rfloor.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1890,
+    "type": "lem",
+    "labels": [
+      "g:lem:signature"
+    ],
+    "statement": "\\label{g:lem:signature}\nThe signature of $\\HH$ is $N(F)$. If $R$ is the number of distinct common\nzeros of $f,f^*$ and $s$ is the number of two-element orbits of\n$(z,w)\\mapsto(\\bar w,\\bar z)$ on this set, then\n\\[\n \\rank\\HH=R,\\qquad \\nu_-(\\HH)=s,\\qquad\n N(F)=R-2s.\n\\]\nHere $\\nu_-$ denotes the number of negative eigenvalues, counted with\nmultiplicity.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1920,
+    "type": "lem",
+    "labels": [
+      "g:lem:isotropic",
+      "g:eq:signaturebound"
+    ],
+    "statement": "\\label{g:lem:isotropic}\nLet $V$ be a finite-dimensional complex vector space with a Hermitian form\n$H$ and a conjugate-linear involution $J$ satisfying\n$H(Ju,Jv)=\\overline{H(u,v)}$. If $U\\subset V$ is totally isotropic and\n$U\\cap JU=\\{0\\}$, then\n\\begin{equation}\\label{g:eq:signaturebound}\n \\operatorname{signature}H\\le \\dim V-2\\dim U.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 1970,
+    "type": "lem",
+    "labels": [
+      "g:lem:traceidentity",
+      "g:eq:traceidentity"
+    ],
+    "statement": "\\label{g:lem:traceidentity}\nIf $u\\in\\C[z]$, $v\\in\\C[w]$, and $\\deg u+\\deg v<2d$, then\n\\begin{equation}\\label{g:eq:traceidentity}\n\\begin{split}\n T(u(z)v(w))={}&S(u)S^\\#(v)\\\\\n &-\\sum_{r+s\\le m}c_{rs}D_r(u)S^\\#(w^s v)\\\\\n &-\\sum_{r+s\\le m}\\bar c_{rs}S(z^s u)D_r^\\#(v).\n\\end{split}\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 2047,
+    "type": "prop",
+    "labels": [
+      "g:prop:U",
+      "g:eq:U"
+    ],
+    "statement": "\\label{g:prop:U}\nUnder \\eqref{g:eq:momentcondition}, the subspace\n\\begin{equation}\\label{g:eq:U}\n U=\\spanC\\{r_i(z)r_j^\\#(w):0\\le j<i,\\ i+j\\le d-1\\}\\subset\\A\n\\end{equation}\nis totally isotropic for $\\HH$, satisfies $U\\cap U^*=\\{0\\}$, and has\ncomplex dimension $\\lfloor d^2/4\\rfloor$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 2161,
+    "type": "thm",
+    "labels": [
+      "b:thm:harmonic",
+      "b:eq:harmonicexact"
+    ],
+    "statement": "\\label{b:thm:harmonic}\nFor every $1\\le m<n$,\n\\begin{equation}\\label{b:eq:harmonicexact}\n S_{m,n}=n(m+1)+\\Delta_{m,n}.\n\\end{equation}\nThe maximum is attained with $\\varepsilon\\in\\Q_{>0}$ and\n$q\\in\\Q(i)[z]$, and all zeros of the extremizer are nondegenerate.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "prob:deterministic",
+      "thm:monomial"
+    ]
+  },
+  {
+    "source_line": 2173,
+    "type": "lem",
+    "labels": [
+      "b:lem:harmonicgap"
+    ],
+    "statement": "\\label{b:lem:harmonicgap}\nLet $N>M\\ge0$, let $a\\in\\R\\setminus\\{0\\}$, and let\n$u\\in\\R[r]$ have degree at most $M$. Write $b=[r^M]u$ for the\ncoefficient of $r^M$. The number of nonzero real roots of\n$ar^N+u(r)$, counted with multiplicity, is at most\n\\[\n \\begin{cases}\n  M+1,&N-M\\text{ odd},\\\\\n  M+2\\mathbf1_{\\{ab<0\\}},&N-M\\text{ even},\n \\end{cases}\n\\]\nwhere the indicator $\\mathbf1_{\\{ab<0\\}}$ equals one when $ab<0$\nand zero otherwise.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "lem:gap"
+    ]
+  },
+  {
+    "source_line": 2479,
+    "type": "thm",
+    "labels": [
+      "h:thm:Cheb",
+      "h:eq:Cheb"
+    ],
+    "statement": "\\label{h:thm:Cheb}\nFix $1\\le m<n$ and $a>2$. For all sufficiently small $\\eps>0$,\n\\begin{equation}\\label{h:eq:Cheb}\n h_\\eps(z)=\\eps T_n(z)-2\\Ima T_m(z-a)\n\\end{equation}\nhas exactly $(m+2)n-m-\\gcd(m,n)$ distinct nondegenerate zeros.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "thm:cheb"
+    ]
+  },
+  {
+    "source_line": 2532,
+    "type": "lem",
+    "labels": [
+      "h:lem:crossings"
+    ],
+    "statement": "\\label{h:lem:crossings}\nFor $a>2$, a curve of angle $\\theta$ and a translated curve of angle\n$\\phi$ have one transverse intersection if $\\theta<\\phi$, and none\nif $\\theta\\ge\\phi$.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "lem:crossing"
+    ]
+  },
+  {
+    "source_line": 2653,
+    "type": "cor",
+    "labels": [
+      "h:cor:Wilmshurst"
+    ],
+    "statement": "\\label{h:cor:Wilmshurst}\nIf $2\\le m\\le n-2$ and $(m,n)\\ne(2,4)$, there is a harmonic polynomial\nof degrees $(m,n)$ with more than $3n-2+m(m-1)$ distinct zeros.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "cor:wilm"
+    ]
+  },
+  {
+    "source_line": 2706,
+    "type": "thm",
+    "labels": [
+      "r:thm:main",
+      "r:eq:maximum"
+    ],
+    "statement": "\\label{r:thm:main}\nFor every $1\\le m<n$,\n\\begin{equation}\\label{r:eq:maximum}\n A_{m,n}=n(m+1)+\n \\begin{cases}\n 0,&n-m\\text{ is odd},\\\\\n m,&n-m\\text{ is even}.\n \\end{cases}\n\\end{equation}\nThe maximum is attained with $\\eps\\in\\Q_{>0}$, $R\\in\\Q[x,y]$, and all\nzeros nondegenerate.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 2731,
+    "type": "thm",
+    "labels": [
+      "r:thm:leading",
+      "r:eq:leading"
+    ],
+    "statement": "\\label{r:thm:leading}\nSuppose $n-m$ is even. Every polynomial in \\eqref{r:eq:family} satisfies\n\\begin{equation}\\label{r:eq:leading}\n N(F)\\le n(m+1)+s(H_m).\n\\end{equation}\nFor each integer $s$ with $0\\le s\\le m$ and $s\\equiv m\\pmod2$, the\nmaximum among such polynomials with $s(H_m)=s$ equals $n(m+1)+s$.\nIt is attained with rational coefficients and only nondegenerate zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 2787,
+    "type": "lem",
+    "labels": [
+      "r:lem:cycle",
+      "r:eq:cycle"
+    ],
+    "statement": "\\label{r:lem:cycle}\nIf $n-m$ is even and $H_m$ is a nonzero real homogeneous polynomial\nof degree $m$, then\n\\begin{equation}\\label{r:eq:cycle}\n 2B(H_m)\\le n+s(H_m).\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 2992,
+    "type": "prop",
+    "labels": [
+      "q:prop:binomial"
+    ],
+    "statement": "\\label{q:prop:binomial}\nLet $n\\ge2$. A degree-$n$ polyanalytic polynomial with at most two\nnonzero monomials and finitely many zeros has at most $2n$ distinct\nzeros. This bound is attained.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "thm:sparse"
+    ]
+  },
+  {
+    "source_line": 3025,
+    "type": "cor",
+    "labels": [
+      "q:cor:minimaldegree"
+    ],
+    "statement": "\\label{q:cor:minimaldegree}\nOne has $s_1=1$, $s_2=2$, $s_3=3$, and $s_4=3$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3051,
+    "type": "thm",
+    "labels": [
+      "q:thm:quartic",
+      "q:eq:quartic"
+    ],
+    "statement": "\\label{q:thm:quartic}\nThe polynomial\n\\begin{equation}\\label{q:eq:quartic}\n F(z)=z^4+z\\bar z^2-\\frac18\\bar z\n\\end{equation}\nhas sixteen nondegenerate zeros. Among all degree-four polyanalytic\npolynomials with sixteen distinct zeros, the least number of nonzero\ncoefficients is three.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "conj:sparse",
+      "thm:sparse"
+    ]
+  },
+  {
+    "source_line": 3064,
+    "type": "thm",
+    "labels": [
+      "q:thm:even"
+    ],
+    "statement": "\\label{q:thm:even}\nFor every even integer $n\\ge2$, there is a polynomial\n$P\\in\\Q[z,w]$ whose unique leading homogeneous term is a nonzero multiple\nof $z^n$, with $\\deg_wP=n/2$, exactly $n/2+1$ nonzero coefficients, and\n$n^2$ nondegenerate zeros on $w=\\bar z$.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "thm:sparse"
+    ]
+  },
+  {
+    "source_line": 3130,
+    "type": "prop",
+    "labels": [
+      "q:prop:region"
+    ],
+    "statement": "\\label{q:prop:region}\nFor the family \\eqref{q:eq:quarticfamily},\n\\[\n N(F_\\tau)=\n \\begin{cases}\n 16,&\\mathcal D(a,b)>0,\\\\\n 11,&\\mathcal D(a,b)=0,\\quad\n       \\tau\\notin\\{0,\\,1/6+i/(6\\sqrt3),\\,1/6-i/(6\\sqrt3)\\},\\\\\n 6,&\\text{otherwise}.\n \\end{cases}\n\\]\nIf $\\mathcal D(a,b)\\ne0$, every zero is nondegenerate.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3193,
+    "type": "thm",
+    "labels": [
+      "q:thm:cyclic",
+      "q:eq:cyclicmaximum"
+    ],
+    "statement": "\\label{q:thm:cyclic}\nFor every $n\\ge2$,\n\\begin{equation}\\label{q:eq:cyclicmaximum}\n \\max_{F\\in\\Ccal_n}N(F)=\n \\begin{cases}\n n^2,&n\\text{ even},\\\\\n n^2-n-1,&n\\text{ odd}.\n \\end{cases}\n\\end{equation}\nThe maximum is attained with rational coefficients, exactly $k+1$\nnonzero monomials, and all zeros nondegenerate.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3209,
+    "type": "lem",
+    "labels": [
+      "q:lem:amplitude",
+      "q:eq:amplitude",
+      "q:eq:generaljac"
+    ],
+    "statement": "\\label{q:lem:amplitude}\nFor $F=cz^n+\\bar zR(|z|^2)\\in\\Ccal_n$, let $Z_+(\\Phi)$ be the number\nof distinct positive roots of\n\\begin{equation}\\label{q:eq:amplitude}\n \\Phi(s)=|c|^2s^{n-1}-R(s)\\overline{R(\\bar s)}\\in\\R[s].\n\\end{equation}\nThen $N(F)=1+(n+1)Z_+(\\Phi)$. At a nonzero zero with $s=|z|^2$,\n\\begin{equation}\\label{q:eq:generaljac}\n J_F(z)=(n+1)s\\Phi'(s).\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3244,
+    "type": "lem",
+    "labels": [
+      "q:lem:dominance"
+    ],
+    "statement": "\\label{q:lem:dominance}\nLet $0\\le e_0<\\cdots<e_q$ be integers and\n$\\sigma_j\\in\\{-1,1\\}$. Let $t>0$ satisfy $qt<1$. Then\n\\[\n p_t(r)=\\sum_{j=0}^q\\sigma_jt^{e_j^2}r^{e_j}\n\\]\nhas exactly as many positive roots as there are sign changes in\n$(\\sigma_0,\\ldots,\\sigma_q)$. Every positive root is simple.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3325,
+    "type": "cor",
+    "labels": [
+      "q:cor:supportall"
+    ],
+    "statement": "\\label{q:cor:supportall}\nFor every $n\\ge2$, there is a rational-coefficient polynomial of total\ndegree $n$, with holomorphic leading term,\n$\\lceil n/2\\rceil+1$ nonzero coefficients, and $n^2$ nondegenerate zeros.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "thm:sparse"
+    ]
+  },
+  {
+    "source_line": 3364,
+    "type": "prop",
+    "labels": [
+      "v:prop:five",
+      "v:eq:fivezeros"
+    ],
+    "statement": "\\label{v:prop:five}\nLet $F_5$ be given by \\eqref{v:eq:quintic}, and set\n\\[\n \\rho_\\pm=\\frac{128\\pm4\\sqrt{34}}{99}.\n\\]\nIts zero set consists of the $25$ distinct points\n\\begin{equation}\\label{v:eq:fivezeros}\n \\left\\{\\rho_\\pm e^{2\\pi i j/5}:0\\le j<5\\right\\}\n \\ \\cup\\\n \\left\\{r e^{(2j+1)\\pi i/5}:r\\in\\{1,2,10\\},\\ 0\\le j<5\\right\\}.\n\\end{equation}\nEvery zero is nondegenerate.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3425,
+    "type": "lem",
+    "labels": [
+      "d:lem:quadratic"
+    ],
+    "statement": "\\label{d:lem:quadratic}\nIf $\\alpha,\\beta\\in\\C$ and $|\\alpha|<|\\beta|$, then\n$u^2+\\alpha u-\\beta\\bar u$ has exactly four zeros, all nondegenerate.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3443,
+    "type": "lem",
+    "labels": [
+      "d:lem:square",
+      "d:eq:square"
+    ],
+    "statement": "\\label{d:lem:square}\nSuppose $f=z^N+$ lower-total-degree terms has $N^2$ distinct zeros.\nLet $A,B\\in\\C[z,w]$ satisfy $\\deg(Af-Bf^*)<2N$ and\n\\[\n |A(z,\\bar z)|<|B(z,\\bar z)|\\quad\\text{whenever }F_f(z)=0.\n\\]\nFor all sufficiently small positive $\\eps$, the polynomial\n\\begin{equation}\\label{d:eq:square}\n g_\\eps=f^2+\\eps(Af-Bf^*)\n\\end{equation}\nhas exactly $4N^2$ real-slice zeros, all nondegenerate and lying in\narbitrarily small neighborhoods of the zeros of $F_f$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3486,
+    "type": "prop",
+    "labels": [
+      "d:prop:seeds",
+      "d:eq:roots",
+      "d:eq:top"
+    ],
+    "statement": "\\label{d:prop:seeds}\nFor every $k\\ge2$, the polynomial $H_k$ has highest homogeneous part\n$z^k$, support contained in $i+2j\\le k$, and exactly $k^2$ nonzero\nnondegenerate real-slice zeros. They are\n\\begin{equation}\\label{d:eq:roots}\n z=b(u^{-1}+v^{-1})-auv,\\qquad u^k=1,\\quad v^k=-1.\n\\end{equation}\nIts conjugate degree is $\\lfloor k/2\\rfloor$. For $k=2r+1\\ge3$,\n\\begin{equation}\\label{d:eq:top}\n [w^r]H_{2r+1}=(2r+1)b^rz.\n\\end{equation}\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "lem:models"
+    ]
+  },
+  {
+    "source_line": 3534,
+    "type": "lem",
+    "labels": [
+      "v21:lem:tracegeometry"
+    ],
+    "statement": "[Trace geometry near the origin]\\label{v21:lem:tracegeometry}\nFor every $s\\in\\C$ with $|s|<1$, the polynomial\n$X^3-sX^2+\\bar sX-1$ has three distinct unit roots. If\n$0<R=|s|<1$, they can be numbered as\n\\[\n \\eta_j=\\omega_j e^{i\\delta_j},\\qquad \\omega_j^3=1,\n \\quad \\sum_j\\delta_j=0,\n \\quad |\\delta_j|\\le\\tfrac23\\arcsin R<\\tfrac\\pi3.\n\\]\nIn particular, if $h=\\max_j|\\delta_j|$, then $h>0$,\n$\\sum_j|\\delta_j|=2h$, and $R\\ge\\sin(3h/2)$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3562,
+    "type": "prop",
+    "labels": [
+      "v20:prop:powers",
+      "v20:eq:constants"
+    ],
+    "statement": "[Best constants for orders two through five]\n\\label{v20:prop:powers}\nLet $|\\eta_j|=1$, $\\eta_1\\eta_2\\eta_3=1$, and\n$s=\\eta_1+\\eta_2+\\eta_3\\ne0$. The least constants $C_k$ for which\n\\[\n \\left|\\eta_1^k+\\eta_2^k+\\eta_3^k-3\\mathbf1_{3\\mid k}\\right|\n \\le C_k|s|\n\\]\nholds for every such triple are\n\\begin{equation}\\label{v20:eq:constants}\n C_2=3,\\qquad C_3=4,\\qquad\n C_4=\\frac{52+20\\sqrt{10}}{27},\\qquad\n C_5=5+5\\rho-5\\rho^2-5\\rho^3-\\rho^4,\n\\end{equation}\nwhere $\\rho$ is the unique positive root of\n$4\\rho^3+15\\rho^2+10\\rho-5=0$; in fact $3/10<\\rho<1/3$.\nWriting $\\omega=e^{2\\pi i/3}$, equality holds precisely at the traces\n\\[\n \\begin{array}{c|c}\n k&\\text{equality traces}\\\\ \\hline\n 2,3&s^3=-1\\\\[2pt]\n 4&s=\\dfrac{4-\\sqrt{10}}3\\,\\omega^j,\\quad j=0,1,2\\\\[5pt]\n 5&s=-\\rho\\omega^j,\\quad j=0,1,2.\n \\end{array}\n\\]\nEach trace determines the unordered triple uniquely as the roots of\n$X^3-sX^2+\\bar sX-1$. For $k=2,3$, the triples are the permutations\nof $(q,q,-q)$ with $q^3=-1$. For $k=4,5$, all three roots are distinct.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3657,
+    "type": "prop",
+    "labels": [
+      "v24:prop:sixthpower",
+      "v24:eq:cubic",
+      "v24:eq:C6",
+      "v24:eq:equality"
+    ],
+    "statement": "[The sixth-order constant and all equality cases]\n\\label{v24:prop:sixthpower}\nWith the notation of Proposition~\\ref{v20:prop:powers}, let $y_*$\nbe the unique root in $(0,1)$ of\n\\begin{equation}\\label{v24:eq:cubic}\n                    25y^3-50y^2-5y+12=0,\n\\end{equation}\nand put $x_*=(5y_*^2-11y_*+4)/2$. Then\n\\begin{equation}\\label{v24:eq:C6}\n C_6=\\frac{6}{5\\sqrt5}\n            \\sqrt{545y_*^2-1420y_*+704}.\n\\end{equation}\nEquality holds exactly at the six traces satisfying\n\\begin{equation}\\label{v24:eq:equality}\n                 |s|^2=y_*,\\qquad \\Rea(s^3)=y_*x_*.\n\\end{equation}\nEach trace determines the unordered triple as the three distinct\nunit roots of $X^3-sX^2+\\bar sX-1$.\nIn particular, the equality traces do not lie on the rays\n$\\Im(s^3)=0$ that supplied the lower-order maxima.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3757,
+    "type": "prop",
+    "labels": [
+      "v26:prop:power78",
+      "v26:eq:constants",
+      "v26:eq:equality"
+    ],
+    "statement": "[Seventh- and eighth-order constants and equality]\n\\label{v26:prop:power78}\nWith the notation of Proposition~\\ref{v20:prop:powers}, put\n\\begin{align*}\n f_7(R)&=7+7R-21R^2+14R^4-7R^5+R^6,\\\\\n f_8(R)&=8+12R-24R^2-30R^3+8R^4+20R^5+8R^6+R^7.\n\\end{align*}\nFor $k=7,8$, let $\\rho_k$ be the unique zero of $f_k'$ in\n$(0,3/k)$. Then the individual sharp constants are\n\\begin{equation}\\label{v26:eq:constants}\n                         C_7=f_7(\\rho_7),\\qquad C_8=f_8(\\rho_8).\n\\end{equation}\nAll equality traces are, respectively,\n\\begin{equation}\\label{v26:eq:equality}\n s=\\rho_7\\omega^j\\quad(k=7),\\qquad\n s=-\\rho_8\\omega^j\\quad(k=8),\\qquad j=0,1,2.\n\\end{equation}\nEach trace determines the unordered triple as the three distinct\nunit roots of $X^3-sX^2+\\bar sX-1$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3841,
+    "type": "prop",
+    "labels": [
+      "v27:prop:ninthpower",
+      "v27:eq:objective",
+      "v27:eq:constant"
+    ],
+    "statement": "[The ninth-order constant and all equality cases]\n\\label{v27:prop:ninthpower}\nWith the notation of Proposition~\\ref{v20:prop:powers}, define\n\\begin{align*}\n F_9(Y)={}&512Y^9-7616Y^8+43848Y^7-123203Y^6\n                +172055Y^5\\\\\n         &-97935Y^4-9396Y^3+23040Y^2-189Y-972,\\\\\n L_9(Y)={}&15207936Y^8-197849152Y^7+915234552Y^6\\\\\n         &-1698080469Y^5+594170401Y^4+1588963305Y^3\\\\\n         &-1428234222Y^2+164181132Y+22342419.\n\\end{align*}\nLet $y_*$ be the unique zero of $F_9$ in $(0,49/100)$, and put\n$x_*=-L_9(y_*)/22654044$. For $Y>0$ set\n\\begin{equation}\\label{v27:eq:objective}\n \\begin{split}\n a&=YX-3Y+3,\\qquad b=a^2+Y^2(Y-X^2),\\\\\n Q_9(X,Y)&=\\frac{b(b^2+9b-24a^3+18ab)}{Y}.\n \\end{split}\n\\end{equation}\nThen the sharp constant and all equality traces are\n\\begin{equation}\\label{v27:eq:constant}\n C_9=\\sqrt{Q_9(x_*,y_*)},\\qquad\n |s|^2=y_*,\\quad \\Rea(s^3)=y_*x_*.\n\\end{equation}\nThere are exactly six such traces, each determining the unordered\ntriple as the three distinct unit roots of\n$X^3-sX^2+\\bar sX-1$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 3944,
+    "type": "thm",
+    "labels": [
+      "v34:thm:nonmultiples",
+      "v34:eq:constant",
+      "v34:eq:equality"
+    ],
+    "statement": "[Every order not divisible by three]\n\\label{v34:thm:nonmultiples}\nFor $k\\ge4$ with $3\\nmid k$, define\n\\[\n \\sigma_k=\\begin{cases}1,&k\\equiv1\\pmod3,\\\\-1,&k\\equiv2\\pmod3,\n \\end{cases}\n \\qquad F_k(R)=\\frac{T_k(\\sigma_kR,\\sigma_kR)}R,\n\\]\nwhere $T_k$ is the integer polynomial in\n\\eqref{v5:eq:canonical}. The quotient is a polynomial, with\n$F_k(0)=k$. Its derivative has exactly one zero $\\rho_k$ in\n$(0,3/k)$. The individual sharp constant is\n\\begin{equation}\\label{v34:eq:constant}\n                         C_k=F_k(\\rho_k)>k.\n\\end{equation}\nEquality holds precisely at the three traces\n\\begin{equation}\\label{v34:eq:equality}\n                         s=\\sigma_k\\rho_k\\omega^j,\n                         \\qquad j=0,1,2.\n\\end{equation}\nEach trace determines the unordered triple as the three distinct\nunit roots of $X^3-sX^2+\\bar sX-1$.\nThus no finite-order cutoff is required for orders not divisible\nby three. Orders $3,6,9$ were treated above; this theorem does\nnot determine the individual constants at multiples of three.\nProposition~\\ref{v35:prop:power1215} below additionally settles\norders twelve and fifteen; multiples starting at eighteen remain open.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4141,
+    "type": "cor",
+    "labels": [
+      "v34:cor:asymptotic",
+      "v34:eq:asymptotic"
+    ],
+    "statement": "[The sharp asymptotic constant in these orders]\n\\label{v34:cor:asymptotic}\nLet $t_*$ be the unique root in $(0,\\pi/3)$ of\n\\[\n t(\\sin t+\\sqrt3\\cos t)=1-\\cos t+\\sqrt3\\sin t.\n\\]\nThen, along integers not divisible by three,\n\\begin{equation}\\label{v34:eq:asymptotic}\n k\\rho_k\\longrightarrow\\sqrt3\\,t_*,\\qquad\n \\frac{C_k}{k}\\longrightarrow\n \\Gamma:=\\frac{1-\\cos t_*+\\sqrt3\\sin t_*}{\\sqrt3\\,t_*}.\n\\end{equation}\nNumerically, $\\sqrt3\\,t_*\\approx1.35878949$ and\n$\\Gamma\\approx1.11562380$. These are asymptotic values for\nthe specified residue classes, not a replacement for the\nall-order optimal coefficient $4/3$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4187,
+    "type": "prop",
+    "labels": [
+      "v35:prop:power1215",
+      "v35:eq:c12",
+      "v35:eq:c15",
+      "v35:eq:q",
+      "v35:eq:critical",
+      "v35:eq:equality"
+    ],
+    "statement": "[The twelfth and fifteenth orders]\n\\label{v35:prop:power1215}\nThe remaining individual constants through order seventeen are also\nsharp. More precisely,\n\\begin{align}\n 11.5606419718&<C_{12}<11.5606419719,\\label{v35:eq:c12}\\\\\n 14.3757909243&<C_{15}<14.3757909244.\\label{v35:eq:c15}\n\\end{align}\nThe following algebraic description specifies the constants exactly\nand gives every equality case. For $k\\in\\{12,15\\}$ put\n\\[\n a=3-3Y+YX,\\qquad b^2=Y^2(Y-X^2),\n\\]\nand define the integer polynomial\n\\begin{equation}\\label{v35:eq:q}\n Q_k(X,Y)=\\frac{\n [T_{k/3}(a+ib,a-ib)-3]\n [T_{k/3}(a-ib,a+ib)-3]}Y.\n\\end{equation}\nThe numerator is even in $b$; substitute the displayed value of\n$b^2$ and cancel the factor $Y$. Let\n\\[\n (L_{12},b_{12})=(23/2,12/23),\\qquad\n (L_{15},b_{15})=(57/4,8/19).\n\\]\nFor each of these orders there is exactly one solution\n$(X_k,Y_k)$ of\n\\begin{equation}\\label{v35:eq:critical}\n \\partial_XQ_k=\\partial_YQ_k=0,\n \\qquad X^2<Y<b_k^2.\n\\end{equation}\nThen $C_k=\\sqrt{Q_k(X_k,Y_k)}$. Equality holds at exactly\nsix traces, characterized by\n\\begin{equation}\\label{v35:eq:equality}\n                    |s|^2=Y_k,\\qquad \\Rea(s^3)=X_kY_k.\n\\end{equation}\nEach determines the unordered triple as the distinct unit roots\nof $X^3-sX^2+\\bar sX-1$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4293,
+    "type": "lem",
+    "labels": [
+      "d:lem:powers",
+      "v21:lem:uniform",
+      "d:eq:powerbound"
+    ],
+    "statement": "[Optimal uniform linear coefficient]\\label{d:lem:powers}\n\\label{v21:lem:uniform}\nIf $|\\eta_j|=1$, $\\eta_1\\eta_2\\eta_3=1$, and\n$s=\\eta_1+\\eta_2+\\eta_3\\ne0$, then, for every $k\\ge3$,\n\\begin{equation}\\label{d:eq:powerbound}\n \\left|\\eta_1^k+\\eta_2^k+\\eta_3^k-3\\mathbf1_{3\\mid k}\\right|\n \\le\\frac{4k}{3}|s|<(2k-1)|s|.\n\\end{equation}\nThe coefficient $4/3$ is the smallest real number $A$ for which\nthe bound $Ak|s|$ holds simultaneously for all $k\\ge3$ and all\nadmissible triples. Equality in the first inequality occurs exactly\nwhen $k=3$ and the triple is a permutation of $(q,q,-q)$ with\n$q^3=-1$; for every $k\\ge4$ it is strict.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4369,
+    "type": "prop",
+    "labels": [
+      "d:prop:two"
+    ],
+    "statement": "\\label{d:prop:two}\nFor every even $m\\ge2$, and for every $m\\ge5$ with $m\\equiv1\\pmod4$,\nthere is a polynomial in $\\Ecal_{m,2m+2}$ with $(2m+2)^2$\nnondegenerate zeros and coefficients in $\\Q(i)$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4450,
+    "type": "prop",
+    "labels": [
+      "d:prop:iterate",
+      "d:eq:twoinequalities",
+      "d:eq:newinequalities"
+    ],
+    "statement": "\\label{d:prop:iterate}\nSuppose $f$ has $N^2$ nondegenerate zeros. Let $S=w+s(z)$, with\n$\\deg S<N$, and suppose that at every zero of $F_f$,\n\\begin{equation}\\label{d:eq:twoinequalities}\n |A|<|B|,\\qquad |S|(|A|+|B|)<|d|.\n\\end{equation}\nFor all sufficiently small positive $\\eps$, put\n\\[\n g=f^2+\\eps(Af-Bf^*),\\qquad A_g=Sf^*.\n\\]\nThen $g$ has highest homogeneous part $z^{2N}$, conjugate degree exactly\n$N-1$, and $(2N)^2$ nondegenerate zeros. With $B_g,C_g,D_g,e_g,d_g$\ndefined from $g,A_g$ as in \\eqref{d:eq:nextcoefficient}, every zero of $F_g$\nsatisfies\n\\begin{equation}\\label{d:eq:newinequalities}\n |A_g|<|B_g|,\\qquad |w|(|A_g|+|B_g|)<|d_g|.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4530,
+    "type": "prop",
+    "labels": [
+      "d:prop:certificate",
+      "d:eq:certifiedinequalities"
+    ],
+    "statement": "\\label{d:prop:certificate}\nThe polynomial $f_0$ has highest homogeneous part $z^8$, conjugate degree\nthree, and $64$ nondegenerate zeros. The polynomial $A_0$ has total degree\nfive and is monic of degree five in $w$; $S_0=w+s_0(z)$ with\n$\\deg s_0=3$. With\n\\[\n B_0=[w^3]f_0,\\quad C_0=[w^2]f_0,\\quad D_0=[w^4]A_0,\\quad\n e_0=[w^7]f_0^*,\\quad d_0=C_0+B_0(D_0-e_0),\n\\]\nevery zero of $F_{f_0}$ satisfies\n\\begin{equation}\\label{d:eq:certifiedinequalities}\n |A_0|<\\frac3{50}|B_0|,\\qquad\n |S_0|(|A_0|+|B_0|)<\\frac7{10}|d_0|.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4565,
+    "type": "cor",
+    "labels": [
+      "d:cor:powersoftwo"
+    ],
+    "statement": "\\label{d:cor:powersoftwo}\nFor every integer $j\\ge0$, there is a polynomial with highest homogeneous\npart $z^{2^{j+3}}$, exact conjugate degree $2^{j+2}-1$, and\n$2^{2j+6}$ nondegenerate zeros. Its coefficients may be taken in $\\Q(i)$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4586,
+    "type": "prop",
+    "labels": [
+      "d:prop:composition"
+    ],
+    "statement": "\\label{d:prop:composition}\nSuppose $f=z^N+$ lower-total-degree terms has conjugate degree exactly\n$m$, where $N>2m$, and has $N^2$ nondegenerate zeros. For every odd integer\n$q=2s+1\\ge3$, there is a polynomial with highest homogeneous part\n$z^{qN}$, conjugate degree exactly $m+sN$, and $(qN)^2$ nondegenerate\nzeros. Rational coefficients may be retained when $f\\in\\Q(i)[z,w]$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4625,
+    "type": "prop",
+    "labels": [
+      "d:prop:boundary"
+    ],
+    "statement": "\\label{d:prop:boundary}\nFor every integer $m\\ge2$, there is a polynomial in $\\Ecal_{m,2m+2}$\nwith conjugate degree exactly $m$ and $(2m+2)^2$ nondegenerate zeros.\nAll coefficients may be taken in $\\Q(i)$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4658,
+    "type": "prop",
+    "labels": [
+      "d:prop:transfer"
+    ],
+    "statement": "\\label{d:prop:transfer}\nSuppose $n>m\\ge2$ and there is a polynomial in $\\Ecal_{m,n}$ with $n^2$\nnondegenerate zeros. Then there is a polynomial of exact bidegree $(m,n)$\nwith $n^2+m^2$ nondegenerate zeros. Rational coefficients may be retained.\n",
+    "disposition": "Used, reformulated, or restricted in the submission; see proof_audit.json.",
+    "submission_labels": [
+      "prop:transfer"
+    ]
+  },
+  {
+    "source_line": 4726,
+    "type": "thm",
+    "labels": [
+      "c:thm:main",
+      "c:eq:main"
+    ],
+    "statement": "\\label{c:thm:main}\nFor every integer $r\\ge1$,\n\\begin{equation}\\label{c:eq:main}\n E_{3r,6r+3}=(6r+3)^2,\\qquad\n M_{3r,6r+3}=(6r+3)^2+9r^2.\n\\end{equation}\nThe extrema have exact conjugate degree $3r$, rational real coefficients,\nand only nondegenerate zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4747,
+    "type": "thm",
+    "labels": [
+      "v6:thm:cubicradius",
+      "v6:eq:cubicradius",
+      "v6:eq:optimalconstant"
+    ],
+    "statement": "[Optimal uniform disk for the cubic model]\\label{v6:thm:cubicradius}\nFor $0<\\kappa<4/27$ consider\n\\[\n H_{\\kappa,e}(v)=v^3+|v|^2+e\\bar v-\\kappa.\n\\]\nLet $r\\in(1/2,2/3)$ be the unique solution of\n$\\kappa=r^2(2r-1)$. The largest radius $R(\\kappa)$ such that\nevery $|e|<R(\\kappa)$ gives nine distinct, nondegenerate zeros is\n\\begin{equation}\\label{v6:eq:cubicradius}\n R(\\kappa)=\\min\\{\\kappa,\\ 2r-3r^2\\}.\n\\end{equation}\nOver all real $\\kappa$, the largest such positive radius is\n\\begin{equation}\\label{v6:eq:optimalconstant}\n R_* =\\kappa_* =\\frac{5\\sqrt5-11}{2}\n       =0.0901699437\\ldots,\n\\end{equation}\nattained uniquely at $\\kappa=\\kappa_*$. In particular,\n$R(9/100)=9/100$, so the rational choice used below retains\nits exact claimed radius, although it is not the unique optimal\nchoice in the larger real-parameter family.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4838,
+    "type": "lem",
+    "labels": [
+      "c:lem:cubic"
+    ],
+    "statement": "\\label{c:lem:cubic}\nFor every $e\\in\\C$ with $|e|<\\kappa$, the polynomial\n\\[\n H_e(v)=v^3+|v|^2+e\\bar v-\\kappa\n\\]\nhas exactly nine zeros, all nondegenerate. The radius $\\kappa$ is optimal\nfor this fixed value of the constant term.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4853,
+    "type": "cor",
+    "labels": [
+      "c:cor:local",
+      "c:eq:localcoefficients"
+    ],
+    "statement": "\\label{c:cor:local}\nLet $a,b,\\delta\\in\\C$, where $b\\ne0$ and\n$|\\delta|<\\kappa|b|^2$. Put\n\\begin{equation}\\label{c:eq:localcoefficients}\n d=\\frac{a^2+b\\bar a}{3},\\qquad\n e=\\frac{ba}{3}+\\delta,\\qquad\n g=\\frac{a^3}{27}+\\frac{b|a|^2}{9}\n       +\\frac{\\delta\\bar a}{3}-\\kappa|b|^2b.\n\\end{equation}\nThen $u^3+au^2+bu\\bar u+du+e\\bar u+g$ has exactly nine\nnondegenerate zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4893,
+    "type": "lem",
+    "labels": [
+      "c:lem:seed"
+    ],
+    "statement": "\\label{c:lem:seed}\nThe polynomial $f$ in \\eqref{c:eq:seeddata} has exactly $N^2$\nnondegenerate zeros. Every zero satisfies $|z|\\ge3\\epsilon/4$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 4961,
+    "type": "lem",
+    "labels": [
+      "c:lem:degrees"
+    ],
+    "statement": "\\label{c:lem:degrees}\nFor $r\\ge2$, every $T_j$ in \\eqref{c:eq:corrections} has total degree\nless than $3N$ and conjugate degree at most $3r$. In addition,\n$\\deg_w T_3\\le2r$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5002,
+    "type": "prop",
+    "labels": [
+      "c:prop:family"
+    ],
+    "statement": "\\label{c:prop:family}\nFor every fixed $r\\ge2$, the polynomial $P_t$ belongs to\n$\\Ecal_{3r,3N}$, has exact conjugate degree $3r$, and has exactly\n$9N^2$ nondegenerate zeros for all sufficiently small $t>0$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5141,
+    "type": "thm",
+    "labels": [
+      "v2:thm:main",
+      "v2:eq:main"
+    ],
+    "statement": "\\label{v2:thm:main}\nFor every integer $r\\ge3$, put $m=4r$ and $n=8r+4$. Then\n\\begin{equation}\\label{v2:eq:main}\n E_{4r,8r+4}=(8r+4)^2,\\qquad\n M_{4r,8r+4}=16r^2+(8r+4)^2.\n\\end{equation}\nBoth maxima are attained over $\\Q(i)$, with exact conjugate degree $4r$\nand only nondegenerate zeros. Thus the quadratic bounds are sharp on\nthe additional diagonal $n=2m+4$, for $m\\equiv0\\pmod4$, $m\\ge12$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5167,
+    "type": "lem",
+    "labels": [
+      "v2:lem:model"
+    ],
+    "statement": "\\label{v2:lem:model}\nIf $b/\\bar b$ is not a root of unity, then $\\mathcal H_b$ has exactly\nsixteen zeros, all nondegenerate.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5198,
+    "type": "lem",
+    "labels": [
+      "v2:lem:stability",
+      "v2:eq:perturbedmodel"
+    ],
+    "statement": "\\label{v2:lem:stability}\nLet $\\mathcal B$ be a finite set of complex numbers of modulus one,\neach satisfying the hypothesis of Lemma~\\ref{v2:lem:model}.\nThere is $\\eta>0$ such that, for $b/|b|\\in\\mathcal B$,\n$|a|\\le2|b|$, and\n\\[\n |d_2|/|b|^2+|d_3|/|b|^3<\\eta,\n\\]\nthe polynomial\n\\begin{equation}\\label{v2:eq:perturbedmodel}\n \\mathcal H_b(u+a/4)-d_2u\\bar u-d_3\\bar u\n\\end{equation}\nhas exactly sixteen nondegenerate zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5299,
+    "type": "lem",
+    "labels": [
+      "v2:lem:degrees"
+    ],
+    "statement": "\\label{v2:lem:degrees}\nFor $r\\ge3$, all four $T_j$ have conjugate degree at most $4r$ and\ntotal degree below $4N$. Thus $P_{\\epsilon,t}\\in\\Ecal_{4r,4N}$;\nits conjugate degree is exactly $4r$ for all sufficiently small $t$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5414,
+    "type": "cor",
+    "labels": [
+      "v2:cor:circle",
+      "v2:eq:circle"
+    ],
+    "statement": "\\label{v2:cor:circle}\nFor $r\\ge3$ and $s\\ge0$,\n\\begin{equation}\\label{v2:eq:circle}\n M_{4r+s,8r+4+s}=(4r+s)^2+(8r+4+s)^2.\n\\end{equation}\nIn particular $M_{4r+1,8r+5}$ attains its quadratic bound. This\nadds rectangular equality cases on $n=2m+3$ for $m\\equiv1\\pmod4$,\n$m\\ge13$, beyond the earlier condition $3\\mid m$ whenever that\ncondition fails.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5460,
+    "type": "thm",
+    "labels": [
+      "v3:thm:splitting",
+      "v3:eq:main",
+      "v4:eq:rectangle"
+    ],
+    "statement": "[Splitting of arbitrary order]\\label{v3:thm:splitting}\nFor all integers $r\\ge1$ and $k\\ge1$,\n\\begin{equation}\\label{v3:eq:main}\n E_{kr,k(2r+1)}=k^2(2r+1)^2.\n\\end{equation}\nFor every $r\\ge1$, $k\\ge1$, and $kr\\le m<k(2r+1)$,\n\\begin{equation}\\label{v4:eq:rectangle}\n M_{m,k(2r+1)}=m^2+k^2(2r+1)^2.\n\\end{equation}\nAll these maxima admit real rational coefficients, exact conjugate\ndegree $m$ (or $kr$ in \\eqref{v3:eq:main}), and only nondegenerate zeros.\nClearing denominators gives integer-coefficient extremizers.\nIn particular, $E_{m,3k}=9k^2$ and $M_{m,3k}=m^2+9k^2$\nfor $k\\le m<3k$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5476,
+    "type": "thm",
+    "labels": [
+      "v3:thm:band",
+      "v3:eq:bandcondition",
+      "v3:eq:band"
+    ],
+    "statement": "[A linear sharp region]\\label{v3:thm:band}\nIf $m,n$ are integers satisfying\n\\begin{equation}\\label{v3:eq:bandcondition}\n 1\\le m<n\\le3m,\\qquad n\\ne3m-1,\n\\end{equation}\nthen\n\\begin{equation}\\label{v3:eq:band}\n M_{m,n}=m^2+n^2.\n\\end{equation}\nThe examples under \\eqref{v3:eq:bandcondition} can be chosen over\n$\\Q$, hence over $\\Z$ after scaling, with a nonzero coefficient of\n$z^nw^m$, and all their zeros are nondegenerate. They are irreducible.\nThe previously established cases $(1,2),(2,5),(3,8)$ also satisfy\n\\eqref{v3:eq:band}. Thus the only line not settled here inside\n$m<n\\le3m$ is $n=3m-1$, $m\\ge4$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5534,
+    "type": "thm",
+    "labels": [
+      "v5:thm:fibers"
+    ],
+    "statement": "[Complete local fiber count]\\label{v5:thm:fibers}\nFor every $k\\ge2$ and every $c\\in\\C$, the number of distinct\nsolutions of $T_k(u,\\bar u)=c$ is exactly as follows:\n\\begin{center}\n\\begin{tabular}{@{}lll@{}}\n\\toprule\nTarget & All distinct solutions & Nondegenerate solutions\\\\\n\\midrule\n$D(c)<0$ & $k^2$ & $k^2$\\\\\n$D(c)>0$ & $k$ & $k$\\\\\n$D(c)=0$, $c\\notin\\{3,3\\omega,3\\omega^2\\}$\n    & $k(k+1)/2$ & $k$\\\\\n$c=3\\omega^j$ & $(k^2+3k+2\\delta_{k,j})/6$ & $\\delta_{k,j}$\\\\\n\\bottomrule\n\\end{tabular}\n\\end{center}\nHere $\\delta_{k,j}=1$ if $3\\nmid k$; if $3\\mid k$, it is $3$\nfor $j=0$ and $0$ for $j=1,2$. In particular, $D(c)<0$ is\nnecessary and sufficient for $k^2$ distinct solutions.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5627,
+    "type": "lem",
+    "labels": [
+      "v28:lem:inradius"
+    ],
+    "statement": "[The unique largest disk in the deltoid]\n\\label{v28:lem:inradius}\nLet $\\Omega=\\{c\\in\\C:D(c)<0\\}$. The largest radius of an open\nEuclidean disk contained in $\\Omega$ is one, and its unique center\nis zero. Its boundary contacts with $\\partial\\Omega$ are exactly\nthe three points $c^3=-1$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5696,
+    "type": "cor",
+    "labels": [
+      "v5:cor:disk"
+    ],
+    "statement": "[Sharp constant-target radius]\\label{v5:cor:disk}\nFor every $k\\ge2$, all targets $|c|<1$ have $k^2$ simple\npreimages under $T_k(u,\\bar u)$. The radius one is optimal\namong all open target disks, and the unique maximizing center is zero.\nOn $|c|=1$ the only\nexceptions to $k^2$ simple preimages are $c^3=-1$, where\nthe exact distinct count is $k(k+1)/2$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5717,
+    "type": "cor",
+    "labels": [
+      "v28:cor:quarticdisk",
+      "v28:eq:quarticdisk",
+      "v28:eq:realradius"
+    ],
+    "statement": "[Globally optimal quartic stability disk]\n\\label{v28:cor:quarticdisk}\nFor the normalized quartic family\n$F_\\tau(z)=z^4+z\\bar z^2-\\tau\\bar z$, the unique largest open\nparameter disk on which every polynomial has sixteen distinct\nnondegenerate zeros is\n\\begin{equation}\\label{v28:eq:quarticdisk}\n                         |\\tau-1/9|<1/27.\n\\end{equation}\nOn its boundary, exactly the three parameters\n\\[\n              \\frac4{27},\\qquad\n              \\frac5{54}+\\frac{i\\sqrt3}{54},\\qquad\n              \\frac5{54}-\\frac{i\\sqrt3}{54}\n\\]\nhave fewer than sixteen zeros; each has eleven distinct zeros,\nof which six are nondegenerate.\nMore generally, for a real center $0<a<4/27$, its exact maximal\nradius is\n\\begin{equation}\\label{v28:eq:realradius}\n                  R(a)=\\min\\{a^{3/2},\\ 4/27-a\\}.\n\\end{equation}\nThus the original center $a=1/8$ has radius $5/216$, while\n$a=1/9$ gives the globally optimal radius $1/27$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5779,
+    "type": "cor",
+    "labels": [
+      "v5:cor:orientation"
+    ],
+    "statement": "[The two local orientations]\\label{v5:cor:orientation}\nFor $D(c)<0$, the fiber of $T_k$ has\n$(k^2+k)/2$ positive and $(k^2-k)/2$ negative zeros.\nFor $D(c)>0$, all its $k$ zeros are positive. Every nondegenerate\nzero over a boundary target is positive as well.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5818,
+    "type": "lem",
+    "labels": [
+      "v3:lem:localmodel"
+    ],
+    "statement": "[Necessary and sufficient phase condition]\\label{v3:lem:localmodel}\nFor $k\\ge2$ and $b\\ne0$,\n\\[\n N(\\mathcal H_{k,b})=\n \\begin{cases}\n k^2,&(b/\\bar b)^{2k}\\ne1,\\\\\n k(k+1)/2,&(b/\\bar b)^{2k}=1.\n \\end{cases}\n\\]\nAll zeros in the first case are nondegenerate. In the second case,\nexactly $k$ are nondegenerate. In particular, the older assumption\nthat $b/\\bar b$ is not a root of unity was sufficient but unnecessary.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5847,
+    "type": "lem",
+    "labels": [
+      "v3:lem:stability",
+      "v4:eq:shearedmodel"
+    ],
+    "statement": "[Uniform stability without a phase condition]\n\\label{v3:lem:stability}\nFor each $k\\ge2$ there is a $\\delta_k>0$, independent of\nboth the phase and the magnitude of $b\\ne0$, such that\n\\begin{equation}\\label{v4:eq:shearedmodel}\n S_k(u,\\bar u+\\eta u)\n\\end{equation}\nhas exactly $k^2$ nondegenerate zeros whenever $|\\eta|<\\delta_k$.\nIf $b$ and $\\eta$ are real, precisely $k$ of these zeros are real.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 5886,
+    "type": "thm",
+    "labels": [
+      "v18:thm:shear",
+      "v18:eq:radius",
+      "v18:eq:optimum"
+    ],
+    "statement": "[Optimal cubic shear radius]\\label{v18:thm:shear}\nFor a real constant $c$ define\n\\[\n F_{c,\\eta}(v)=v^3-3|v|^2-3\\eta v^2+c,\n \\qquad \\eta\\in\\C.\n\\]\nA positive centered parameter disk on which all fibers have nine\ndistinct zeros exists exactly when $0<c<4$. In that interval its\nlargest radius, also when nondegeneracy is required, is\n\\begin{equation}\\label{v18:eq:radius}\n R(c)=\\min\\left\\{\\sqrt{\\frac c{27}},\\,\n                     1-\\left(\\frac c4\\right)^{1/3}\\right\\}.\n\\end{equation}\nThe unique optimal constant and its radius are\n\\begin{equation}\\label{v18:eq:optimum}\n c_* =\\frac{27}{16},\\qquad R(c_*)=\\frac14.\n\\end{equation}\nFor the canonical folding polynomial, $c=3$, the exact radius is\n$1-(3/4)^{1/3}=0.0914397035\\ldots$.\n\nHere are all equality cases on the first parameter circle. Put\n$\\omega=e^{2\\pi i/3}$ and\n\\begin{align*}\n \\mathcal I_c&=\\left\\{\\frac v3:\n |v|^2=\\frac c3,\\quad\n \\cos(3\\arg v)=\\frac{\\sqrt c}{6\\sqrt3}\\right\\},\\\\\n \\mathcal O_c&=\\left\\{\\left(\\left(\\frac c4\\right)^{1/3}-1\\right)\n                  \\omega^j:0\\le j<3\\right\\}.\n\\end{align*}\nThe exceptional parameters on $|\\eta|=R(c)$ are exactly\n$\\mathcal I_c$ for $c<c_*$, exactly $\\mathcal O_c$ for $c>c_*$,\nand their disjoint union for $c=c_*$. They number six, three,\nand nine, respectively. Each has exactly eight distinct zeros,\nof which one is an ordinary fold and seven are nondegenerate.\nEvery other parameter on that circle has nine nondegenerate zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 6022,
+    "type": "cor",
+    "labels": [
+      "v18:cor:model"
+    ],
+    "statement": "[A maximally robust cubic model]\\label{v18:cor:model}\nFor $b\\ne0$ the polynomial\n\\[\n u^3+bu\\bar u+b\\eta u^2-\\frac{|b|^2b}{16}\n\\]\nhas exactly nine simple zeros whenever $|\\eta|<1/4$.\nAmong all real choices of the multiplier of $-|b|^2b$, this\nradius is uniquely maximal. If $b$ and $\\eta$ are real,\nexactly three zeros are real. For the unmodified model\n$S_3(u,\\bar u+\\eta u)$, the exact uniform tolerance in\nLemma~\\ref{v3:lem:stability} is $1-(3/4)^{1/3}$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 6124,
+    "type": "lem",
+    "labels": [
+      "v4:lem:global"
+    ],
+    "statement": "\\label{v4:lem:global}\nFor each $k\\ge2$ and $r\\ge1$, first choose a sufficiently small\npositive rational $\\epsilon$. Then, for every sufficiently small\n$\\tau>0$, \\eqref{v4:eq:globalfamily} has exactly $(kN)^2$\nnondegenerate zeros and\n\\[\n \\deg_zP_{\\epsilon,\\tau}=kN,\\qquad\n \\deg_wP_{\\epsilon,\\tau}=kr,\\qquad\n \\deg_{\\rm tot}P_{\\epsilon,\\tau}=kN.\n\\]\nFor $r\\ge2$ its highest homogeneous part is exactly $z^{kN}$.\nFor $r=1$ that part converges coefficientwise to $z^{3k}$ as\n$\\tau\\to0$. Rational $\\tau$ gives coefficients in $\\Q$.\nIn addition, exactly $kN$ of its zeros are real.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 6207,
+    "type": "lem",
+    "labels": [
+      "v15:lem:unitdisk"
+    ],
+    "statement": "\\label{v15:lem:unitdisk}\nFor every $b\\ne0$ and $|\\eta|<1$,\n\\[\n S_2(u,\\bar u+\\eta u)=u^2+b\\bar u+b\\eta u\n\\]\nhas exactly four nondegenerate zeros. The radius one is the largest\nopen disk about zero in the $\\eta$-plane for which this assertion\nholds uniformly in $b\\ne0$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 6231,
+    "type": "prop",
+    "labels": [
+      "v30:prop:quadraticregion"
+    ],
+    "statement": "[Complete quadratic shear region]\n\\label{v30:prop:quadraticregion}\nFor fixed $b\\ne0$, put\n\\[\n \\Delta_b(\\eta)=|\\eta|^4+18|\\eta|^2\n                 +8\\Rea\\bigl((b/\\bar b)\\eta^3\\bigr)-27.\n\\]\nThe polynomial $u^2+b\\bar u+b\\eta u$ has four distinct zeros,\nall nondegenerate, exactly when\n\\[\n                 \\Delta_b(\\eta)<0,\\qquad |\\eta|\\ne1.\n\\]\nIf $\\Delta_b(\\eta)>0$, it has two nondegenerate zeros.\nOn $\\{|\\eta|=1\\}\\cup\\{\\Delta_b(\\eta)=0\\}$ it has three\ndistinct zeros, two nondegenerate, except at the six parameters\n\\[\n                  (b/\\bar b)\\eta^3\\in\\{1,-27\\},\n\\]\nwhere it has two distinct zeros, one nondegenerate.\nFor each fixed $b$, the unique largest open parameter disk with\nfour distinct zeros at every parameter is $|\\eta|<1$.\nThe parameter region giving four zeros uniformly for every $b\\ne0$\nis exactly this open unit disk.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 6293,
+    "type": "prop",
+    "labels": [
+      "v15:prop:sextic",
+      "v15:eq:sextic"
+    ],
+    "statement": "[An analytic $36$-zero pure-head construction]\n\\label{v15:prop:sextic}\nFix a rational number $0<\\kappa<4/27$ and put\n\\[\n f=z^3+zw-\\kappa,\\qquad f^*=w^3+zw-\\kappa,\\qquad\n G=w^2f-zf^*=(z^3-\\kappa)w^2-z^2w+\\kappa z.\n\\]\nFor every sufficiently small positive $\\tau$,\n\\begin{equation}\\label{v15:eq:sextic}\n P_{\\kappa,\\tau}=f^2+\\tau G\n\\end{equation}\nhas exact conjugate degree two, pure highest term $z^6$, and\nexactly $36$ nondegenerate zeros. It has exactly six real zeros.\nRational $\\tau$ gives real rational coefficients; clearing\ndenominators gives an integer example. Thus $E_{2,6}=36$\nhas a proof independent of the earlier rational root boxes.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 6359,
+    "type": "thm",
+    "labels": [
+      "v16:thm:borderline",
+      "v16:eq:sharp"
+    ],
+    "statement": "[The entire pure-head cubic boundary]\n\\label{v16:thm:borderline}\nFor all integers $k\\ge1$ and $k\\le m<3k$,\n\\begin{equation}\\label{v16:eq:sharp}\n E_{m,3k}=9k^2.\n\\end{equation}\nThe maximum is attained with real rational coefficients, exact\nconjugate degree $m$, only nondegenerate zeros, and exactly $3k$\nreal zeros. In particular, $E_{4,12}=144$. Clearing denominators\ngives integer-coefficient extremizers.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 6538,
+    "type": "lem",
+    "labels": [
+      "v16:lem:degreeextension"
+    ],
+    "statement": "[Increasing the analytic degree]\n\\label{v16:lem:degreeextension}\nLet $P$ have pure highest term $cz^d$, $c\\ne0$, and only\nnondegenerate zeros. If $n>d$, then, for every sufficiently small\npositive $\\varepsilon$, $P+\\varepsilon z^n$ has exactly\n$N(P)+n-d$ zeros, all nondegenerate. The $n-d$ new zeros have\npositive Jacobian and approach infinity.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 6560,
+    "type": "cor",
+    "labels": [
+      "v16:cor:extension",
+      "v16:eq:extension",
+      "v16:eq:deficitbound"
+    ],
+    "statement": "[Uniform pure-head lower bounds]\n\\label{v16:cor:extension}\nFor $1\\le m<n$ with $n\\ge3$, put\n$q=\\min\\{m,\\lfloor n/3\\rfloor\\}$. Then\n\\begin{equation}\\label{v16:eq:extension}\n E_{m,n}\\ge 9q^2+n-3q.\n\\end{equation}\nThe displayed count is attained exactly with real integer\ncoefficients, exact conjugate degree $m$, and only nondegenerate\nzeros. In particular,\n\\[\n E_{m,n}\\ge9m^2+n-3m\\quad(n\\ge3m),\\qquad\n E_{4,13}\\ge145.\n\\]\nFor $m<n\\le3m$, write $s=n\\bmod3$. One has the uniform bound\n\\begin{equation}\\label{v16:eq:deficitbound}\n 0\\le n^2-E_{m,n}\\le 2ns-s^2-s\\le4n-6.\n\\end{equation}\nThus $E_{m,n}/n^2\\to1$ uniformly as $n\\to\\infty$ within this\ncone, although the finite endpoints with $s=1,2$ are not all\ndetermined.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 6605,
+    "type": "thm",
+    "labels": [
+      "v36:thm:84",
+      "v36:eq:bound"
+    ],
+    "statement": "\\label{v36:thm:84}\nThere is a polynomial with real rational coefficients, pure highest\nterm $z^{10}$, exact conjugate degree three, and exactly $84$\nnondegenerate zeros, of which $47$ are positive and $37$ negative,\nand exactly ten real-axis zeros.\nConsequently,\n\\begin{equation}\\label{v36:eq:bound}\n                         84\\le E_{3,10}\\le100.\n\\end{equation}\nReal integer coefficients are possible after multiplication by a\ncommon denominator. This improves the lower bound; it does not\ndetermine the global maximum $E_{3,10}$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 6620,
+    "type": "lem",
+    "labels": [
+      "v36:lem:quartic"
+    ],
+    "statement": "\\label{v36:lem:quartic}\nIf $-1<\\lambda<1$ and\n$0<t<4/[27(1+|\\lambda|)^2]$, then\n\\[\n Q_{\\lambda,t}(u)=u^4+\\lambda u^3\\bar u+u\\bar u^2-t\\bar u\n\\]\nhas exactly sixteen nondegenerate zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 6833,
+    "type": "cor",
+    "labels": [
+      "v36:cor:degrees",
+      "v36:eq:extension"
+    ],
+    "statement": "[Sharp degrees for the eighty-four-zero target]\n\\label{v36:cor:degrees}\nAmong pure-head polynomials with exactly $84$ nondegenerate zeros,\nthe smallest total degree is ten. At that degree the smallest\nconjugate degree is three. In addition,\n\\begin{equation}\\label{v36:eq:extension}\n                         E_{m,n}\\ge n+74\n             \\qquad(n\\ge10,\\ 3\\le m<n),\n\\end{equation}\nand the displayed count is attained exactly with real integer\ncoefficients and nondegenerate zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 6863,
+    "type": "thm",
+    "labels": [
+      "v37:thm:41",
+      "v37:eq:bound"
+    ],
+    "statement": "\\label{v37:thm:41}\nThere is a polynomial with real rational coefficients, pure\nhighest term $z^7$, exact conjugate degree two, and exactly\n$41$ nondegenerate zeros: $24$ positive, $17$ negative, and\nexactly seven on the real axis. Hence\n\\begin{equation}\\label{v37:eq:bound}\n                         41\\le E_{2,7}\\le47.\n\\end{equation}\nInteger coefficients are possible after clearing denominators.\nFor the forty-one-zero target, total degree seven is minimal;\nat that total degree, conjugate degree two is minimal.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 7010,
+    "type": "cor",
+    "labels": [
+      "v37:cor:extension"
+    ],
+    "statement": "\\label{v37:cor:extension}\nFor $n\\ge7$ and $2\\le m<n$,\n\\[\n                              E_{m,n}\\ge n+34.\n\\]\nThe displayed count can be attained exactly with real integer\ncoefficients, nondegenerate zeros and exactly $n$ real zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 7035,
+    "type": "prop",
+    "labels": [
+      "v39:prop:fixed41"
+    ],
+    "statement": "\\label{v39:prop:fixed41}\nLet $D=580800000000000000$ and\n\\[\n P_{41}(z,w)=D^{-1}\\sum_{i=0}^7\\sum_{j=0}^2c_{ij}z^iw^j,\n\\]\nwhere the integer coefficients are\n{\\small\n\\[\n\\begin{array}{c|rrr}\n i&c_{i0}&c_{i1}&c_{i2}\\\\ \\hline\n 0&-880347286142071&-15129332671875&1084189687500\\\\\n 1&3535399696171875&22612116533437500&189498523500000\\\\\n 2&4541067750000&-90628046601000000&-145199962644000000\\\\\n 3&22612184288250000&135960000000000&580785244380000000\\\\\n 4&-90642750000000000&-290400000000000000&58080000000000\\\\\n 5&0&1161600000000000000&0\\\\\n 6&-145200000000000000&0&0\\\\\n 7&580800000000000000&0&0\n\\end{array}\n\\]\n}\nThen $P_{41}\\in\\Ecal_{2,7}$ has exactly $41$ regular zeros,\nwith signs $(24,17)$ and exactly seven real-axis zeros.\nThus $DP_{41}$ is an explicit real integer witness for\nthe lower bound in \\eqref{v37:eq:bound}.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 7106,
+    "type": "thm",
+    "labels": [
+      "v38:thm:88",
+      "v38:eq:bound"
+    ],
+    "statement": "\\label{v38:thm:88}\nThere is a polynomial in $\\Ecal_{3,10}$ with real integer\ncoefficients and exactly $88$ nondegenerate zeros, of which\n$49$ are positive, $39$ are negative, and exactly ten are real.\nConsequently,\n\\begin{equation}\\label{v38:eq:bound}\n                              88\\le E_{3,10}\\le100.\n\\end{equation}\nTotal degree ten is minimal for this target, and at that total\ndegree the minimal conjugate degree is three. The global\nhundred-zero endpoint remains unresolved.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 7272,
+    "type": "cor",
+    "labels": [
+      "v38:cor:extension"
+    ],
+    "statement": "\\label{v38:cor:extension}\nFor $n\\ge10$ and $3\\le m<n$,\n\\[\n                              E_{m,n}\\ge n+78.\n\\]\nThe count is attained exactly with real integer coefficients,\nall zeros nondegenerate, and exactly $n$ real-axis zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 7294,
+    "type": "prop",
+    "labels": [
+      "v38:prop:localsharp",
+      "v38:eq:localupper"
+    ],
+    "statement": "\\label{v38:prop:localsharp}\nFix $0<a<1/3$, let $\\kappa=a^2(1+a)$, and put\n\\[\n P_0(z,w)=(z^3+zw-\\kappa)^m(z-a),\\qquad D=3m+1.\n\\]\nThere is a coefficient neighborhood $U$ of $P_0$ among\npolynomials with pure highest term $z^D$ and conjugate degree\nat most $m$ such that every $P\\in U$ satisfies\n\\begin{equation}\\label{v38:eq:localupper}\n                     N(P)\\le D^2-4m=9m^2+2m+1.\n\\end{equation}\nFor $m=2,a=1/4$ and for $m=3,a=100/10101$, every sufficiently\nsmall such neighborhood has exact maximum $41$ and $88$,\nrespectively. These maxima are attained by real integer\npolynomials after a common nonzero scaling of the coefficients.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 7371,
+    "type": "lem",
+    "labels": [
+      "v42:lem:realseeds",
+      "v42:eq:fourteenseed"
+    ],
+    "statement": "\\label{v42:lem:realseeds}\nFor every $d\\ge4$, there exists a real rational polynomial\n$f=p+wq\\in\\Ecal_{1,d}$ with $\\deg q=d-2$ and\n$\\gcd(p,q)=1$, having exactly $5d-6$ regular zeros.\nIt can be chosen with four real-axis zeros when $d$ is even,\nand five when $d$ is odd, including a negative real zero.\nFor $d=4$, one explicit integer choice is\n\\begin{equation}\\label{v42:eq:fourteenseed}\n \\begin{split}\n f(z,w)={}&1197z^4+24000z^3+2400z^2+32000z+160000\\\\\n         &+w(-23880z^2-158400z+8000).\n \\end{split}\n\\end{equation}\nHere ``negative'' refers to the Jacobian sign.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 7503,
+    "type": "thm",
+    "labels": [
+      "v40:thm:57",
+      "v40:eq:bound"
+    ],
+    "statement": "\\label{v40:thm:57}\nThere is a polynomial in $\\Ecal_{2,9}$ with Gaussian integer\ncoefficients and exactly $57$ regular zeros, with signs $(33,24)$.\nIn particular,\n\\begin{equation}\\label{v40:eq:bound}\n                              57\\le E_{2,9}\\le65.\n\\end{equation}\nAmong pure-head polynomials of conjugate degree at most two,\ndegree nine is the least total degree that can have at least\n$57$ zeros. At total degree nine, conjugate degree two is also\nminimal for this target.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 7659,
+    "type": "cor",
+    "labels": [
+      "v40:cor:extension"
+    ],
+    "statement": "\\label{v40:cor:extension}\nFor $n\\ge9$ and $2\\le m<n$,\n\\[\n                              E_{m,n}\\ge n+48.\n\\]\nThe count is attained exactly with Gaussian integer\ncoefficients and nondegenerate zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 7680,
+    "type": "prop",
+    "labels": [
+      "v40:prop:highertransfer",
+      "v40:eq:highertransfer",
+      "v40:eq:84103"
+    ],
+    "statement": "\\label{v40:prop:highertransfer}\nFor every integer $d\\ge5$,\n\\begin{equation}\\label{v40:eq:highertransfer}\n E_{2,3d-3}\\ge20d-19+|d-8|.\n\\end{equation}\nThe displayed count is attained exactly with Gaussian integer\ncoefficients and regular zeros. In particular,\n\\begin{equation}\\label{v40:eq:84103}\n                    84\\le E_{2,12}\\le92,\\qquad\n                   103\\le E_{2,15}\\le119.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 7786,
+    "type": "cor",
+    "labels": [
+      "v40:cor:degree84",
+      "v40:eq:degree84"
+    ],
+    "statement": "[The complete degree tradeoff for eighty-four zeros]\n\\label{v40:cor:degree84}\nLet\n\\[\n \\nu_{84}(m)=\\min\\{n>m:E_{m,n}\\ge84\\}.\n\\]\nThen\n\\begin{equation}\\label{v40:eq:degree84}\n \\nu_{84}(m)=\n \\begin{cases}\n 18,&m=1,\\\\\n 12,&m=2,\\\\\n \\max\\{10,m+1\\},&m\\ge3.\n \\end{cases}\n\\end{equation}\nEquivalently, the undominated degree pairs $(m,n)$ for at\nleast eighty-four zeros are exactly\n\\[\n                              (1,18),\\quad(2,12),\\quad(3,10).\n\\]\nAll three thresholds are attained by regular polynomials.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 7829,
+    "type": "lem",
+    "labels": [
+      "v41:lem:oddnine"
+    ],
+    "statement": "[An odd cubic with nine regular zeros]\n\\label{v41:lem:oddnine}\nFor real $\\lambda$ with $|\\lambda|>1$, the polynomial\n\\[\n                       Q_\\lambda(\\xi)=\\xi^3+\n                    \\lambda\\xi^2\\bar\\xi-\\lambda\\xi+\\bar\\xi\n\\]\nhas exactly nine regular zeros. They are\n\\[\n 0,\\qquad\\pm\\sqrt{\\frac{\\lambda-1}{\\lambda+1}},\\qquad\n \\pm i\\sqrt{\\frac{\\lambda+1}{\\lambda-1}},\\qquad\n \\frac{\\pm1\\pm i}{\\sqrt2}.\n\\]\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 7859,
+    "type": "thm",
+    "labels": [
+      "v40:thm:rectangle",
+      "v40:eq:rectangle",
+      "v40:eq:oddrectangle",
+      "v40:eq:rectangle8"
+    ],
+    "statement": "\\label{v40:thm:rectangle}\nFor every even integer $n\\ge10$,\n\\begin{equation}\\label{v40:eq:rectangle}\n                              M_{2,n}=9n-10.\n\\end{equation}\nIn particular, $M_{2,10}=80$ and $M_{2,12}=98$.\nFor every odd integer $n\\ge13$,\n\\begin{equation}\\label{v40:eq:oddrectangle}\n                         M_{2,n}\\in\\{9n-12,\\,9n-10\\}.\n\\end{equation}\nThe smaller endpoints satisfy\n\\begin{equation}\\label{v40:eq:rectangle8}\n             M_{2,8}\\in\\{60,62\\},\\qquad\n                         65\\le M_{2,9}\\le71,\\qquad\n                         85\\le M_{2,11}\\le89.\n\\end{equation}\nEvery displayed lower count is attained exactly by a real\ninteger polynomial with only nondegenerate zeros. The sixty-\nand eighty-zero witnesses have respectively ten and twelve\nreal-axis zeros, the maximum allowed by their total degrees.\nThe value $M_{2,7}$ remains unresolved.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8025,
+    "type": "thm",
+    "labels": [
+      "v41:thm:purebands",
+      "v41:eq:evenpure",
+      "v41:eq:oddpure",
+      "v41:eq:examples"
+    ],
+    "statement": "\\label{v41:thm:purebands}\nFor every even $n\\ge8$ and every odd $n\\ge9$, respectively,\n\\begin{align}\n E_{2,n}&\\in\\{9n-18,\\,9n-16\\},\n                  &&n\\text{ even},\\label{v41:eq:evenpure}\\\\\n E_{2,n}&\\in\\{9n-20,\\,9n-18,\\,9n-16\\},\n                  &&n\\text{ odd}.\\label{v41:eq:oddpure}\n\\end{align}\nThe lower endpoint in each line is attained exactly by a\nreal integer polynomial with only regular zeros. The witnesses\nin degrees eight, nine, and ten can have exactly eight, nine,\nand ten real-axis zeros, respectively. In particular,\n\\begin{equation}\\label{v41:eq:examples}\n \\begin{gathered}\n 54\\le E_{2,8}\\le56,\\qquad61\\le E_{2,9}\\le65,\\qquad\n 72\\le E_{2,10}\\le74,\\\\\n 79\\le E_{2,11}\\le83,\\qquad90\\le E_{2,12}\\le92,\\qquad\n 115\\le E_{2,15}\\le119.\n \\end{gathered}\n\\end{equation}\nThese statements leave the upper endpoints unresolved.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8152,
+    "type": "cor",
+    "labels": [
+      "v41:cor:degreewindows"
+    ],
+    "statement": "[Sharp degree thresholds for whole intervals of targets]\n\\label{v41:cor:degreewindows}\nFix $n\\ge8$ and an integer target $L$. If\n\\[\n \\begin{cases}\n 9n-24\\le L\\le9n-18,&n\\text{ even},\\\\\n 9n-24\\le L\\le9n-20,&n\\text{ odd},\n \\end{cases}\n\\]\nthen $n$ is the least pure total degree, at conjugate degree\nat most two, that can have at least $L$ distinct zeros.\nAt that total degree, conjugate degree two is also minimal.\nIn particular, every target from $84$ through $90$ has\nminimum pure degree twelve at conjugate degree at most two.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8184,
+    "type": "thm",
+    "labels": [
+      "v43:thm:45",
+      "v43:eq:45"
+    ],
+    "statement": "\\label{v43:thm:45}\nThere is a real integer polynomial in $\\Ecal_{2,7}$ with exactly\n$45$ regular zeros, of signs $(26,19)$, including exactly seven\nreal-axis zeros. Consequently\n\\begin{equation}\\label{v43:eq:45}\n                              E_{2,7}\\in\\{45,47\\}.\n\\end{equation}\nBoth total degree seven and conjugate degree two at that total\ndegree are minimal for this target. The global endpoint $47$\nis not decided here.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8335,
+    "type": "prop",
+    "labels": [
+      "v43:prop:localsharp"
+    ],
+    "statement": "[Sharpness in the critical seed neighborhood]\n\\label{v43:prop:localsharp}\nFor $f=z^3+zw-2/27$, $g=z+1/3$, every sufficiently small\ncoefficient perturbation of $f^2g$ within $\\Ecal_{2,7}$ has\nat most $45$ distinct physical zeros. Theorem~\\ref{v43:thm:45}\nattains this bound in every such neighborhood.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8374,
+    "type": "cor",
+    "labels": [
+      "v31:cor:minimumdegree",
+      "v31:eq:degreefloor",
+      "v31:eq:degreeceiling",
+      "v31:eq:exactdegrees",
+      "v31:eq:strictdeficit"
+    ],
+    "statement": "[A sharp degree obstruction through the eighth cubic order]\n\\label{v31:cor:minimumdegree}\nFor every $n\\ge2$,\n\\begin{equation}\\label{v31:eq:degreefloor}\n \\mu(n)\\ge L(n):=\n \\left\\lceil n-1-\\sqrt{\\frac{(n-1)(n-2)}2}\\right\\rceil\n =n-1-\\left\\lfloor\\sqrt{\\frac{(n-1)(n-2)}2}\\right\\rfloor.\n\\end{equation}\nEquivalently, a necessary condition for $E_{m,n}=n^2$ is\n\\begin{equation}\\label{v31:eq:degreeceiling}\n n\\le B(m):=\n \\left\\lfloor\\frac{4m+1+\\sqrt{8m^2-8m+1}}2\\right\\rfloor.\n\\end{equation}\nIn particular, the exact degree minima are\n\\begin{equation}\\label{v31:eq:exactdegrees}\n \\mu(3k)=k\\quad(1\\le k\\le8),\\qquad\n \\begin{array}{c|rrrrrrrr}\n n&2&3&4&5&6&7&8&9\\\\ \\hline\n \\mu(n)&1&1&2&2&2&3&3&3.\n \\end{array}\n\\end{equation}\nThe extremizers in Theorem~\\ref{v16:thm:borderline} at total\ndegrees $3,6,\\ldots,24$ therefore have the smallest possible\nconjugate degree, even when arbitrary complex coefficients and\ndegenerate zeros are allowed in competing polynomials.\nMore quantitatively, reducing that degree by one gives\n\\begin{equation}\\label{v31:eq:strictdeficit}\n E_{k-1,3k}\\le9k^2-(9k-k^2-2),\\qquad 1\\le k\\le8,\n\\end{equation}\nwhere $E_{0,3}=3$ denotes the analytic case. The respective\nunavoidable deficits are\n\\[\n                 6,12,16,18,18,16,12,6.\n\\]\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8472,
+    "type": "prop",
+    "labels": [
+      "v17:prop:144"
+    ],
+    "statement": "\\label{v17:prop:144}\nThe polynomial in \\eqref{v16:eq:global} with\n\\[\n k=4,\\qquad \\kappa=10^{-12},\\qquad \\tau=10^{-30}\n\\]\nhas exactly $144$ simple zeros. Of these, $78$ have positive\nJacobian and $66$ have negative Jacobian; exactly $12$ are real.\nIt has $43$ nonzero monomials, highest homogeneous part $z^{12}$,\nand exact conjugate degree four. Multiplication by\n$256\\cdot10^{144}$ makes all its coefficients integral.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8545,
+    "type": "prop",
+    "labels": [
+      "v4:prop:transfer"
+    ],
+    "statement": "\\label{v4:prop:transfer}\nLet $1\\le m_0\\le m<n$. Suppose polynomials $P_\\tau\\in\\Q(i)[z,w]$\nexist for arbitrarily small positive rational $\\tau$, have total\ndegree $n$, conjugate degree at most $m_0$, and $n^2$\nnondegenerate real-slice zeros. Suppose also that their highest\nhomogeneous parts converge coefficientwise to $z^n$.\nThen $M_{m,n}=m^2+n^2$ is attained over $\\Q(i)$ with exact bidegree\n$(m,n)$, a nonzero coefficient of $z^nw^m$, and only simple zeros.\nIf the starting family has real rational coefficients and $n$ real\nzeros, the output can have real rational coefficients and $m+n$\nreal zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8611,
+    "type": "lem",
+    "labels": [
+      "v3:lem:padding"
+    ],
+    "statement": "[Padding the conjugate degree]\\label{v3:lem:padding}\nIf $E_{m_0,n}=n^2$ is attained with simple zeros and $m_0\\le m<n$,\nthen $E_{m,n}=n^2$ is attained with exact conjugate degree $m$ and\nsimple zeros. Gaussian rational coefficients can be retained. If the\ninput has real rational coefficients and $n$ real zeros, both properties\ncan be retained as well.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8626,
+    "type": "lem",
+    "labels": [
+      "v5:lem:realcircle"
+    ],
+    "statement": "[Circle addition over the real rationals]\\label{v5:lem:realcircle}\nSuppose $P\\in\\Q[z,w]$ has bidegree $(m,n)$, $n>m\\ge1$,\na nonzero corner coefficient, and $m^2+n^2$ nondegenerate zeros.\nThen a polynomial with the same properties exists at bidegree\n$(m+1,n+1)$, still over $\\Q$. If $P$ has $m+n$ real zeros,\nthe new polynomial has $m+n+2$ real zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8711,
+    "type": "cor",
+    "labels": [
+      "v5:cor:realaxis"
+    ],
+    "statement": "[Simultaneous sharpness on the real axis]\\label{v5:cor:realaxis}\nThe pure-head extrema in Theorem~\\ref{v3:thm:splitting}, including\npadding to a larger conjugate degree, can be attained over $\\Q$\nwith exactly $n$ real zeros. Its rectangular extrema and all pairs\nin \\eqref{v3:eq:bandcondition} can be attained over $\\Q$ with\nexactly $m+n$ real zeros. The latter assertion also holds at\n$(1,2)$ and $(2,5)$. All zeros are nondegenerate, and multiplication\nby a nonzero integer makes the coefficients integral.\nThese real-axis counts are maximal in the respective degree classes.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8737,
+    "type": "cor",
+    "labels": [
+      "v3:cor:arithmetic",
+      "v3:eq:arithmetic"
+    ],
+    "statement": "[A sufficient arithmetic criterion]\\label{v3:cor:arithmetic}\nLet $d=n-2m\\ge1$ and $h=n-m$. If integers $k,l,a$ satisfy\n\\begin{equation}\\label{v3:eq:arithmetic}\n k\\ge1,\\qquad l\\ge2,\\qquad a\\ge0,\\qquad\n h+a=kl,\\qquad d\\le k-2a,\n\\end{equation}\nthen $M_{m,n}=m^2+n^2$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8755,
+    "type": "cor",
+    "labels": [
+      "v4:cor:signs"
+    ],
+    "statement": "[Sharp counts of the two orientations]\\label{v4:cor:signs}\nAt every degree pair in Theorem~\\ref{v3:thm:band}, among polynomials\nof bidegree $(m,n)$ with nonzero corner coefficient and only\nnondegenerate zeros, the separate maxima are\n\\[\n \\max N_+=\\frac{m^2+n^2+n-m}{2},\\qquad\n \\max N_-=\\frac{m^2+n^2-n+m}{2}.\n\\]\nThe same polynomial attains both maxima. At each pure-head degree pair\nproved in Theorem~\\ref{v3:thm:splitting}, the corresponding separate\nmaxima among polynomials with only nondegenerate zeros are\n$(n^2+n)/2$ and $(n^2-n)/2$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8828,
+    "type": "thm",
+    "labels": [
+      "v6:thm:spectra",
+      "v6:eq:spectra",
+      "v6:eq:signspectrum"
+    ],
+    "statement": "[Complete nondegenerate spectra]\\label{v6:thm:spectra}\nFor $1\\le m<n$, the attainable numbers of nondegenerate zeros, when\nevery zero is required to be nondegenerate, are exactly\n\\begin{equation}\\label{v6:eq:spectra}\n\\begin{array}{c|c}\n\\text{Coefficient class}&\\text{Attainable counts}\\\\ \\hline\n\\mathcal R_{m,n}^{\\circ}&n-m,\\ n-m+2,\\ldots,M_{m,n}\\\\\n\\Ecal_{m,n}&n,\\ n+2,\\ldots,E_{m,n}\\\\\n\\text{harmonic, exact degrees }(m,n)&n,\\ n+2,\\ldots,M^{\\mathrm{harm}}_{m,n}.\n\\end{array}\n\\end{equation}\nEvery count can be attained with Gaussian integer coefficients.\nIn the pure-head row, the examples can have exact conjugate degree $m$.\nFor a row whose mapping degree is $D$ and maximum is $K$, the full\nset of orientation pairs is\n\\begin{equation}\\label{v6:eq:signspectrum}\n (N_+,N_-)=(D+j,j),\\qquad 0\\le j\\le(K-D)/2.\n\\end{equation}\n\nAllowing degenerate zeros, the \\emph{finite distinct-count} spectra\nare $\\{1,2,\\ldots,M_{m,n}\\}$ for $\\mathcal R_{m,n}^{\\circ}$ and\n$\\{1,2,\\ldots,E_{m,n}\\}$ for $\\Ecal_{m,n}$, again over Gaussian\nintegers. The latter uses the stipulated bound $\\deg_w\\le m$.\nWith exact positive conjugate degree, the pure-head distinct spectrum\nis $\\{2,\\ldots,E_{m,n}\\}$, as proved in Theorem~\\ref{v7:thm:pureexact}.\nFor the exact harmonic class, every integer from $n$ to\n$M^{\\mathrm{harm}}_{m,n}$ occurs. The remaining lower counts and\nthe matching obstruction are determined in\nTheorem~\\ref{v7:thm:minimum}: the full distinct spectrum is\n$\\{n-m+1,\\ldots,M^{\\mathrm{harm}}_{m,n}\\}$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 8865,
+    "type": "lem",
+    "labels": [
+      "v6:lem:foldpath"
+    ],
+    "statement": "[Separating fold crossings]\\label{v6:lem:foldpath}\nSuppose $n\\ge3$ and $P$ belongs to any one of the three classes in\n\\eqref{v6:eq:spectra}, with $K$ simple zeros. An arbitrarily small\nperturbation within the same class has $K$ simple zeros and admits\na path of constant target translations from that fiber to a fiber\nof size $D$. Along the path, only one ordinary fold is crossed at\na time. At a crossing the two neighboring regular counts differ\nby two, and the distinct count at the crossing is their average.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9010,
+    "type": "cor",
+    "labels": [
+      "v6:cor:explicit"
+    ],
+    "statement": "[Numerical spectra in the equality region]\\label{v6:cor:explicit}\nAt every rectangular pair for which this note proves\n$M_{m,n}=m^2+n^2$, the complete regular spectrum with nonzero\ncorner is\n\\[\n \\{n-m+2j:0\\le j\\le(m^2+n^2-n+m)/2\\},\n\\]\nand every finite distinct count from $1$ to $m^2+n^2$ occurs.\nAt each proved pure-head equality $E_{m,n}=n^2$, the regular\nspectrum is $\\{n+2j:0\\le j\\le n(n-1)/2\\}$, and its finite\ndistinct spectrum is $\\{1,\\ldots,n^2\\}$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9061,
+    "type": "lem",
+    "labels": [
+      "v7:lem:index",
+      "v7:eq:index"
+    ],
+    "statement": "[Local index and common vanishing order]\\label{v7:lem:index}\nLet $a$ be an isolated zero of the harmonic germ\n$H(z)=p(z)+\\overline{q(z)}$, with both analytic parts nonconstant.\nThen\n\\begin{equation}\\label{v7:eq:index}\n |\\operatorname{ind}_a H|\n \\le \\min\\{\\ord_a(p-p(a)),\\ord_a(q-q(a))\\}\n =1+\\min\\{\\ord_a p',\\ord_a q'\\}.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9089,
+    "type": "thm",
+    "labels": [
+      "v7:thm:minimum",
+      "v7:eq:minimum",
+      "v7:eq:totaldeficit"
+    ],
+    "statement": "[Sharp distinct minimum and a bound over all targets]\n\\label{v7:thm:minimum}\nLet $F=p+\\overline q$, where $\\deg p=n>m=\\deg q\\ge1$, and put\n$G=\\gcd(p',q')$, taken monic, and $g=\\deg G$. For a target $c$ define\n\\[\n N_c=\\#F^{-1}(c),\\qquad\n b_c=\\sum_{a\\in F^{-1}(c)}\\ord_aG.\n\\]\nThen every fiber is finite and\n\\begin{equation}\\label{v7:eq:minimum}\n N_c\\ge n-b_c\\ge n-g\\ge n-m+1.\n\\end{equation}\nIn addition,\n\\begin{equation}\\label{v7:eq:totaldeficit}\n \\sum_{c\\in\\C}(n-N_c)_+\\le g\\le m-1.\n\\end{equation}\nOnly finitely many summands can be nonzero. In particular,\n$N_c<n$ is possible only at the image of a common critical point\nof $p$ and $q$. If $p'$ and $q'$ are coprime, every fiber has\nat least $n$ distinct points, including singular fibers.\n\nFor each $0\\le g\\le m-1$, both the lower bound $n-g$ and the\ntotal-deficit bound $g$ are attained by a polynomial with integer\ncoefficients and exact degrees $(m,n)$. Consequently, the minimum\nover the entire exact harmonic class is exactly $n-m+1$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9168,
+    "type": "cor",
+    "labels": [
+      "v7:cor:harmonicspectrum",
+      "v7:eq:harmonicspectrum"
+    ],
+    "statement": "[The full harmonic distinct-count spectrum]\n\\label{v7:cor:harmonicspectrum}\nFor exact degrees $1\\le m<n$, the attainable distinct zero counts are\nexactly\n\\begin{equation}\\label{v7:eq:harmonicspectrum}\n \\{n-m+1,n-m+2,\\ldots,M^{\\mathrm{harm}}_{m,n}\\}.\n\\end{equation}\nEvery count can be realized over $\\Z[i]$. The lower part\n$n-m+1,\\ldots,n$ is realized by the integer trinomials\n\\eqref{v7:eq:integertrinomials}. In particular, the complete\ndistinct-count spectra at the two known maximal endpoints are\n\\[\n m=1:\\quad\\{n,n+1,\\ldots,3n-2\\},\\qquad\n m=n-1:\\quad\\{2,3,\\ldots,n^2\\}.\n\\]\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9213,
+    "type": "lem",
+    "labels": [
+      "v7:lem:order"
+    ],
+    "statement": "[Local index versus polynomial vanishing order]\n\\label{v7:lem:order}\nLet $a$ be an isolated zero of a complex-valued polynomial in\ntwo real variables. If its first nonzero Taylor homogeneous term\nat $a$ has degree $s$, then the absolute value of its local\ntopological index is at most $s$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9247,
+    "type": "thm",
+    "labels": [
+      "v7:thm:pureexact",
+      "v7:eq:pureexactspectrum"
+    ],
+    "statement": "[Exact conjugate degree and the one-point obstruction]\n\\label{v7:thm:pureexact}\nFor $1\\le m<n$, let\n$\\Ecal^{=}_{m,n}=\\{f\\in\\Ecal_{m,n}:\\deg_w f=m\\}$.\nIts complete distinct-count spectrum is\n\\begin{equation}\\label{v7:eq:pureexactspectrum}\n \\{2,3,\\ldots,E_{m,n}\\}.\n\\end{equation}\nEvery count is attainable over $\\Z[i]$, and every count\n$2,\\ldots,n$ is attainable over $\\Z$.\nMore generally, a pure-head polynomial of total degree $n$\nhas just one distinct zero $a$ if and only if it is\n$c(z-a)^n$, with $c\\ne0$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9312,
+    "type": "thm",
+    "labels": [
+      "v7:thm:trinomialradius",
+      "v7:eq:firstcriticalpoint"
+    ],
+    "statement": "[Exact first singular-parameter radius]\n\\label{v7:thm:trinomialradius}\nFor integers $1\\le k\\le m<n$, define\n\\[\n F_\\epsilon(z)=z^n-z^k+\\epsilon\\bar z^m,\\qquad\n R_{n,m,k}=\\frac{n-k}{n+m}\n       \\left(\\frac{n+m}{m+k}\\right)^{(m-k)/(n-k)}.\n\\]\nFor every complex $|\\epsilon|<R_{n,m,k}$, the origin has index\n$k$ and there are exactly $n-k$ other zeros, all nondegenerate\nwith positive Jacobian. This radius is the largest centered open\ndisk with that property. At $\\epsilon=R_{n,m,k}>0$ the nonzero\npoint\n\\begin{equation}\\label{v7:eq:firstcriticalpoint}\n r_* =\\left(\\frac{m+k}{n+m}\\right)^{1/(n-k)}\n\\end{equation}\nis a singular zero. For $k=m$, the exact radius simplifies to\n$(n-m)/(n+m)$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9383,
+    "type": "cor",
+    "labels": [
+      "v7:cor:firstincrease",
+      "v7:eq:boundaryparameters"
+    ],
+    "statement": "[Exact boundary fibers and the first increase]\n\\label{v7:cor:firstincrease}\nPut $d=n-k$, $\\ell=\\gcd(d,m+k)$, and $R=R_{n,m,k}$.\nThe only parameters on $|\\epsilon|=R$ with a singular nonzero\nzero are the $d/\\ell$ distinct values in\n\\begin{equation}\\label{v7:eq:boundaryparameters}\n \\left\\{R\\exp\\left(\\frac{2\\pi i(m+k)j}{d}\\right):\n                    j=0,\\ldots,d-1\\right\\}.\n\\end{equation}\nEvery parameter on that circle has exactly $d+1$ distinct zeros.\nAt each exceptional parameter, precisely $\\ell$ of the nonzero\nzeros are singular, each with index $+1$; the other $d-\\ell$\nnonzero zeros have positive Jacobian.\n\nFix an exceptional parameter $\\epsilon_0$. For every sufficiently\nsmall real $s>0$, the parameter $(1+s)\\epsilon_0$ has exactly\n$d+2\\ell+1$ distinct zeros. Apart from the origin, there are\n$d+\\ell$ positive and $\\ell$ negative nondegenerate zeros.\nThus $R$ is also the largest centered open disk on which the\ndistinct count is constantly $d+1$, even without a regularity requirement.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9499,
+    "type": "thm",
+    "labels": [
+      "v9:thm:trinomialmaximum",
+      "v9:eq:trinomialmaximum",
+      "v9:eq:trinomialspectrum"
+    ],
+    "statement": "[Exact trinomial maximum and full distinct spectrum]\n\\label{v9:thm:trinomialmaximum}\nFor\n$F_\\varepsilon(z)=z^n-z^k+\\varepsilon\\bar z^m$,\n$\\varepsilon\\in\\C$, one has\n\\begin{equation}\\label{v9:eq:trinomialmaximum}\n \\max_{\\varepsilon\\in\\C}N(F_\\varepsilon)=n+2m+k+1.\n\\end{equation}\nThe single integer choice $\\varepsilon=3$ attains this maximum\nfor every $1\\le k<m<n$. All its nonzero zeros are nondegenerate;\nthe origin has index $k$ and is nondegenerate exactly when $k=1$.\nThe full distinct-count spectrum within this fixed family is\n\\begin{equation}\\label{v9:eq:trinomialspectrum}\n \\bigl\\{d+1+\\ell j:0\\le j\\le2K/\\ell\\bigr\\}.\n\\end{equation}\nIf every nonzero zero is required to be nondegenerate, the spectrum is\n$\\{d+1+2\\ell j:0\\le j\\le K/\\ell\\}$.\nThese are statements about the displayed trinomial family, not the\nunrestricted harmonic maximum $M^{\\mathrm{harm}}_{m,n}$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9541,
+    "type": "lem",
+    "labels": [
+      "v9:lem:monotoneargument",
+      "v9:eq:argumentderivative"
+    ],
+    "statement": "[Monotone argument of the critical values]\n\\label{v9:lem:monotoneargument}\nThe critical parameter curve never passes through zero. Its continuous\nargument is strictly increasing, with total increase $2\\pi K$.\nMore precisely, with $x=\\cos t$,\n\\begin{equation}\\label{v9:eq:argumentderivative}\n \\Theta'(t)=\n \\frac{m^2(1+x)\\{(m-k)(n-m)+2kn(1-x)\\}}\n {(k^2+m^2-2kmx)(n^2+m^2-2nmx)}.\n\\end{equation}\nIt vanishes only at $t\\equiv\\pi\\pmod{2\\pi}$.\nEvery ray from zero therefore has exactly $K$ critical preimages,\ncounting distinct points of the critical curve in the $z$-plane.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9577,
+    "type": "prop",
+    "labels": [
+      "v9:prop:allparameters",
+      "v9:eq:allparameters",
+      "v9:eq:foldcount"
+    ],
+    "statement": "[All parameter regions and their boundaries]\n\\label{v9:prop:allparameters}\nIf $\\varepsilon=re^{i\\alpha}\\ne0$ is not on $\\Gamma$, put\n$q=\\#\\{j:\\rho_j(\\alpha)<r\\}$. Then\n\\begin{equation}\\label{v9:eq:allparameters}\n N(F_\\varepsilon)=d+1+2q,\\qquad\n (N^{\\ne0}_+,N^{\\ne0}_-)=(d+q,q).\n\\end{equation}\nEvery singular nonzero zero away from the first-boundary cusp\nparameters of Corollary~\\ref{v7:cor:firstincrease} is an ordinary fold.\nAt a parameter with $f$ such folds, put\n$q=\\#\\{j:\\rho_j(\\alpha)<r\\}$ as before. Its distinct count is\n\\begin{equation}\\label{v9:eq:foldcount}\n N(F_\\varepsilon)=d+1+2q+f.\n\\end{equation}\nAt each first-boundary cusp parameter the count is $d+1$.\nAlso $N(F_0)=d+1$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9654,
+    "type": "cor",
+    "labels": [
+      "v9:cor:outerradius",
+      "v9:eq:outerradius",
+      "v9:eq:lastparameters"
+    ],
+    "statement": "[Optimal outer radius and integer maximizers]\n\\label{v9:cor:outerradius}\nThe smallest number $S$ for which every $|\\varepsilon|>S$ attains\nthe maximum in \\eqref{v9:eq:trinomialmaximum} is\n\\begin{equation}\\label{v9:eq:outerradius}\n S=\\frac{d}{s^{s/d}h^{h/d}}\\le2.\n\\end{equation}\nEquality $S=2$ holds exactly when $n+k=2m$.\nOn $|\\varepsilon|=S$ the exceptional parameters are precisely\n\\begin{equation}\\label{v9:eq:lastparameters}\n S\\exp\\left(\\frac{\\pi iK(2j+1)}d\\right),\\qquad 0\\le j<d.\n\\end{equation}\nThere are $d/\\ell$ different values, each with $\\ell$ fold zeros\nand distinct count $n+2m+k+1-\\ell$. All other parameters on\nthat circle attain the maximum. The coefficient $3$ is the\nsmallest positive integer value of $\\varepsilon$ that maximizes\nevery family covered by this subsection.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9755,
+    "type": "thm",
+    "labels": [
+      "v10:thm:endpoint",
+      "v10:eq:maximum",
+      "v10:eq:spectrum"
+    ],
+    "statement": "[Exact endpoint maximum and spectrum]\n\\label{v10:thm:endpoint}\nFor every $n>m\\ge1$,\n\\begin{equation}\\label{v10:eq:maximum}\n \\max_{\\varepsilon\\in\\C}N(F_\\varepsilon)\n =d+1+2\\ell\\left\\lceil\\frac m\\ell\\right\\rceil\n =\\begin{cases}\n n+m+1,&J\\text{ even},\\\\\n n+m+\\ell+1,&J\\text{ odd}.\n \\end{cases}\n\\end{equation}\nIts full distinct-count spectrum is exactly\n\\begin{equation}\\label{v10:eq:spectrum}\n \\left\\{d+1+\\ell j:\n 0\\le j\\le2\\left\\lceil\\frac m\\ell\\right\\rceil\\right\\}.\n\\end{equation}\nBoth extrema are attained with $\\varepsilon\\in\\Q(i)$; multiplying\nby a common denominator gives Gaussian-integer polynomial coefficients.\nThe maximum occurs on an open set of parameters with\n$|\\varepsilon|<1$. Its nonzero zeros are nondegenerate, and its\norigin has index $m$.\n\nFor every $|\\varepsilon|>1$, the distinct count is $n+m+1$;\nall nonzero zeros are positive and the origin has index $-m$.\nWhen $J$ is odd, no Gaussian-integer value of $\\varepsilon$ itself\nattains the family maximum.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9786,
+    "type": "prop",
+    "labels": [
+      "v10:prop:unitcircle",
+      "v10:eq:unitangles",
+      "v10:eq:unitcounts"
+    ],
+    "statement": "[The unit-circle fibers]\n\\label{v10:prop:unitcircle}\nLet $\\varepsilon=e^{i\\alpha}$ and, for $0\\le j<2n$, put\n\\begin{equation}\\label{v10:eq:unitangles}\n \\theta_j=\\frac{\\alpha+(2j+1)\\pi}{2n},\\qquad\n c_j=2(-1)^j\\sin(m\\theta_j-\\alpha/2).\n\\end{equation}\nEvery nonzero zero is positive and nondegenerate. There is exactly\none on each ray $\\theta_j$ for which $c_j>0$, namely\n$c_j^{1/d}e^{i\\theta_j}$, and there are no others. Thus\n$N(F_{e^{i\\alpha}})=1+\\#\\{j:c_j>0\\}$.\nAs $\\alpha$ varies, its possible values are exactly\n\\begin{equation}\\label{v10:eq:unitcounts}\n U=\\begin{cases}\n \\{n-\\ell+1,n+1\\},&J\\text{ even},\\\\\n \\{n+1-\\ell/2,n+1+\\ell/2\\},&J\\text{ odd}.\n \\end{cases}\n\\end{equation}\nFor even $J$, the lower value occurs precisely when some $c_j=0$;\notherwise the upper value occurs. For odd $J$, a parameter with\nsome $c_j=0$ has the lower value, and the two values alternate\non the complementary parameter arcs.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9871,
+    "type": "prop",
+    "labels": [
+      "v10:prop:diskcount",
+      "v10:eq:diskcount"
+    ],
+    "statement": "[Counting inside the unit disk]\n\\label{v10:prop:diskcount}\nFor $\\varepsilon=re^{i\\alpha}$ with $0<r<1$ off the arcs,\nlet $q$ be the number of their critical preimages on the ray\n$\\alpha$ whose parameter modulus is less than $r$.\nPreimages on different domain arcs are counted separately.\nThen\n\\begin{equation}\\label{v10:eq:diskcount}\n N(F_\\varepsilon)=d+1+2q,\n \\qquad (N_+^{\\ne0},N_-^{\\ne0})=(d+q,q).\n\\end{equation}\nAt a parameter with $f$ ordinary folds and $q$ strictly smaller\ncritical radii, the distinct count is $d+1+2q+f$.\nThe only other nonzero singularities are the first-boundary\ncusps on $|\\varepsilon|=R$, already counted by\nCorollary~\\ref{v7:cor:firstincrease}; their distinct count is $d+1$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 9967,
+    "type": "cor",
+    "labels": [
+      "v10:cor:regularreal",
+      "v10:eq:regularspectrum",
+      "v10:eq:realmaximum"
+    ],
+    "statement": "[Nonzero-regular spectrum and real parameters]\n\\label{v10:cor:regularreal}\nIf every nonzero zero is required to be nondegenerate, the\nexact spectrum is\n\\begin{equation}\\label{v10:eq:regularspectrum}\n \\left\\{d+1+2\\ell j:0\\le j\\le\\left\\lceil m/\\ell\\right\\rceil\\right\\}\n \\ \\cup\\ \\{n+m+1\\}\\ \\cup\\ U,\n\\end{equation}\nwhere $U$ is \\eqref{v10:eq:unitcounts}. The origin is also\nnondegenerate exactly when $m=1$ and $|\\varepsilon|\\ne1$.\n\nThe maximum restricted to real $\\varepsilon$ equals the\ncomplex-parameter maximum, except when $J\\equiv3\\pmod4$\nand $D=(n-m)/\\ell$ is even. In that exceptional case,\n\\begin{equation}\\label{v10:eq:realmaximum}\n \\max_{\\varepsilon\\in\\R}N(F_\\varepsilon)=n+m+1,\n \\qquad\n \\max_{\\varepsilon\\in\\C}N(F_\\varepsilon)=n+m+\\ell+1.\n\\end{equation}\nThus allowing a complex parameter can strictly increase the maximum.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 10028,
+    "type": "thm",
+    "labels": [
+      "v11:thm:gcdmaximum",
+      "v11:eq:familymaximum",
+      "v11:eq:maxinterval",
+      "v11:eq:spectrum"
+    ],
+    "statement": "[A gcd formula for the linear-conjugate family]\n\\label{v11:thm:gcdmaximum}\nLet $n>k\\ge2$, $d=n-k$, and $\\ell=\\gcd(d,k+1)=\\gcd(n+1,k+1)$.\nFor $F_\\varepsilon=z^n-z^k+\\varepsilon\\bar z$,\n\\begin{equation}\\label{v11:eq:familymaximum}\n \\max_{\\varepsilon\\in\\C}N(F_\\varepsilon)=n+2+2\\ell.\n\\end{equation}\nEvery real parameter in the nonempty interval\n\\begin{equation}\\label{v11:eq:maxinterval}\n \\frac{d(k+1)^{(k-1)/d}}{(n+1)^{(n-1)/d}}\n <\\varepsilon<\n \\frac{d(k-1)^{(k-1)/d}}{(n-1)^{(n-1)/d}}\n\\end{equation}\nattains this maximum, with all zeros nondegenerate.\nFor $\\varepsilon\\ne0$ the complete distinct-count spectrum is\n\\begin{equation}\\label{v11:eq:spectrum}\n \\{n+2,\\ n+2+\\ell,\\ n+2+2\\ell\\}.\n\\end{equation}\nOnly the first and last values occur when all zeros are nondegenerate.\nAt $\\varepsilon=0$ the distinct count is $d+1$.\nIn particular, the maximum has a real-integer coefficient example\nafter choosing a rational parameter in \\eqref{v11:eq:maxinterval}\nand clearing denominators.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 10165,
+    "type": "thm",
+    "labels": [
+      "v11:thm:sparsemaximum",
+      "v11:eq:sparsemaximum"
+    ],
+    "statement": "[The sharp three-term harmonic maximum]\n\\label{v11:thm:sparsemaximum}\nOne has\n\\begin{equation}\\label{v11:eq:sparsemaximum}\n H^{(3)}_{1,2}=4,\\qquad H^{(3)}_{1,3}=7,\\qquad\n H^{(3)}_{1,n}=n+2+2D(n+1)\\quad(n\\ge4).\n\\end{equation}\nAll these maxima admit real-integer coefficients and\nnondegenerate zeros. For odd $n\\ge5$ the last formula is\n$2n+3$; when $n+1$ is prime it is $n+4$.\nCompared with the unrestricted sharp value\n$M^{\\mathrm{harm}}_{1,n}=3n-2$, three nonzero coefficients\nsuffice exactly for $n\\in\\{2,3,5\\}$.\nFor every other $n\\ge2$, any unrestricted extremizer requires\nat least four nonzero coefficients. This is a sparsity statement\nfor the harmonic class with conjugate degree one, separate from\nthe total-degree polyanalytic quantity $s_n$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 10257,
+    "type": "thm",
+    "labels": [
+      "v12:thm:separated",
+      "v12:eq:separation",
+      "v12:eq:maximum",
+      "v12:eq:interval",
+      "v12:eq:spectrum",
+      "v12:eq:m2"
+    ],
+    "statement": "[A sharp separated-component formula]\n\\label{v12:thm:separated}\nLet $n>k>m\\ge1$, $d=n-k$, and\n$\\ell=\\gcd(d,k+m)=\\gcd(n+m,k+m)$. Suppose\n\\begin{equation}\\label{v12:eq:separation}\n B(k,m)\\le\\pi\\ell.\n\\end{equation}\nFor $F_\\varepsilon=z^n-z^k+\\varepsilon\\bar z^m$ one then has\n\\begin{equation}\\label{v12:eq:maximum}\n \\max_{\\varepsilon\\in\\C}N(F_\\varepsilon)=n+m+1+2\\ell.\n\\end{equation}\nEvery real parameter in the nonempty interval\n\\begin{equation}\\label{v12:eq:interval}\n \\frac{d(k+m)^{(k-m)/d}}{(n+m)^{(n-m)/d}}\n <\\varepsilon<\n \\frac{d(k-m)^{(k-m)/d}}{(n-m)^{(n-m)/d}}\n\\end{equation}\nattains the maximum. For $\\varepsilon\\ne0$, the complete spectrum\nof distinct counts is\n\\begin{equation}\\label{v12:eq:spectrum}\n \\{n+m+1,\\ n+m+1+\\ell,\\ n+m+1+2\\ell\\}.\n\\end{equation}\nThe first and last values are exactly those attained with every\nnonzero zero regular. The origin always has index $-m$; it is\nnondegenerate exactly when $m=1$. At $\\varepsilon=0$ the count is\n$d+1$. Rational parameters in \\eqref{v12:eq:interval} give\nreal-integer examples after clearing denominators.\n\nCondition \\eqref{v12:eq:separation} holds whenever $\\ell\\ge m$,\nor $k-m\\ge m^2/(2\\ell)$. In particular, for every $n>k>2$,\n\\begin{equation}\\label{v12:eq:m2}\n \\boxed{\\displaystyle\n \\max_{\\varepsilon\\in\\C}N(z^n-z^k+\\varepsilon\\bar z^2)\n =n+3+2\\gcd(n+2,k+2).}\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 10431,
+    "type": "lem",
+    "labels": [
+      "v13:lem:opposite"
+    ],
+    "statement": "[Two opposite target perturbations]\n\\label{v13:lem:opposite}\nLet $H$ be real analytic near a finite fiber $H^{-1}(b)$ in the\nplane. Suppose its differential has rank at least one at every\npoint of that fiber. There is a vector $v\\ne0$ such that, for\nevery sufficiently small $t>0$, the two fibers at $b+tv$ and\n$b-tv$ have only regular points near the original fiber, and\nthe sum of their local distinct counts is twice the original\ncount. In particular, one perturbation preserves at least the\noriginal number of points. If all nearby fibers remain in a\ncommon compact set, the perturbed fibers are globally regular\nand the same assertion applies to their total counts.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 10467,
+    "type": "prop",
+    "labels": [
+      "v13:prop:antithird"
+    ],
+    "statement": "\\label{v13:prop:antithird}\nFor $n\\ge5$,\n\\[\n \\max_{\\varepsilon\\in\\C}\n N(z^n-\\bar z^2+\\varepsilon\\bar z)=n+4.\n\\]\nEvery sufficiently small nonzero parameter attains this value\nwith regular zeros. In degree four every member of the same\nfamily has at most ten distinct zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 10563,
+    "type": "thm",
+    "labels": [
+      "v13:thm:sparsemaximum",
+      "v13:eq:lowdegrees",
+      "v13:eq:sparsemaximum",
+      "v13:eq:regularmaximum"
+    ],
+    "statement": "[Sharp quadratic-conjugate sparsity bounds]\n\\label{v13:thm:sparsemaximum}\nThe complete distinct maxima are\n\\begin{equation}\\label{v13:eq:lowdegrees}\n H^{(3)}_{2,3}=9,\\qquad H^{(3)}_{2,4}=10,\\qquad\n H^{(3)}_{2,5}=11,\\qquad H^{(3)}_{2,6}=13,\n\\end{equation}\nand, for every $n\\ge7$,\n\\begin{equation}\\label{v13:eq:sparsemaximum}\n \\boxed{\\displaystyle\n H^{(3)}_{2,n}=\\max\\{n+6,\\ n+3+2D(n+2)\\}.}\n\\end{equation}\nAll these maxima admit real-integer coefficients. If every\nzero is required to be nondegenerate, the sharp answer is instead\n\\begin{equation}\\label{v13:eq:regularmaximum}\n \\boxed{H^{(3),\\mathrm{reg}}_{2,n}=n+6\\quad(n\\ge3),}\n\\end{equation}\nattained by $z^n-z+3\\bar z^2$.\nIn particular, $H^{(3)}_{2,n}=2n+5$ for even $n\\ge8$;\nif $n+2$ is prime, its value is $n+6$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 10661,
+    "type": "prop",
+    "labels": [
+      "v7:prop:completion",
+      "v7:eq:completion",
+      "v7:eq:purelower"
+    ],
+    "statement": "\\label{v7:prop:completion}\nIf $1\\le a\\le m<n$, $b>a$, and $a+b<n$, then\n\\begin{equation}\\label{v7:eq:completion}\n E_{m,n}\\ge M_{a,b}+n-b+a.\n\\end{equation}\nThe count on the right is attained exactly by a pure-head polynomial\nof exact conjugate degree $m$, over $\\Q(i)$, with only nondegenerate\nzeros. In particular, for every $m\\ge1$ and $n\\ge4m+1$,\n\\begin{equation}\\label{v7:eq:purelower}\n E_{m,n}\\ge n+10m^2-2m.\n\\end{equation}\nIn \\eqref{v7:eq:purelower} the coefficients can be real rational,\nand hence integer after a common rescaling.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 10728,
+    "type": "thm",
+    "labels": [
+      "v8:thm:completionenvelope",
+      "v8:eq:completioncandidates"
+    ],
+    "statement": "\\label{v8:thm:completionenvelope}\nOne has $E_{m,n}\\ge C_{m,n}$. The count $C_{m,n}$ is attained\nexactly over $\\Q(i)$, with exact conjugate degree $m$ and only\nnondegenerate zeros. It is the largest count supplied by\nProposition~\\ref{v7:prop:completion} using a seed in\n$\\mathcal B_{m,n}$.\n\nThe maximum in \\eqref{v8:eq:completionenvelope} needs at most three\ncandidate values of $a$. Put\n\\[\n a_0=\\min\\left\\{m,\\left\\lfloor\\frac{n-1}{4}\\right\\rfloor\\right\\}.\n\\]\nTest $a\\in\\{a_0,a_0+1,a_0+2\\}\\cap\\{1,\\ldots,m\\}$, taking\n\\begin{equation}\\label{v8:eq:completioncandidates}\n b_a=\\min(3a,n-a-1),\\qquad\n b_a\\leftarrow b_a-1\\ \\text{if }a\\ge4\\text{ and }b_a=3a-1.\n\\end{equation}\nDiscard a candidate with $b_a\\le a$, and take the largest\n$n+a^2+b_a^2+a-b_a$ among the remaining candidates.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 10771,
+    "type": "cor",
+    "labels": [
+      "v8:cor:subdiagonals",
+      "v8:eq:subdiagonals"
+    ],
+    "statement": "\\label{v8:cor:subdiagonals}\nFor every $m\\ge4$, the following counts are attained by\ninteger-coefficient pure-head polynomials of exact conjugate degree\n$m$, with all zeros nondegenerate and exactly $n$ real-axis zeros:\n\\begin{equation}\\label{v8:eq:subdiagonals}\n \\begin{aligned}\n E_{m,4m-2}&\\ge10m^2-16m+10,\\\\\n E_{m,4m-1}&\\ge10m^2-10m+5,\\\\\n E_{m,4m}&\\ge10m^2-10m+6.\n \\end{aligned}\n\\end{equation}\nEach displayed right side equals $C_{m,n}$ at that degree.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 10831,
+    "type": "thm",
+    "labels": [
+      "v32:thm:125",
+      "v32:eq:bound"
+    ],
+    "statement": "\\label{v32:thm:125}\nThere is a polynomial with real integer coefficients, exact\nbidegree $(4,11)$, and exactly $125$ zeros, all nondegenerate.\nThere are $66$ positive and $59$ negative zeros.\nConsequently,\n\\begin{equation}\\label{v32:eq:bound}\n 125\\le M_{4,11}\\le137.\n\\end{equation}\nThe lower bound improves the radial count $121$ in\n\\eqref{new:eq:rectanglelower}. It does not prove the upper endpoint.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 10926,
+    "type": "lem",
+    "labels": [
+      "v32:lem:jets",
+      "v32:eq:nonzerojets"
+    ],
+    "statement": "\\label{v32:lem:jets}\nOutside a finite subset of \\eqref{v32:eq:interval}, the following\nthree assertions hold.\nThere is a real-coefficient $H\\in V$ satisfying:\n\\begin{enumerate}[label=(\\roman*)]\n\\item its constant and linear jets vanish at all nine zeros;\n\\item its quadratic jet equals $(Q_a)_2$ at the four shared zeros;\n\\item at each real shared zero,\n$[d0]_aH=[d0]_aQ_a$ and $[0d]_aH=[0d]_aQ_a$ for $d=3,4,5$.\n\\end{enumerate}\nIt can be chosen with\n\\begin{equation}\\label{v32:eq:nonzerojets}\n [z^{11}w^4]H\\ne0,\\qquad\n [21]_a(Q_a-H)\\ne0\n \\quad\\hbox{at both real shared zeros}.\n\\end{equation}\nMoreover, arbitrary compatible real data can be prescribed by $K\\in V$\nfor the following $37$ complex jet entries: its constant and linear\njets at all nine zeros, and additionally its $20,02,30,03,11$ jets\nat the two real shared zeros. Arbitrary compatible real data can\nlikewise be prescribed by $C\\in V$ for its values at all nine\nzeros and its two first derivatives at the two real shared zeros.\nThe latter list has $13$ entries.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 11193,
+    "type": "thm",
+    "labels": [
+      "v33:thm:129",
+      "v33:eq:bound"
+    ],
+    "statement": "\\label{v33:thm:129}\nThere is a polynomial with real integer coefficients, exact\nbidegree $(4,11)$, and exactly $129$ zeros, all nondegenerate.\nIts positive and negative zero counts are $68$ and $61$.\nIn particular,\n\\begin{equation}\\label{v33:eq:bound}\n 129\\le M_{4,11}\\le137.\n\\end{equation}\nThe upper endpoint remains undetermined.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 11222,
+    "type": "lem",
+    "labels": [
+      "v33:lem:corner"
+    ],
+    "statement": "\\label{v33:lem:corner}\nEvery solution of these modified jet conditions satisfies\n\\[\n [z^{11}w^4]H=0,\\qquad [z^{10}w^4]H=b,\n \\qquad\n b=-\\frac{8(1+L^2)}{\\ell^5D_0^2(1-L^2)^2}<0\n\\]\nwhen $y$ is sufficiently small. It can be chosen with real\ncoefficients so that $[z^{11}w^3]H=b$ and\n$[21]_a(Q_a-H)\\ne0$ at both real shared points.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 11443,
+    "type": "prop",
+    "labels": [
+      "b:prop:circleaddition"
+    ],
+    "statement": "\\label{b:prop:circleaddition}\nSuppose a polynomial of bidegree $(m,n)$, with $n>m\\ge1$, has at\nleast $N$ nondegenerate zeros. There is a polynomial of bidegree\n$(m+1,n+1)$ with finitely many zeros, all nondegenerate, and with\nat least $N+2(m+n+1)$ zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 11528,
+    "type": "cor",
+    "labels": [
+      "b:cor:diagonal"
+    ],
+    "statement": "\\label{b:cor:diagonal}\nFor $n>m\\ge1$ and every integer $r\\ge0$,\n\\[\n M_{m+r,n+r}\\ge M_{m,n}+2r(m+n+r).\n\\]\nIn particular, if $M_{m,n}=m^2+n^2$, then\n$M_{m+r,n+r}=(m+r)^2+(n+r)^2$ for every $r\\ge0$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 11551,
+    "type": "prop",
+    "labels": [
+      "b:prop:contact",
+      "b:eq:contactperturbation"
+    ],
+    "statement": "\\label{b:prop:contact}\nLet $n>m\\ge1$, $q\\ge2$, and\n\\[\n P(z,w)=wA(z,w)-z^qB(z),\\qquad A(0,0)B(0)\\ne0.\n\\]\nSuppose that $P$ has bidegree $(m,n)$, its $w^mz^n$ coefficient is\nnonzero, and all zeros of $F_P$ are nondegenerate. For every\nsufficiently small real $\\eps>0$, the polynomial\n\\begin{equation}\\label{b:eq:contactperturbation}\n P_\\eps(z,w)=(wz-\\eps)A(z,w)-z^{q+1}B(z)\n             =zP(z,w)-\\eps A(z,w)\n\\end{equation}\nhas bidegree $(m,n+1)$, all its zeros are nondegenerate, and\n\\[\n N(P_\\eps)=N(P)+2q+1.\n\\]\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 11626,
+    "type": "cor",
+    "labels": [
+      "b:cor:contactbound"
+    ],
+    "statement": "\\label{b:cor:contactbound}\nUnder the hypotheses of Proposition~\\ref{b:prop:contact},\n\\[\n N(P)\\le\n \\min\\{m^2+n^2,\\,(4m+1)n-m-2q\\}.\n\\]\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 11655,
+    "type": "prop",
+    "labels": [
+      "v14:prop:purecontact",
+      "v14:eq:contactbound"
+    ],
+    "statement": "\\label{v14:prop:purecontact}\nLet $P\\in\\Ecal_{m,n}$ have exact conjugate degree $m$, only\nnondegenerate zeros, and\n\\[\n P(z,w)=wA(z,w)-z^qB(z),\\qquad\n q\\ge2,\\quad A(0,0)B(0)\\ne0.\n\\]\nFor every sufficiently small positive $\\varepsilon$,\n\\[\n P_\\varepsilon=(zw-\\varepsilon)A-z^{q+1}B\n \\in\\Ecal_{m,n+1}\n\\]\nhas exact conjugate degree $m$, only nondegenerate zeros, and\n$N(P_\\varepsilon)=N(P)+2q+1$. Consequently\n\\begin{equation}\\label{v14:eq:contactbound}\n N(P)\\le\\min\\{n^2,\\ (4m+1)n-2m^2-2q\\}.\n\\end{equation}\nThe linear term improves the unrestricted pure-head bound by\n$2(q-2m)$ whenever $q>2m$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 11711,
+    "type": "lem",
+    "labels": [
+      "v23:lem:sharedzero"
+    ],
+    "statement": "[A shared zero of the logharmonic factors]\n\\label{v23:lem:sharedzero}\nLet $p\\in\\C[z]$ have degree $d\\ge2$, let $p(0)=0$, and let\n$c\\ne0$. The sharp maximum of the number of distinct zeros of\n\\[\n                         G(z)=\\bar z\\,p(z)+c\n\\]\nis $3d-3$, including degenerate maps. For every $d$ the integer\nexample $p(z)=z^d-3z$, $c=1$, attains this maximum with only\nnondegenerate zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 11767,
+    "type": "prop",
+    "labels": [
+      "v23:prop:cyclicfive",
+      "v23:eq:cyclicfive"
+    ],
+    "statement": "[The exact cyclic contact-five maximum]\n\\label{v23:prop:cyclicfive}\nFor all $a,b,c\\in\\C$ with $c\\ne0$, the polynomial\n\\begin{equation}\\label{v23:eq:cyclicfive}\n             P(z,w)=z^5+a z^3w+bzw^2+cw\n\\end{equation}\nhas at most $19$ distinct real-slice zeros. The bound is sharp:\n$z^5-3z\\bar z^2+\\bar z$ has exactly $19$ zeros, all\nnondegenerate. More generally, equality in the bound is\nequivalent to the reduced equation\n\\[\n          \\bar u\\,(u^3+a u^2+b u)+c=0\n\\]\nhaving six distinct solutions. In the regular case this is\nequivalent to the associated anti-rational map\n$u\\mapsto\\overline{-c/[u(u^2+au+b)]}$ having two attracting\nfixed points.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 11841,
+    "type": "prop",
+    "labels": [
+      "v22:prop:contact26"
+    ],
+    "statement": "[A regular contact-six seed]\\label{v22:prop:contact26}\nThe Gaussian rational polynomial \\eqref{v22:eq:polynomial} has\nexactly $26$ real-slice zeros, all nondegenerate: $16$ have positive\nJacobian and $10$ have negative Jacobian. Its pure highest term is\n$z^6$, its exact conjugate degree is two, and\n\\[\n P(z,0)=z^6,\\qquad P_w(0,0)\\ne0.\n\\]\nThus the origin is a negative regular zero of analytic contact order six.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 11893,
+    "type": "cor",
+    "labels": [
+      "v22:cor:E27",
+      "v22:eq:E27",
+      "v25:cor:fixed39"
+    ],
+    "statement": "[Improved pure-head endpoint bracket]\\label{v22:cor:E27}\nOne has\n\\begin{equation}\\label{v22:eq:E27}\n                         39\\le E_{2,7}\\le47.\n\\end{equation}\nThe lower count $39$ is attained exactly by a polynomial with\nGaussian integer coefficients, pure highest term up to a nonzero\nconstant, exact conjugate degree two, and only nondegenerate zeros.\nMore explicitly, with $P$ from \\eqref{v22:eq:polynomial}, put\n$A=(P-z^6)/w$. Then\n\\begin{equation}\\label{v25:cor:fixed39}\n             Q=z^7+(zw-10^{-24})A\n\\end{equation}\nhas exactly $39$ nondegenerate zeros, with signs $(23,16)$.\nThe scalar multiple $2^{56}10^{24}Q$ has Gaussian integer coefficients.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 11944,
+    "type": "cor",
+    "labels": [
+      "v14:cor:sharpcontact"
+    ],
+    "statement": "[The maximal-contact endpoint in conjugate degree one]\n\\label{v14:cor:sharpcontact}\nFor every $n\\ge2$, among pure-head polynomials\n\\[\n P(z,w)=wA(z)-z^n,\\qquad \\deg A\\le n-2,\\quad A(0)\\ne0,\n\\]\nthe sharp distinct maximum, including singular polynomials, is\n$3n-2$. It is attained with nondegenerate zeros and Gaussian\nrational, and after a\nnonzero scalar multiplication Gaussian integer, coefficients.\nThe contact modification then supplies a regular pure-head\npolynomial of degree $n+1$ with exactly $5n-1$ zeros.\nThis recovers the known endpoint $E_{1,n+1}=5(n+1)-6$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12007,
+    "type": "prop",
+    "labels": [
+      "b:prop:nextdiagonal"
+    ],
+    "statement": "\\label{b:prop:nextdiagonal}\nFor every $m\\ge1$ there is a polynomial of bidegree $(m,2m+2)$\nwith exactly $5m^2+8m+2$ zeros, all nondegenerate.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12121,
+    "type": "thm",
+    "labels": [
+      "b:thm:certified"
+    ],
+    "statement": "\\label{b:thm:certified}\nThe polynomial $P_{40}$ in Appendix~\\ref{b:app:coefficients} has\nbidegree $(2,6)$ and exactly $40$ zeros on $w=\\bar z$, all\nnondegenerate, with $22$ positive and $18$ negative zeros.\nThe polynomial $P_{49}$ has bidegree $(2,7)$ and exactly $49$ such\nzeros, all nondegenerate, with $27$ positive and $22$ negative zeros.\nBoth polynomials are irreducible over $\\C$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12219,
+    "type": "prop",
+    "labels": [
+      "v29:prop:real40",
+      "v29:eq:real40"
+    ],
+    "statement": "\\label{v29:prop:real40}\nThe real integer polynomial\n\\begin{equation}\\label{v29:eq:real40}\n\\begin{split}\n R(z,w)={}&10000(10z^3+10zw-1)^2\\\\\n         &+5000\\bigl((10z^3-1)w^2-10z^2w+z\\bigr)\n           -z^5w^2(z+2000)\n\\end{split}\n\\end{equation}\nhas exactly forty zeros on $w=\\bar z$, all nondegenerate:\ntwenty-two positive and eighteen negative. Exactly eight lie on\nthe real axis. Its expansion has twelve nonzero terms, bidegree\n$(2,6)$, and coefficients of absolute value at most $2000000$.\nIn particular it is an explicit real integer extremizer for\n$M_{2,6}=40$ and is irreducible over $\\C$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12281,
+    "type": "thm",
+    "labels": [
+      "v8:thm:redquadratic",
+      "v8:eq:redquadratic",
+      "v8:eq:redcriterion"
+    ],
+    "statement": "\\label{v8:thm:redquadratic}\nFor $n>m\\ge2$, every reducible polynomial of bidegree $(m,n)$\nwith finite zero set satisfies\n\\begin{equation}\\label{v8:eq:redquadratic}\n N(f)\\le (m-1)^2+n^2+1=m^2+n^2-2(m-1).\n\\end{equation}\nEquality holds if and only if, up to a nonzero scalar,\n\\[\n f(z,w)=(w-\\bar a)R(z,w),\\qquad\n \\operatorname{bideg}R=(m-1,n),\\qquad\n N(R)=(m-1)^2+n^2,\n\\]\nand $R(a,\\bar a)\\ne0$. In particular, $R$ is irreducible, and\n\\begin{equation}\\label{v8:eq:redcriterion}\n M^{\\mathrm{red}}_{m,n}=(m-1)^2+n^2+1\n \\quad\\Longleftrightarrow\\quad\n M_{m-1,n}=(m-1)^2+n^2.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12358,
+    "type": "lem",
+    "labels": [
+      "v8:lem:splitconjugate",
+      "v8:eq:splitconjugate"
+    ],
+    "statement": "\\label{v8:lem:splitconjugate}\nIf $n>m\\ge2$, $1\\le a\\le m-1$, and $0\\le b\\le n$, then\n\\begin{equation}\\label{v8:eq:splitconjugate}\n \\widehat U_{a,b}+\\widehat U_{m-a,n-b}\n \\le \\widehat U_{m-1,n}+1.\n\\end{equation}\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12393,
+    "type": "thm",
+    "labels": [
+      "v8:thm:redlinear",
+      "v8:eq:redbounds",
+      "v8:eq:redreduction",
+      "v8:eq:redasymptotic"
+    ],
+    "statement": "\\label{v8:thm:redlinear}\nFor $n>m\\ge2$,\n\\begin{align}\n 1+\\max\\{M_{m,n-1},M_{m-1,n}\\}\n &\\le M^{\\mathrm{red}}_{m,n}\\notag\\\\\n &\\le1+\\max\\{M_{m,n-1},\\widehat U_{m-1,n}\\}\\notag\\\\\n &\\le1+\\max\\{\\widehat U_{m,n-1},\\widehat U_{m-1,n}\\}.\n \\label{v8:eq:redbounds}\n\\end{align}\nFor every $m\\ge2$ and $n\\ge m^2+2$ one has the exact reduction\n\\begin{equation}\\label{v8:eq:redreduction}\n M^{\\mathrm{red}}_{m,n}=M_{m,n-1}+1.\n\\end{equation}\nEvery extremizer in this range has an analytic linear factor\n$z-a$ whose zero is disjoint from the zeros of a maximal\nbidegree-$(m,n-1)$ factor. Furthermore,\n\\begin{equation}\\label{v8:eq:redasymptotic}\n (4m+1)n-4m^2-5m\n \\le M^{\\mathrm{red}}_{m,n}\n \\le(4m+1)n-9m,\n \\qquad n\\ge m^2+2.\n\\end{equation}\nThus the reducible class also has the sharp fixed-$m$ leading\ncoefficient $4m+1$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12457,
+    "type": "prop",
+    "labels": [
+      "b:prop:reducible"
+    ],
+    "statement": "\\label{b:prop:reducible}\n$M^{\\mathrm{red}}_{2,7}=41$. It is attained by $(z-a)P_{40}$ for\nany $a$ outside the zero set of the certified $40$-zero polynomial.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12475,
+    "type": "thm",
+    "labels": [
+      "v8:thm:purefactors",
+      "v8:eq:purefactors",
+      "v8:eq:purefactorequality"
+    ],
+    "statement": "\\label{v8:thm:purefactors}\nLet $f\\in\\Ecal_{m,n}$ have exact conjugate degree $m>0$ and\na factorization into $\\ell$ nonconstant factors. Then\n\\begin{equation}\\label{v8:eq:purefactors}\n \\ell\\le n-m,\\qquad N(f)\\le(n-\\ell+1)^2+\\ell-1.\n\\end{equation}\nIn particular every such polynomial with $m=n-1$ is irreducible.\nFor $2\\le\\ell\\le n-m$, put $d=n-\\ell+1>m$.\nThe upper bound in \\eqref{v8:eq:purefactors}, among polynomials\nhaving at least $\\ell$ factors, is attained if and only if\n$E_{m,d}=d^2$.\nEvery equality case has the form\n\\begin{equation}\\label{v8:eq:purefactorequality}\n f(z,w)=c\\prod_{j=1}^{\\ell-1}(z-a_j)R(z,w),\n\\end{equation}\nwhere $R$ is an irreducible pure-head extremizer of total degree\n$d$ and exact conjugate degree $m$, the $a_j$ are distinct, and\nnone is a zero of $R(z,\\bar z)$. Conversely every polynomial of\nthis form attains the bound.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12556,
+    "type": "thm",
+    "labels": [
+      "t:thm:main"
+    ],
+    "statement": "\\label{t:thm:main}\nThe exact maximum is\n\\[\n M_{3,9}=90.\n\\]\nIt is attained by a polynomial with rational real coefficients and\nninety nondegenerate zeros.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12600,
+    "type": "thm",
+    "labels": [
+      "t:thm:family"
+    ],
+    "statement": "\\label{t:thm:family}\nThere exists $t_0>0$ such that, for every $0<t<t_0$, $P_t$ has exact\nbidegree $(3,9)$ and exactly ninety nondegenerate zeros. The same\nconclusion holds for $t=10^{-8}$. In both statements the numbers of\npositive and negative zeros are $48$ and $42$, respectively.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12647,
+    "type": "lem",
+    "labels": [
+      "t:lem:cubic"
+    ],
+    "statement": "\\label{t:lem:cubic}\nThe function $h(u)=u^3+|u|^2-1/8$ has exactly nine nonzero,\nnondegenerate zeros. Six have positive Jacobian and three have negative\nJacobian. If\n\\[\n \\omega=e^{2\\pi i/3},\\qquad\n r_1=-\\frac12,\\qquad\n r_2=\\frac{-1+\\sqrt5}{4},\\qquad\n r_3=\\frac{-1-\\sqrt5}{4},\n\\]\nits zero set is $\\{r_a\\omega^j:1\\le a\\le3,\\ 0\\le j<3\\}$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12677,
+    "type": "lem",
+    "labels": [
+      "t:lem:translated",
+      "t:eq:model"
+    ],
+    "statement": "\\label{t:lem:translated}\nLet $a,b\\in\\C$ with $b\\ne0$. The real-analytic polynomial\n\\begin{equation}\\label{t:eq:model}\n \\mathcal M_{a,b}(u)\n =u^3+au^2+bu\\bar u\n +\\frac{a^2+b\\bar a}{3}u+\\frac{ba}{3}\\bar u\n +\\frac{a^3}{27}+\\frac{b|a|^2}{9}-\\frac18|b|^2b\n\\end{equation}\nhas exactly nine nondegenerate zeros, six positive and three negative.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  },
+  {
+    "source_line": 12715,
+    "type": "lem",
+    "labels": [
+      "t:lem:identities",
+      "t:eq:jetidentity",
+      "t:eq:valueidentity",
+      "t:eq:infinitylimit"
+    ],
+    "statement": "\\label{t:lem:identities}\nThe polynomials above satisfy\n\\begin{equation}\\label{t:eq:jetidentity}\n T_2-Df-Ef^*\\in I^2,\n\\end{equation}\nand\n\\begin{equation}\\label{t:eq:valueidentity}\n T_3-G\\in I.\n\\end{equation}\nMoreover, with\n$\\widehat P_t(u,v)=u^9v^3P_t(1/u,1/v)$,\n\\begin{equation}\\label{t:eq:infinitylimit}\n t^{-3}\\widehat P_t(tu,tv)\n \\longrightarrow v^3+uv-\\frac18\n\\end{equation}\nin $C^1$ on every compact subset of $\\C^2$ as $t\\to0^+$.\n",
+    "disposition": "Retained in the original research archive; not asserted or relied on by the submission. Not independently revalidated in this revision."
+  }
+]

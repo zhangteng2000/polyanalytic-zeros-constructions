@@ -1,0 +1,87 @@
+{
+  "all_passed": true,
+  "arithmetic": "exact rational polynomial arithmetic",
+  "stationary_cubic": "25*Y**3 - 50*Y**2 - 5*Y + 12",
+  "stationary_x": "5*Y**2/2 - 11*Y/2 + 2",
+  "squared_optimal_constant": "3924*Y**2/25 - 10224*Y/25 + 25344/125",
+  "certified_y_interval": [
+    "638191359406416738988434593775547/1267650600228229401496703205376000",
+    "159547839851604184747108648443887/316912650057057350374175801344000"
+  ],
+  "certified_C6_interval": [
+    "756698422387/125000000000",
+    "6053587379097/1000000000000"
+  ],
+  "C6_decimal_interval_for_reading": [
+    "6.053587379096000",
+    "6.053587379097000"
+  ],
+  "bernstein_boundary_certificates": [
+    {
+      "branch": "plus",
+      "interval": [
+        "0",
+        "1"
+      ],
+      "coefficients": [
+        "6",
+        "18/5",
+        "8/5",
+        "9/10",
+        "6/5",
+        "2"
+      ],
+      "minimum": "9/10"
+    },
+    {
+      "branch": "minus",
+      "interval": [
+        "0",
+        "1/2"
+      ],
+      "coefficients": [
+        "6",
+        "24/5",
+        "7/2",
+        "177/80",
+        "9/8",
+        "17/32"
+      ],
+      "minimum": "17/32"
+    },
+    {
+      "branch": "minus",
+      "interval": [
+        "1/2",
+        "3/4"
+      ],
+      "coefficients": [
+        "17/32",
+        "15/64",
+        "39/640",
+        "61/1280",
+        "609/2560",
+        "699/1024"
+      ],
+      "minimum": "61/1280"
+    },
+    {
+      "branch": "minus",
+      "interval": [
+        "3/4",
+        "1"
+      ],
+      "coefficients": [
+        "699/1024",
+        "1443/1280",
+        "1169/640",
+        "453/160",
+        "21/5",
+        "6"
+      ],
+      "minimum": "699/1024"
+    }
+  ],
+  "equality_traces": "abs(s)^2=y_star; Re(s^3)=y_star*x_star; exactly six",
+  "verifier_sha256": "86e018d148b2e4e79f85b7a6b72c1f7644d682995ce1e67e4a03a4235eeca8b0"
+}

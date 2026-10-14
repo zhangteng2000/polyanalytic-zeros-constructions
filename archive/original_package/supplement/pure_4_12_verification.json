@@ -1,0 +1,33 @@
+{
+  "all_checks_passed": true,
+  "arithmetic": "fractions.Fraction, exact throughout all assertions",
+  "simple_real_slice_zeros": 144,
+  "positive_jacobian_zeros": 78,
+  "negative_jacobian_zeros": 66,
+  "real_axis_zeros": 12,
+  "disjoint_boxes": 144,
+  "pure_highest_part": "z^12",
+  "analytic_degree": 12,
+  "conjugate_degree": 4,
+  "bezout_exhaustion": 144,
+  "polynomial_terms": 43,
+  "independent_coefficient_reconstruction_passed": true,
+  "kappa": [
+    "1",
+    "1000000000000"
+  ],
+  "tau": [
+    "1",
+    "1000000000000000000000000000000"
+  ],
+  "strict_exact_contraction_bound": "10^-63",
+  "strict_exact_beta_over_radius_bound": "10^-60",
+  "integer_scaling_denominator": "256000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "radius": [
+    "1",
+    "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "display_only_max_contraction_factor": 1.611590807405778e-64,
+  "display_only_max_beta_over_radius": 4.957578136728158e-61,
+  "seconds": 17.29
+}

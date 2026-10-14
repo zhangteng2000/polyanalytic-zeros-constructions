@@ -1,0 +1,21 @@
+历史附件缺口（2026-10-08）
+
+以下文件名出现在原稿沿用的历史核验叙述中，但没有随用户提供的四份原始材料交付，
+本次在当前工作目录和 Downloads 中也未找到它们。因此本包不声称包含这些文件，
+也不声称已重新运行这些历史核验。正文中历史段落提到的“supplied / reproduction
+archive”不表示下列旧附件已包含在本次交付包中。原始四份材料放在 original_inputs/。
+后续研究新生成且实际可用的 39 个核验脚本、39 份报告和 7 份证书均放在 supplement/。
+
+缺失的历史文件名：
+- E3_8_64_certificate.json
+- M3_8_73_certificate.json
+- bidegree_3_9_certificate.json
+- check_harmonic_signs.py
+- sharp_even_diagonal_36_certificate.json
+- verify_all.py
+- verify_auxiliary.py
+- verify_bidegree_3_9.py
+- verify_extremal_3_8.py
+- verify_harmonic_20.py
+- verify_seed.py
+- verify_sharp_even_diagonal_36.py

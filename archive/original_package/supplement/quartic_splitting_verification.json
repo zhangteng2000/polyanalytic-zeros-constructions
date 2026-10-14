@@ -1,0 +1,432 @@
+{
+  "status": "passed",
+  "arithmetic": "exact Gaussian rational and symbolic arithmetic",
+  "local_translation_identity": true,
+  "generic_radial_identity_r3": true,
+  "degree_cases": 22,
+  "degree_range": "3 <= r <= 24",
+  "degree_specialization": "epsilon=1, for support identities only",
+  "normalized_error_bound_identities": 2,
+  "phase_ratio_trace": "-6/5, a noninteger rational",
+  "scope": "The infinite sharpness theorem is proved analytically. No fixed numerical small parameter or floating-point zero count is certified here.",
+  "cases": [
+    {
+      "r": 3,
+      "m": 12,
+      "n": 28,
+      "correction_w_degrees": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "correction_total_degrees": [
+        25,
+        22,
+        19,
+        15
+      ],
+      "E": 784,
+      "M": 928
+    },
+    {
+      "r": 4,
+      "m": 16,
+      "n": 36,
+      "correction_w_degrees": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "correction_total_degrees": [
+        32,
+        28,
+        24,
+        19
+      ],
+      "E": 1296,
+      "M": 1552
+    },
+    {
+      "r": 5,
+      "m": 20,
+      "n": 44,
+      "correction_w_degrees": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "correction_total_degrees": [
+        39,
+        34,
+        29,
+        23
+      ],
+      "E": 1936,
+      "M": 2336
+    },
+    {
+      "r": 6,
+      "m": 24,
+      "n": 52,
+      "correction_w_degrees": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "correction_total_degrees": [
+        46,
+        40,
+        34,
+        27
+      ],
+      "E": 2704,
+      "M": 3280
+    },
+    {
+      "r": 7,
+      "m": 28,
+      "n": 60,
+      "correction_w_degrees": [
+        28,
+        28,
+        28,
+        28
+      ],
+      "correction_total_degrees": [
+        53,
+        46,
+        39,
+        31
+      ],
+      "E": 3600,
+      "M": 4384
+    },
+    {
+      "r": 8,
+      "m": 32,
+      "n": 68,
+      "correction_w_degrees": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "correction_total_degrees": [
+        60,
+        52,
+        44,
+        35
+      ],
+      "E": 4624,
+      "M": 5648
+    },
+    {
+      "r": 9,
+      "m": 36,
+      "n": 76,
+      "correction_w_degrees": [
+        36,
+        36,
+        36,
+        36
+      ],
+      "correction_total_degrees": [
+        67,
+        58,
+        49,
+        39
+      ],
+      "E": 5776,
+      "M": 7072
+    },
+    {
+      "r": 10,
+      "m": 40,
+      "n": 84,
+      "correction_w_degrees": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "correction_total_degrees": [
+        74,
+        64,
+        54,
+        43
+      ],
+      "E": 7056,
+      "M": 8656
+    },
+    {
+      "r": 11,
+      "m": 44,
+      "n": 92,
+      "correction_w_degrees": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "correction_total_degrees": [
+        81,
+        70,
+        59,
+        47
+      ],
+      "E": 8464,
+      "M": 10400
+    },
+    {
+      "r": 12,
+      "m": 48,
+      "n": 100,
+      "correction_w_degrees": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "correction_total_degrees": [
+        88,
+        76,
+        64,
+        51
+      ],
+      "E": 10000,
+      "M": 12304
+    },
+    {
+      "r": 13,
+      "m": 52,
+      "n": 108,
+      "correction_w_degrees": [
+        52,
+        52,
+        52,
+        52
+      ],
+      "correction_total_degrees": [
+        95,
+        82,
+        69,
+        55
+      ],
+      "E": 11664,
+      "M": 14368
+    },
+    {
+      "r": 14,
+      "m": 56,
+      "n": 116,
+      "correction_w_degrees": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "correction_total_degrees": [
+        102,
+        88,
+        74,
+        59
+      ],
+      "E": 13456,
+      "M": 16592
+    },
+    {
+      "r": 15,
+      "m": 60,
+      "n": 124,
+      "correction_w_degrees": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "correction_total_degrees": [
+        109,
+        94,
+        79,
+        63
+      ],
+      "E": 15376,
+      "M": 18976
+    },
+    {
+      "r": 16,
+      "m": 64,
+      "n": 132,
+      "correction_w_degrees": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "correction_total_degrees": [
+        116,
+        100,
+        84,
+        67
+      ],
+      "E": 17424,
+      "M": 21520
+    },
+    {
+      "r": 17,
+      "m": 68,
+      "n": 140,
+      "correction_w_degrees": [
+        68,
+        68,
+        68,
+        68
+      ],
+      "correction_total_degrees": [
+        123,
+        106,
+        89,
+        71
+      ],
+      "E": 19600,
+      "M": 24224
+    },
+    {
+      "r": 18,
+      "m": 72,
+      "n": 148,
+      "correction_w_degrees": [
+        72,
+        72,
+        72,
+        72
+      ],
+      "correction_total_degrees": [
+        130,
+        112,
+        94,
+        75
+      ],
+      "E": 21904,
+      "M": 27088
+    },
+    {
+      "r": 19,
+      "m": 76,
+      "n": 156,
+      "correction_w_degrees": [
+        76,
+        76,
+        76,
+        76
+      ],
+      "correction_total_degrees": [
+        137,
+        118,
+        99,
+        79
+      ],
+      "E": 24336,
+      "M": 30112
+    },
+    {
+      "r": 20,
+      "m": 80,
+      "n": 164,
+      "correction_w_degrees": [
+        80,
+        80,
+        80,
+        80
+      ],
+      "correction_total_degrees": [
+        144,
+        124,
+        104,
+        83
+      ],
+      "E": 26896,
+      "M": 33296
+    },
+    {
+      "r": 21,
+      "m": 84,
+      "n": 172,
+      "correction_w_degrees": [
+        84,
+        84,
+        84,
+        84
+      ],
+      "correction_total_degrees": [
+        151,
+        130,
+        109,
+        87
+      ],
+      "E": 29584,
+      "M": 36640
+    },
+    {
+      "r": 22,
+      "m": 88,
+      "n": 180,
+      "correction_w_degrees": [
+        88,
+        88,
+        88,
+        88
+      ],
+      "correction_total_degrees": [
+        158,
+        136,
+        114,
+        91
+      ],
+      "E": 32400,
+      "M": 40144
+    },
+    {
+      "r": 23,
+      "m": 92,
+      "n": 188,
+      "correction_w_degrees": [
+        92,
+        92,
+        92,
+        92
+      ],
+      "correction_total_degrees": [
+        165,
+        142,
+        119,
+        95
+      ],
+      "E": 35344,
+      "M": 43808
+    },
+    {
+      "r": 24,
+      "m": 96,
+      "n": 196,
+      "correction_w_degrees": [
+        96,
+        96,
+        96,
+        96
+      ],
+      "correction_total_degrees": [
+        172,
+        148,
+        124,
+        99
+      ],
+      "E": 38416,
+      "M": 47632
+    }
+  ]
+}

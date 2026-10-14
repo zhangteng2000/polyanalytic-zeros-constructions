@@ -1,0 +1,19 @@
+{
+  "all_exact_checks_passed": true,
+  "certified_regular_zero_lower_bound": 26,
+  "positive_boxes": 16,
+  "negative_boxes": 10,
+  "contact_order": 6,
+  "origin_regular": true,
+  "pure_head": "z^6",
+  "exact_conjugate_degree": 2,
+  "strict_bound": "q+beta/r < 1/1024 in every rational box",
+  "display_only_q_max": 3.4388667305032675e-70,
+  "display_only_beta_over_r_max": 4.955650262297733e-101,
+  "consequent_pure_E_2_7_lower_bound": 39,
+  "certificate_sha256": "296ab1d2784503b6400ae4291e2f5c1e78e2930affa08d20b3f5dbc6c015396e",
+  "exact_real_slice_zeros": 26,
+  "nonreal_complex_intersections": 10,
+  "pure_bezout_exhaustion": 36,
+  "verifier_sha256": "938df5b5185b6c6898d7b90c3341aa89f1b1c78364ac46b770f35dc14d695191"
+}

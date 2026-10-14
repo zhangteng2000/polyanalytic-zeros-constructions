@@ -1,0 +1,343 @@
+{
+  "status": "passed",
+  "scope": "Finite exact diagnostics, not a universal proof or certified parameter choice.",
+  "arithmetic": "Exact integers, rationals, and Gaussian rationals; no numerical roots.",
+  "local_model_orders": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "global_degree_cases": [
+    {
+      "k": 2,
+      "r": 1,
+      "degree_z": 6,
+      "degree_w": 2,
+      "total_degree": 6,
+      "pure_head": false,
+      "terms": 12,
+      "seconds": 0.004
+    },
+    {
+      "k": 3,
+      "r": 1,
+      "degree_z": 9,
+      "degree_w": 3,
+      "total_degree": 9,
+      "pure_head": false,
+      "terms": 22,
+      "seconds": 0.004
+    },
+    {
+      "k": 4,
+      "r": 1,
+      "degree_z": 12,
+      "degree_w": 4,
+      "total_degree": 12,
+      "pure_head": false,
+      "terms": 48,
+      "seconds": 0.007
+    },
+    {
+      "k": 5,
+      "r": 1,
+      "degree_z": 15,
+      "degree_w": 5,
+      "total_degree": 15,
+      "pure_head": false,
+      "terms": 77,
+      "seconds": 0.011
+    },
+    {
+      "k": 6,
+      "r": 1,
+      "degree_z": 18,
+      "degree_w": 6,
+      "total_degree": 18,
+      "pure_head": false,
+      "terms": 136,
+      "seconds": 0.023
+    },
+    {
+      "k": 7,
+      "r": 1,
+      "degree_z": 21,
+      "degree_w": 7,
+      "total_degree": 21,
+      "pure_head": false,
+      "terms": 200,
+      "seconds": 0.041
+    },
+    {
+      "k": 8,
+      "r": 1,
+      "degree_z": 24,
+      "degree_w": 8,
+      "total_degree": 24,
+      "pure_head": false,
+      "terms": 312,
+      "seconds": 0.085
+    },
+    {
+      "k": 2,
+      "r": 2,
+      "degree_z": 10,
+      "degree_w": 4,
+      "total_degree": 10,
+      "pure_head": true,
+      "terms": 17,
+      "seconds": 0.003
+    },
+    {
+      "k": 3,
+      "r": 2,
+      "degree_z": 15,
+      "degree_w": 6,
+      "total_degree": 15,
+      "pure_head": true,
+      "terms": 33,
+      "seconds": 0.005
+    },
+    {
+      "k": 4,
+      "r": 2,
+      "degree_z": 20,
+      "degree_w": 8,
+      "total_degree": 20,
+      "pure_head": true,
+      "terms": 75,
+      "seconds": 0.013
+    },
+    {
+      "k": 5,
+      "r": 2,
+      "degree_z": 25,
+      "degree_w": 10,
+      "total_degree": 25,
+      "pure_head": true,
+      "terms": 123,
+      "seconds": 0.024
+    },
+    {
+      "k": 6,
+      "r": 2,
+      "degree_z": 30,
+      "degree_w": 12,
+      "total_degree": 30,
+      "pure_head": true,
+      "terms": 221,
+      "seconds": 0.051
+    },
+    {
+      "k": 7,
+      "r": 2,
+      "degree_z": 35,
+      "degree_w": 14,
+      "total_degree": 35,
+      "pure_head": true,
+      "terms": 329,
+      "seconds": 0.098
+    },
+    {
+      "k": 8,
+      "r": 2,
+      "degree_z": 40,
+      "degree_w": 16,
+      "total_degree": 40,
+      "pure_head": true,
+      "terms": 518,
+      "seconds": 0.166
+    },
+    {
+      "k": 2,
+      "r": 3,
+      "degree_z": 14,
+      "degree_w": 6,
+      "total_degree": 14,
+      "pure_head": true,
+      "terms": 22,
+      "seconds": 0.005
+    },
+    {
+      "k": 3,
+      "r": 3,
+      "degree_z": 21,
+      "degree_w": 9,
+      "total_degree": 21,
+      "pure_head": true,
+      "terms": 44,
+      "seconds": 0.007
+    },
+    {
+      "k": 4,
+      "r": 3,
+      "degree_z": 28,
+      "degree_w": 12,
+      "total_degree": 28,
+      "pure_head": true,
+      "terms": 102,
+      "seconds": 0.021
+    },
+    {
+      "k": 5,
+      "r": 3,
+      "degree_z": 35,
+      "degree_w": 15,
+      "total_degree": 35,
+      "pure_head": true,
+      "terms": 169,
+      "seconds": 0.043
+    },
+    {
+      "k": 6,
+      "r": 3,
+      "degree_z": 42,
+      "degree_w": 18,
+      "total_degree": 42,
+      "pure_head": true,
+      "terms": 306,
+      "seconds": 0.106
+    },
+    {
+      "k": 7,
+      "r": 3,
+      "degree_z": 49,
+      "degree_w": 21,
+      "total_degree": 49,
+      "pure_head": true,
+      "terms": 458,
+      "seconds": 0.168
+    },
+    {
+      "k": 8,
+      "r": 3,
+      "degree_z": 56,
+      "degree_w": 24,
+      "total_degree": 56,
+      "pure_head": true,
+      "terms": 724,
+      "seconds": 0.597
+    },
+    {
+      "k": 2,
+      "r": 4,
+      "degree_z": 18,
+      "degree_w": 8,
+      "total_degree": 18,
+      "pure_head": true,
+      "terms": 27,
+      "seconds": 0.017
+    },
+    {
+      "k": 3,
+      "r": 4,
+      "degree_z": 27,
+      "degree_w": 12,
+      "total_degree": 27,
+      "pure_head": true,
+      "terms": 55,
+      "seconds": 0.026
+    },
+    {
+      "k": 4,
+      "r": 4,
+      "degree_z": 36,
+      "degree_w": 16,
+      "total_degree": 36,
+      "pure_head": true,
+      "terms": 129,
+      "seconds": 0.062
+    },
+    {
+      "k": 5,
+      "r": 4,
+      "degree_z": 45,
+      "degree_w": 20,
+      "total_degree": 45,
+      "pure_head": true,
+      "terms": 215,
+      "seconds": 0.162
+    },
+    {
+      "k": 6,
+      "r": 4,
+      "degree_z": 54,
+      "degree_w": 24,
+      "total_degree": 54,
+      "pure_head": true,
+      "terms": 391,
+      "seconds": 0.276
+    },
+    {
+      "k": 7,
+      "r": 4,
+      "degree_z": 63,
+      "degree_w": 28,
+      "total_degree": 63,
+      "pure_head": true,
+      "terms": 587,
+      "seconds": 0.413
+    },
+    {
+      "k": 8,
+      "r": 4,
+      "degree_z": 72,
+      "degree_w": 32,
+      "total_degree": 72,
+      "pure_head": true,
+      "terms": 930,
+      "seconds": 0.937
+    },
+    {
+      "k": 12,
+      "r": 1,
+      "degree_z": 36,
+      "degree_w": 12,
+      "total_degree": 36,
+      "pure_head": false,
+      "terms": 1117,
+      "seconds": 0.911
+    },
+    {
+      "k": 12,
+      "r": 2,
+      "degree_z": 60,
+      "degree_w": 24,
+      "total_degree": 60,
+      "pure_head": true,
+      "terms": 1897,
+      "seconds": 2.722
+    }
+  ],
+  "shear_identity_r": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "inversion_monomials": 81345,
+  "cone_pairs": 1000000,
+  "cone_max_m": 1000,
+  "excluded_cone_line": "n=3m-1; no impossibility claim is made.",
+  "seconds": 9.723
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "Exact polynomial checks for the optimal quadratic shear radius and sextic seed.\n\nThe arbitrary small-parameter count follows from the local splitting proof;\nno approximate root search is used in this script.",
+  "exact_seed_root_intervals": 18,
+  "exact_cofactor_identity": true,
+  "degrees": {
+    "analytic": 6,
+    "conjugate": 2,
+    "total": 6
+  },
+  "unique_highest_term": "z^6",
+  "constructed_regular_zeros": 36,
+  "real_zeros": 6,
+  "optimal_uniform_quadratic_shear_radius": 1,
+  "status": "passed"
+}

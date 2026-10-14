@@ -1,0 +1,32 @@
+[
+  {
+    "file": "m1_chebyshev_details.tex",
+    "label_count": 9,
+    "numbered_equations": 6,
+    "bibliography_count": 2,
+    "duplicate_labels": [],
+    "undefined_references": [],
+    "uncited_numbered_equations": [],
+    "undefined_citations": [],
+    "uncited_bibliography_items": [],
+    "disallowed_optional_environment_titles": [],
+    "proofs_containing_external_citations": 0,
+    "non_ascii_characters": [],
+    "status": "PASS"
+  },
+  {
+    "file": "polyanalytic_zeros.tex",
+    "label_count": 62,
+    "numbered_equations": 28,
+    "bibliography_count": 25,
+    "duplicate_labels": [],
+    "undefined_references": [],
+    "uncited_numbered_equations": [],
+    "undefined_citations": [],
+    "uncited_bibliography_items": [],
+    "disallowed_optional_environment_titles": [],
+    "proofs_containing_external_citations": 0,
+    "non_ascii_characters": [],
+    "status": "PASS"
+  }
+]

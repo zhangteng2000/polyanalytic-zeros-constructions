@@ -1,0 +1,4 @@
+# Versions used to generate the v1.0 verification report and figure.
+sympy==1.14.0
+numpy==2.3.5
+matplotlib==3.11.2

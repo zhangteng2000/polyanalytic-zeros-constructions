@@ -1,0 +1,55 @@
+{
+  "all_passed": true,
+  "exact_arithmetic": true,
+  "degree_table": {
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 3,
+    "8": 3,
+    "9": 3
+  },
+  "sharp_cubic_orders": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "one_degree_loss_deficits": [
+    6,
+    12,
+    16,
+    18,
+    18,
+    16,
+    12,
+    6
+  ],
+  "integer_roundings_checked_through": 1000,
+  "open_degree_brackets": {
+    "10": [
+      3,
+      4
+    ],
+    "11": [
+      4,
+      5
+    ],
+    "13": [
+      4,
+      6
+    ],
+    "27": [
+      8,
+      9
+    ]
+  },
+  "theorem_dependency": "n:eq:Eupper, d:prop:seeds, d:prop:boundary, v16:thm:borderline",
+  "verifier_sha256": "1f94ba56b23a1ca158d0ac22fa60f627b55a028fe7aa339450ce9e19d5a2fc10"
+}

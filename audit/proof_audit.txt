@@ -1,0 +1,135 @@
+PROOF AUDIT - SUBMISSION MANUSCRIPT
+This is an analytic review and provenance record, not a formal proof-assistant verification.
+All formal statements in the submission are listed below. Computational checks are supplementary.
+No assertion is made that every theorem in the untouched research archive has been revalidated.
+
+1. Eremenko's fixed-conjugate-degree question [prob:linear]
+Check: Finite zero set is explicit. Bidegree convention is (analytic, conjugate).
+Literature/simplification: Eremenko 2026, p. 1; the rectangular quadratic bound is n^2+m^2, not n^2.
+Source: core:problem
+
+2. Rectangular upper bound and optimal leading coefficient [thm:linear]
+Check: Regularize without loss; choose a smooth connected divisor; count positive quotient double points; compute degree m-n; smooth and apply Thom. Radial examples prove the limit.
+Literature/simplification: Kronheimer-Mrowka Theorem 1 is restated as Lemma thom; the intersection computation is classical.
+Source: b:thm:main
+
+3. Uniform lower bound and the elementary quadratic range [thm:rectlower]
+Check: Check s=max(0,3m+1-n), k-s>2(m-s), exact radii, angular multiplicity k+s, local replacement s^2, and bounded global remainder. The statement only claims the range proved in this paper.
+Literature/simplification: The radial proof replaces long local-model constructions for the range m<n<=2m+1. Wider archived ranges are outside the submission's claims.
+Source: new:thm:rectangle;d:thm:main (restricted range)
+
+4. Exact shifted Chebyshev count [thm:cheb]
+Check: Use unique elliptic coordinates, one transverse crossing iff theta<phi, gcd equality count, two small levels, finite-end and infinity-end asymptotics, and nonzero planar Jacobian. Resonant sin(m theta)=0 is explicitly treated by the largest nonzero Chebyshev coefficient.
+Literature/simplification: Elementary Chebyshev identities; the conclusion supplies deterministic order mn examples discussed by Lundberg.
+Source: h:thm:Cheb
+
+5. Explicit degree-one conjugate example [cor:explicit]
+Check: epsilon=1/n^2 is strictly below the smallest threshold using sin(pi/n)>=2/n, sinh(1/n)>=1/n, cosh(1)<4. Multiplication by -i gives p_n-bar z.
+Literature/simplification: The count 3n-2 and its prior sharpness are credited to Khavinson-Swiatek and Geyer. The explicit coefficient and direct proof are supplied here.
+Source: New explicit specialization of h:thm:Cheb
+
+6. Restricted deterministic construction problem [prob:deterministic]
+Check: The family epsilon z^n+q+bar q is distinguished from all harmonic polynomials.
+Literature/simplification: Lundberg 2023, Section 4.2 (author version pp. 9-10).
+Source: b:thm:harmonic (motivation)
+
+7. Exact maximum in the restricted harmonic family [thm:monomial]
+Check: Upper bound includes vanishing low coefficients, singular roots, and a shared origin. Lower bound uses one rational phase and one coefficient scale for all lines; no independent choice of line coefficients is assumed.
+Literature/simplification: Refines Lundberg's Descartes argument; sign-independent real-rootedness is credited before the dominance lemma.
+Source: b:thm:harmonic
+
+8. Sete-Zur coefficient conjecture [conj:sparse]
+Check: Original Remark 4.4 concerns all polyanalytic polynomials of total degree d and d^2 distinct zeros, not only harmonic polynomials.
+Literature/simplification: Sete-Zur 2024, Remark 4.4, author version pp. 18-19; journal article 128595.
+Source: q:thm:quartic (motivation)
+
+9. Sparse quadratic extremizers and the minimal quartic [thm:sparse]
+Check: Odd and even degree constructions are counted before the optional constant shift. Quartic radii are given exactly. A finite binomial has <=2d zeros, proving minimality in degree four.
+Literature/simplification: The binomial argument is elementary polar decomposition. No stronger optimality claim is made for d>=5.
+Source: q:thm:quartic;q:thm:even;q:cor:supportall;q:prop:binomial
+
+10. All parameters for the m=1 Chebyshev family [prop:allparameters]
+Check: The logarithmic derivative of sinh(t)/cosh(nt) strictly decreases. This proves exactly two, one, or zero roots per selected branch. The sole critical point is nondegenerate, giving the stated singular parameters.
+Literature/simplification: Direct calculus avoids the gcd and translated-branch argument entirely.
+Source: New strengthening
+
+11. Crossings of translated Chebyshev branches [lem:crossing]
+Check: X_theta decreases in theta; X_theta-X_phi strictly increases with height for theta<phi, starts below a>2, and tends to infinity. Strict derivative proves transversality.
+Literature/simplification: Elementary calculus, retained because a precise unique-crossing statement is needed.
+Source: h:lem:crossings
+
+12. Counterexamples to the proposed Wilmshurst count [cor:wilm]
+Check: Difference is (m-1)(n-m-1)+1-gcd(m,n); handle n-m=2 separately, leaving only (2,4).
+Literature/simplification: Wilmshurst Remark 2 and the earlier disproof of Lee-Lerario-Lundberg are credited.
+Source: h:cor:Wilmshurst
+
+13. Parametric transversality [lem:transversality]
+Check: Finite dimensional second-countable manifolds, smooth map transverse to the chosen submanifold, residual parameter conclusion.
+Literature/simplification: Standard input: Hirsch, Differential Topology, Chapter 3, Section 2. Restated before use.
+Source: Classical input
+
+14. Opposite perturbations at a rank-one zero [lem:rankone]
+Check: Analytic implicit coordinates yield (x,g); isolatedness gives c y^ell. Rescaling y=t^(1/ell) gives C^1 convergence to c u^ell +/- beta. Uniformity is in a small finite-dimensional family.
+Literature/simplification: Uses only the analytic implicit function theorem and simple-root persistence. A constant perturbation alone would not preserve the total count.
+Source: b:lem:rankone
+
+15. Regularization without increasing either degree [lem:regularization]
+Check: Parameter evaluation is onto at all zeros outside the finite rank-zero set. Choose one direction avoiding finitely many real and complex subspaces; both signs are generic. One sign preserves count; vanishing order strictly decreases at each surviving rank-zero point.
+Literature/simplification: Parametric transversality replaces ad hoc common-factor decomposition and extends to derivative-stable coefficient spaces.
+Source: b:lem:regularization;core:regularizationspace
+
+16. Smooth connected transverse generic divisor [lem:generic]
+Check: The full linear system separates first jets and two-point values. At fixed points an invariant complex tangent would have a fixed real tangent. Connectedness follows because disjoint effective components would all lie in one ruling.
+Literature/simplification: Classical jet transversality and the elementary intersection pairing on CP1 x CP1.
+Source: b:lem:generic
+
+17. Genus and intersection formulas [lem:adjunction]
+Check: For O(n,m), adjunction with K=(-2,-2) gives genus (n-1)(m-1). The two ruling classes have square zero and mutual intersection one.
+Literature/simplification: Hartshorne Chapter V Proposition 1.5 supplies adjunction. The intersection pairing is its standard CP1 x CP1 specialization.
+Source: Classical input
+
+18. Quadratic bound with a pure analytic leading term [lem:pure]
+Check: The graded leading monomials z^d,w^d are coprime, so the quotient has length d^2; equality of distinct real-slice roots forces all local lengths to be one and the real Jacobian to be nonzero.
+Literature/simplification: Buchberger's coprime-leading-monomial criterion; equivalently projective Bezout with no intersection at infinity. The short algebraic proof avoids extra hypotheses.
+Source: d:lem:pure
+
+19. Thom genus theorem [lem:thom]
+Check: Smooth, closed, connected, oriented embedded surface of positive degree d in CP2. Orientation of the constructed surface is reversed before invocation.
+Literature/simplification: Kronheimer-Mrowka 1994, Theorem 1. This is the only deep topological input.
+Source: Classical input
+
+20. Quotient immersion and signs [lem:immersion]
+Check: At the fixed sphere, kernel(dPhi)=J(TL), and the complex tangent is transverse to both TL and J(TL). Nonfixed intersections form two-point orbits. The orientation reversal on the second sheet cancels the ambient reversal, so every double point is positive.
+Literature/simplification: Explicit symmetric-product local coordinates, with genus/intersection formulas restated earlier.
+Source: b:lem:immersion
+
+21. Real-root count from coefficient dominance [lem:dominance]
+Check: Increasing positive sample radii have coefficient signs; IVT supplies the lower count and Descartes bounds multiplicity. Apply again to -r. Roots at zero are excluded by the wording.
+Literature/simplification: Related to Passare-Rojas-Shapiro and Forsgard-Novikov-Shapiro; the proof is an elementary sparse-exponent version.
+Source: b:lem:dominance
+
+22. Exact radial maximum and rational attainment [lem:radial]
+Check: The squared-radius polynomial has two disjoint exponent blocks. A positive common root would produce an infinite circle and is excluded. The explicit rational coefficients attain all sign changes; separate root intervals prove coprimality; radial and angular derivatives prove regularity.
+Literature/simplification: Descartes and the preceding dominance lemma suffice; numerical root finding is not used in the proof.
+Source: new:thm:radial
+
+23. Elementary local polynomials with d^2 nonzero zeros [lem:models]
+Check: Odd degrees use a=0,b=(d-1)/2. Even degrees use bar z times a radial block with angular degree d+1, plus one regular origin. A small rational constant moves the origin; the pure-leading bound excludes extras.
+Literature/simplification: Simplifies the local models needed for this paper to the radial lemma; no folding-polynomial or phase analysis is needed for the stated range.
+Source: d:prop:seeds (alternative proof)
+
+24. Replace an isolated conjugate monomial by s^2 zeros [lem:split]
+Check: Compact-scale C^1 convergence gives the desired zeros. A quantitative annulus estimate excludes intermediate scales. Compactness away from old zeros and a unique highest monomial exclude distant new roots.
+Literature/simplification: Real implicit function theorem plus the explicit models; existence, rather than every small perturbation, is asserted.
+Source: new:lem:center
+
+25. Transfer m^2 zeros from infinity [prop:transfer]
+Check: All added exponents n-i,m-j are nonnegative. Inversion gives initial term v^m; after scale t the limit is the conjugate of Q_m. These zeros escape and are disjoint from the n^2 old zeros. A generic rational perturbation and the rectangular upper bound give exactness.
+Literature/simplification: Elementary inversion and persistence; the generic step is stated explicitly to ensure the finite-set bound applies.
+Source: d:prop:transfer
+
+26. Descartes bound with one exponent gap [lem:gap]
+Check: Internal gaps contribute at most their lengths to the total positive/negative variation. Treat actual lower degree d<M separately, including a zero leading low coefficient.
+Literature/simplification: Refinement of the Descartes argument used by Lundberg; complete proof retained because the even-gap sign is essential.
+Source: b:lem:harmonicgap
+

@@ -1,0 +1,10 @@
+{
+  "all_passed": true,
+  "arithmetic": "exact symbolic identities",
+  "four_simple_zeros": "Delta_b(eta)<0 and abs(eta)!=1",
+  "two_simple_zeros": "Delta_b(eta)>0",
+  "boundary": "3 distinct (2 regular), except (b/conj(b))*eta^3 in {1,-27}: 2 distinct (1 regular)",
+  "unique_largest_disk_for_each_b": "center 0, radius 1",
+  "uniform_four_zero_region_over_all_b": "abs(eta)<1",
+  "verifier_sha256": "8379be176be1cb89ceec0a0f09b305d24b03ee88007b9b3e2c871c64862e46e1"
+}
